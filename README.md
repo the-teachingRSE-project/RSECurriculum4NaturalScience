@@ -17,7 +17,11 @@ applied to natural sciences. Main focus is on the competences to be taught, not 
 
 ## Content TODOs
 
-- add here
+-	What are (natural) science specific RSE jobs?
+-	What are science specific RSE competencies?
+-	What are existing fields (computational physics etc.) that can be grouped under this header?
+-	How are the sciences different from other fields in terms of RSE requirements?
+-	What should a MNT_RSE-Curriculum should look like? (This we can import from the Curriculum Project)
 
 
 ## Technical TODOs
