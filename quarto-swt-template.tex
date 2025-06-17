@@ -1,0 +1,119 @@
+\documentclass[
+    $if(classoption)$
+    $for(classoption)$$classoption$$sep$,$endfor$
+    $endif$
+]{$documentclass$}
+
+\input{trendsstyle.tex}
+
+
+\pagestyle{empty}
+
+
+\newcommand{\stt}{Soft\-ware\-tech\-nik-Trends}
+
+
+\newcommand{\BI}{\begin{itemize}}
+
+
+\newcommand{\EI}{\end{itemize}}
+
+
+\raggedbottom
+
+\usepackage{biblatex}
+
+$if(bibliography)$
+$for(bibliography)$
+\addbibresource{$bibliography$}
+$endfor$
+$endif$
+
+
+% Standard packages
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabularx}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+
+\usepackage{framed} % Needed for code blocks
+
+$if(highlighting-macros)$
+$highlighting-macros$
+$endif$
+
+% solve \tightlist error
+\providecommand{\tightlist}{%
+    \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% solve \pandocbounded error
+\providecommand{\pandocbounded}[1]{#1}
+
+
+% rewrite longtable command to fit 2-columns
+
+\makeatletter
+\let\oldlt\longtable
+\let\endoldlt\endlongtable
+\def\longtable{\@ifnextchar[\longtable@i \longtable@ii}
+\def\longtable@i[#1]{\begin{figure}[t]
+\onecolumn
+\begin{minipage}{0.5\textwidth}
+\oldlt[#1]
+}
+\def\longtable@ii{\begin{figure}[t]
+\onecolumn
+\begin{minipage}{0.5\textwidth}
+\oldlt
+}
+\def\endlongtable{\endoldlt
+\end{minipage}
+\twocolumn
+\end{figure}}
+\makeatother
+
+
+\begin{document}
+
+    \twocolumn[{
+
+
+        \Large
+
+
+        \centerline{$title$}
+
+        %$author$
+
+        ~\\[-2mm]
+
+
+
+    }]
+
+
+% Body
+    $body$
+
+    \paragraph{Copyright.}
+
+    Mit der "`\"Ubersendung Ihres Beitrags an uns"' erteilen Sie uns gleichzeitig die Erlaubnis, den Beitrag in den \stt\ abzudrucken. Wir unterstellen, dass Sie hierzu berechtigt sind. Sofern Ihr Beitrag Bilder, Textpassagen oder andere Teile enthält, deren Copyright von einer dritten Instanz gehalten wird, sind Sie dafür verantwortlich, entsprechende Genehmigungen zum Abdruck zu beschaffen.
+
+
+
+\end{document}
+
+
+
+
+

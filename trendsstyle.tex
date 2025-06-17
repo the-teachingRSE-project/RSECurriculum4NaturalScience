@@ -1,0 +1,54 @@
+
+% Die folgenden Definitionen sind i.w. identisch mit den
+% Definitionen, die fuer Proceedings der IEEE vorgegeben werden.
+% Papiere werden dort prinzipiell als article und zweispaltig
+% gedruckt. Bei den IEEE-Definitionen werden Ueberschriften etwas
+% kleiner und kompakter gesetzt (im Vergleich zu den
+% Standard-Einstellungen, die sich mehr fuer 1-spaltigen Druck
+% eignen. Wenn man das nicht mag, bleibt man bei den alten
+% Definitionen. Bei den IEEE-Makros muss man unbequemerweise
+% hinter jedem section-Kommando explizit \noindent angeben. 
+% 
+% Bei den IEEE-Definitionen muss leider hinter jeder
+% Absatzueberschrift explizit ein \noindent stehen.
+
+\makeatletter 
+\def\@normalsize{\@setsize\normalsize{10pt}\xpt\@xpt
+\abovedisplayskip 10pt plus2pt minus5pt\belowdisplayskip \abovedisplayskip
+\abovedisplayshortskip \z@ plus3pt\belowdisplayshortskip 
+6pt plus3pt minus3pt\let\@listi\@listI}
+\def\subsize{\@setsize\subsize{12pt}\xipt\@xipt}
+\def\section{\@startsection {section}{1}{\z@}
+	{1.8ex plus 1ex minus .2ex} 
+	{1.2ex plus .2ex \@afterindentfalse}
+	{\large\bf}}
+\def\subsection{\@startsection {subsection}{2}{\z@}
+	{1.3ex plus 1ex}
+	{.8ex plus .2ex \@afterindentfalse}
+	{\subsize\bf}}
+\def\paragraph{\@startsection {paragraph}{4}{\z@}
+	{1.8ex plus .3ex}
+	{-1em  \@afterindentfalse}
+	{\normalsize\bf}}
+
+\setlength{\textheight}{243mm}
+\setlength{\columnsep}{6.5mm} %{2.0pc}
+\setlength{\textwidth}{17cm}
+\setlength{\parindent}{1pc}
+\setlength{\parskip}{0.0cm}
+\setlength{\topsep}{0.1cm}
+\setlength{\partopsep}{0.0cm}
+\setlength{\itemsep}{0.1cm}
+\setlength{\parsep}{0.0cm}
+
+% das folgende muss ggf. an die Einstellungen des 
+% lokal vorhandenen Druckers angepasst werden.
+\setlength{\topmargin}{-12mm}
+\setlength{\oddsidemargin}{-6mm}
+\setlength{\evensidemargin}{-6mm}
+
+\pagestyle{empty}
+\thispagestyle{empty}
+
+\baselineskip12pt
+
