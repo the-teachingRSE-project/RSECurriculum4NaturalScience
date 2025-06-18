@@ -6,8 +6,8 @@ You can follow the RSE-Curriculum-News [here](https://www.listserv.dfn.de/sympa/
 
 ## HOW TO CONTRIBUTE
 
-- edit index.qmd following quarto markdown rules
-- in the add further bib-files
+- edit `index.qmd` following [quarto markdown rules](https://quarto.org/docs/authoring/markdown-basics.html)
+- in `my-paper.bib` add further bib records
 - NOTE: if you have problems with the quarto pipeline, just add the content to index.qmd file and I will check this out
 
 ## HOW to run
@@ -28,7 +28,6 @@ You can follow the RSE-Curriculum-News [here](https://www.listserv.dfn.de/sympa/
 
 ## Technical TODOs
 
-- add github action
 - add templating for authors
 - cross-linking might be impossible
 

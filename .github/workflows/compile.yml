@@ -1,0 +1,23 @@
+name: build PDF
+on: [push, pull_request]
+jobs:
+  paper:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install dependencies
+        run: |
+          sudo apt-get update && sudo apt-get install -y --no-install-recommends \
+            pandoc latexmk biber texlive texlive-latex-extra texlive-bibtex-extra texlive-fonts-recommended texlive-plain-generic \
+            xz-utils make sed gpg-agent
+      - name: Run pandoc
+        run: |
+          make index.pdf
+          mkdir -p github_artifacts
+          mv index.pdf ./github_artifacts/
+      - name: upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: PDF files
+          path: ./github_artifacts
