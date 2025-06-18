@@ -4,8 +4,8 @@ applied to natural sciences. Main focus is on the competences to be taught, not 
 
 ## HOW TO CONTRIBUTE
 
-- edit index.qmd following quarto markdown rules
-- in the add further bib-files
+- edit `index.qmd` following [quarto markdown rules](https://quarto.org/docs/authoring/markdown-basics.html)
+- in `my-paper.bib` add further bib records
 - NOTE: if you have problems with the quarto pipeline, just add the content to index.qmd file and I will check this out
 
 ## HOW to run
@@ -26,7 +26,6 @@ applied to natural sciences. Main focus is on the competences to be taught, not 
 
 ## Technical TODOs
 
-- add github action
 - add templating for authors
 - cross-linking might be impossible
 
