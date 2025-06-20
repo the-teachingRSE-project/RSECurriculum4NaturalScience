@@ -16,16 +16,6 @@ You can follow the RSE-Curriculum-News [here](https://www.listserv.dfn.de/sympa/
 - run quarto render index.qmd --to pdf (should produce a pdf in LNI format)
 - debug problems in generated index.tex file
 
-
-## Content TODOs
-
--	What are (natural) science specific RSE jobs?
--	What are science specific RSE competencies?
--	What are existing fields (computational physics etc.) that can be grouped under this header?
--	How are the sciences different from other fields in terms of RSE requirements?
--	What should a MNT_RSE-Curriculum should look like? (This we can import from the Curriculum Project)
-
-
 ## Technical TODOs
 
 - add templating for authors
