@@ -57,6 +57,24 @@ The RSE curriculum is based on previous work of the deRSE community such as [@Go
 
 ## What are existing fields that can be grouped under this header?
 
+* Chemistry
+   * computational chemistry
+* Physics
+   * computational physics
+   * computational astrophysics
+* Physical chemistry
+   * cheminformatics
+* Biology
+   * bioinformatics
+   * biostatistics
+   * computational biology
+   * computational biomodeling
+* Medicine
+   * digital medicine
+* Earth science
+   * climate modeling
+   * computational oceanography
+   * geographic information system
 
 
 ## How are the sciences different from other fields in terms of RSE requirements?
