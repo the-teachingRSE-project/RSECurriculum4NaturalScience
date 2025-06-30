@@ -47,9 +47,8 @@ we structure this sample curriculum along three pillars:
 
 The RSE curriculum is based on previous work of the deRSE community such as [@Goth2024RSE].
 
-## What are science-specific RSE jobs?
 
-
+## What is the history of natural science and computing?
 
 ## What are science-specific RSE competencies?
 
@@ -76,9 +75,19 @@ The RSE curriculum is based on previous work of the deRSE community such as [@Go
    * computational oceanography
    * geographic information system
 
+TODO: Is there a common denominater in terms of typical 
+
+- problems
+- processes
+- methods/algorithm classes?
+
+TODO: Can we map this to "Forschungsformen" from the Wissenschaftsrat? Portray this as a single graphic or something?
+
+
 
 ## How are the sciences different from other fields in terms of RSE requirements?
 
+## What are science-specific RSE jobs?
 
 
 ## What should a MNT_RSE-Curriculum should look like?
