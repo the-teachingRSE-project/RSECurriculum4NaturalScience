@@ -50,6 +50,26 @@ The RSE curriculum is based on previous work of the deRSE community such as [@Go
 
 ## What is the history of natural science and computing?
 
+The first computers emerged independently in the 1940s in Germany, the United Kingdom and the United States.
+The electro-mechanical Z3 developed by Konrad Zuse in 1941 to solve a complex matrix describing flutter of aeroplane wings ([@Zuse1986]).
+In the UK Tommy Flowers developed the Colossus computer in 1943.
+The Colossi use valves to decypher German encrypted messages ([@Copeland2004]).
+In the US the ENIAC, also a computer using valves, was designed by John Mauchly and J. Presper Eckert.
+It was initially developed to calculate artillery firing tables but was used to compute the feasibility of the thermonuclear weapon ([@Burks1981]).
+All three systems were developed to support military research.
+
+The programs of early computers were either hardwired (Colossus) or programmed using machine code.
+Grace Hopper developed the first compiler that translated a program written in a more easily understood language to machine code understood by a computer.
+This development allowed the separation of of algorithm expressed in the program from the computer hardware on which that program should run.
+The programming language FORTRAN was developed at IBM by a team led by John Backus in the early 1950s.
+The first FORTRAN compiler was released in 1957 ([@Backus1978]).
+FORTRAN was easy to learn and allowed scientists and engineers to develop programs that solve mathematical problems arising for example in physics or material sciences.
+
+In 1964 the CDC 6600 designed by Seymour Cray was released. 
+It is considered to be the first supercomputer with a performance of up to 9MFLOPS ([@Kaufmann1994]). 
+Cray continued to dominate the supercomputing market by designing an producing a new kind of processor architecture which can perform vectorised computations.
+
+
 ## What are science-specific RSE competencies?
 
 
