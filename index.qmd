@@ -121,8 +121,11 @@ Cray continued to dominate the supercomputing market by designing an producing a
 * Medicine
    * digital medicine
 * Earth science
-   * climate modeling
-   * computational oceanography
+   * weather forecast
+   * Earth system modelling (climate, ocean, cryosphere, landscape)
+   * magneto-hydrodynamic simulation of the Earth's core
+   * geo-electric simulations (exploration, space weather)
+   * seisimic processing (exploration, structure of the Earth, earthquake prediction)
    * geographic information system
 
 TODO: Is there a common denominater in terms of typical 
