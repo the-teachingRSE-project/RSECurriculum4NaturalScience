@@ -54,18 +54,14 @@ Empirical natural sciences trace its roots back to the renaisance where philosop
 and then scientists like Kepler and Gallileo who actually first measured the behaviour of the natural world and then tried to find 
 quantifiable laws from them, giving us e.g. the Keplerian laws.
 Having these laws it became possible to do quantifiable predictions about the behaviour of systems.
-What this also means, that the quality and complexity of these predictions is always inextriably linked 
+What this also means, that the quality and complexity of these predictions is always inextricably linked 
 to the computational power at hand, thereby linking the advancement of modern science and engineering together with the development of humanities computational tools.
 
 Computing devices existed since the antiquity and are not inventions of the 20th century. Two
 of the more famous examples are Blaise Pascal’s "Pascaline" and, of
 course, Charles Babbage’s proposed, but never finished, "Analytical
 engine". The "Analytical engine" would have been the first mechani-
-cal general-purpose computer. Monte Carlo experiments do also date
-a bit farther back in time and were already done before computers
-were available, e. g. Buffon’s needle, but it was usually impractical to 
-perform the huge number of simulations required to apply statistical
-methods. Sharing a similar fate as many other inventions of the 20th
+cal general-purpose computer. Sharing a similar fate as many other inventions of the 20th
 century the electronic computer was conceived in those dark years
 of World War II, giving us a good point in time that we can use to
 locate the beginning of super-computing and modern Monte Carlo
@@ -79,11 +75,9 @@ military forces. Taken together with the massive scale of the war, this
 meant that the huge computational efforts on all sides created a de-
 mand for the development of faster means of computation. One ex-
 ample is given by specialized devices for encryption and decryption
-of messages. This there-
-fore led to the construction of specialized computation devices, as e.g.
-the COLOSSUS, the first electronic, limited programmable machine
-In the UK Tommy Flowers developed the Colossus computer in 1943.
-The Colossi use valves to decypher German encrypted messages ([@Copeland2004]).
+of messages. This therefore led to the construction of specialized computation devices, as e.g.
+the COLOSSUS in the UK, the first electronic, limited programmable machine developed by Tommy Flowers in 1943.
+The COLOSSUS used valves to decypher German encrypted messages ([@Copeland2004]).
 In the US the ENIAC, also a computer using valves, was designed by John Mauchly and J. Presper Eckert.
 It was initially developed to calculate artillery firing tables but was used to compute the feasibility of the thermonuclear weapon ([@Burks1981]).
 All three systems were developed to support military research.
@@ -100,10 +94,37 @@ It is considered to be the first supercomputer with a performance of up to 9MFLO
 Cray continued to dominate the supercomputing market by designing an producing a new kind of processor architecture which can perform vectorised computations.
 
 ## A small History of Software Engineering
+After the second World War the Apollo Program was a major driver in enhancing the quality of software 
+of mission-critical software. In this setting the term Software Engineering was coined and two well-known 
+conferences were held in 1968 and 1969 to discuss how to keep software projects reliable and in time.
+The notion of the quality and reliability of software continued to be a driving force of software engineering
+with the ever increasing use of software in safety critical systems (e.g. medicine), which meant that software could kill, in the 70s and 80s.
+The next big projects was the development of modern general purpose operating operating systems in the late 80s.
+The advent of the Internet added another level of complexity, since new modes of operation for software across multiple Computers are possible.
+
+## Where are the natural sciences today, and why did we succeed without SE so far
+- don't forget to mention here how science drove innovation
+
+## Why do we need to bring it together
+Science has always had a need for bigger means of computation, but wasn't exposed as much to the question of reliability as other Software was outside of academia.
+This led to a negligence of aspects of SE that tried increase a software's reliability by managing it's complexity.
+- funding/ transparency (Organisation wie Geld wohin geht. Und wann. Und warum.)
+- standardization of Development Process
+- efficiency 
+- Complexity in organization of science
+- Transdisciplinary research
+- Interaction with more users
+- Interaction with external IT Systems
+- maybe Big Data?
 
 
 ## What are science-specific RSE competencies?
 
+- high level of mathematical formal knowledge
+    - Curiosity
+    - SE enables organization of big projects
+    - handling complexities in organization
+    - managing the sustainability of an (Open Source) Project
 
 
 ## What are existing fields that can be grouped under this header?
