@@ -99,6 +99,8 @@ In 1964 the CDC 6600 designed by Seymour Cray was released.
 It is considered to be the first supercomputer with a performance of up to 9MFLOPS ([@Kaufmann1994]). 
 Cray continued to dominate the supercomputing market by designing an producing a new kind of processor architecture which can perform vectorised computations.
 
+## A small History of Software Engineering
+
 
 ## What are science-specific RSE competencies?
 
