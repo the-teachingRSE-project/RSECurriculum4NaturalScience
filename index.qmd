@@ -49,7 +49,7 @@ The RSE curriculum is based on previous work of the deRSE community such as [@Go
 
 
 ## What is the history of natural science and computing?
-
+** Here we explain, why Natural sciences and means of computation are linked **
 Empirical natural sciences trace its roots back to the renaisance where philosophers like Francis Bacon 
 and then scientists like Kepler and Gallileo who actually first measured the behaviour of the natural world and then tried to find 
 quantifiable laws from them, giving us e.g. the Keplerian laws.
@@ -94,6 +94,7 @@ It is considered to be the first supercomputer with a performance of up to 9MFLO
 Cray continued to dominate the supercomputing market by designing an producing a new kind of processor architecture which can perform vectorised computations.
 
 ## A small History of Software Engineering
+** Here we explain, where Software Engineering comes from, and where and why it devated from its co-development with science **
 After the second World War the Apollo Program was a major driver in enhancing the quality of software 
 of mission-critical software. In this setting the term Software Engineering was coined and two well-known 
 conferences were held in 1968 and 1969 to discuss how to keep software projects reliable and in time.
@@ -103,18 +104,20 @@ The next big projects was the development of modern general purpose operating op
 The advent of the Internet added another level of complexity, since new modes of operation for software across multiple Computers are possible.
 
 ## Where are the natural sciences today, and why did we succeed without SE so far
+** Here we explain where natural sciences are today. We also explain, why we were modestly succesful until now without SE (or didn't notice the influence of SE)  **
 - don't forget to mention here how science drove innovation
 
 ## Why do we need to bring it together
+** Here we look forward to the challenges for (natural) science and why we can only move forward by putting more emphasis on SE techniques**
 Science has always had a need for bigger means of computation, but wasn't exposed as much to the question of reliability as other Software was outside of academia.
 This led to a negligence of aspects of SE that tried increase a software's reliability by managing it's complexity.
 - funding/ transparency (Organisation wie Geld wohin geht. Und wann. Und warum.)
 - standardization of Development Process
 - efficiency 
 - Complexity in organization of science
-- Transdisciplinary research
-- Interaction with more users
-- Interaction with external IT Systems
+- Transdisciplinary research 
+- Interaction with more users (More means of communication)
+- Interaction with external IT Systems (Ever-present cloud system)
 - maybe Big Data?
 
 We argue, that science has always needed the biggest computational devices possible. But with the now increased complexity, and the easier use of our software in applications
@@ -122,15 +125,15 @@ in other scientists users, the reliability of our software becomes of a far bigg
 to software developers decades ago, now also become relevant for science, too. This necessitates to brinfg SE and Research closer together.
 
 ## What are science-specific RSE competencies?
-
-- high level of mathematical formal knowledge
+** We conclude with the competencies required for RSE in natural sciences and derive them from the historic overview and the future challenges **
+- high level of mathematical formal knowledge: We see a need for Linear Algebra, ODEs and PDEs, FFTs, Pattern Matching
     - Curiosity
     - SE enables organization of big projects
     - handling complexities in organization
     - managing the sustainability of an (Open Source) Project
 
 
-## What are existing fields that can be grouped under this header?
+   ## What are existing fields that can be grouped under this header?
 
 * Chemistry
    * computational chemistry
@@ -162,8 +165,7 @@ TODO: Is there a common denominater in terms of typical
 
 TODO: Can we map this to "Forschungsformen" from the Wissenschaftsrat? Portray this as a single graphic or something?
 
-
-
+    
 ## How are the sciences different from other fields in terms of RSE requirements?
 
 ## What are science-specific RSE jobs?
