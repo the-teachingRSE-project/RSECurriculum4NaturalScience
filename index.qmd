@@ -50,8 +50,38 @@ The RSE curriculum is based on previous work of the deRSE community such as [@Go
 
 ## What is the history of natural science and computing?
 
-The first computers emerged independently in the 1940s in Germany, the United Kingdom and the United States.
+Empirical natural sciences trace its roots back to the renaisance where philosophers like Francis Bacon 
+and then scientists like Kepler and Gallileo who actually first measured the behaviour of the natural world and then tried to find 
+quantifiable laws from them, giving us e.g. the Keplerian laws.
+Having these laws it became possible to do quantifiable predictions about the behaviour of systems.
+What this also means, that the quality and complexity of these predictions is always inextriably linked 
+to the computational power at hand, thereby linking the advancement of modern science and engineering together with the development of humanities computational tools.
+
+Computing devices existed since the antiquity and are not inventions of the 20th century. Two
+of the more famous examples are Blaise Pascal’s "Pascaline" and, of
+course, Charles Babbage’s proposed, but never finished, "Analytical
+engine". The "Analytical engine" would have been the first mechani-
+cal general-purpose computer. Monte Carlo experiments do also date
+a bit farther back in time and were already done before computers
+were available, e. g. Buffon’s needle, but it was usually impractical to 
+perform the huge number of simulations required to apply statistical
+methods. Sharing a similar fate as many other inventions of the 20th
+century the electronic computer was conceived in those dark years
+of World War II, giving us a good point in time that we can use to
+locate the beginning of super-computing and modern Monte Carlo
+methods. 
+The first computers emerged then independently in the 1940s in Germany, the United Kingdom and the United States.
 The electro-mechanical Z3 developed by Konrad Zuse in 1941 to solve a complex matrix describing flutter of aeroplane wings ([@Zuse1986]).
+But not only geographical borders were rearranged during
+the second World War. In a continuation of the first World War, the
+scientific community was enlisted into the services of the opponents’
+military forces. Taken together with the massive scale of the war, this
+meant that the huge computational efforts on all sides created a de-
+mand for the development of faster means of computation. One ex-
+ample is given by specialized devices for encryption and decryption
+of messages. This there-
+fore led to the construction of specialized computation devices, as e.g.
+the COLOSSUS, the first electronic, limited programmable machine
 In the UK Tommy Flowers developed the Colossus computer in 1943.
 The Colossi use valves to decypher German encrypted messages ([@Copeland2004]).
 In the US the ENIAC, also a computer using valves, was designed by John Mauchly and J. Presper Eckert.
