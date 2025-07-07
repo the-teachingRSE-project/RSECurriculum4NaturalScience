@@ -117,6 +117,9 @@ This led to a negligence of aspects of SE that tried increase a software's relia
 - Interaction with external IT Systems
 - maybe Big Data?
 
+We argue, that science has always needed the biggest computational devices possible. But with the now increased complexity, and the easier use of our software in applications
+in other scientists users, the reliability of our software becomes of a far bigger concern. THerefore questions that have been asked by Business users 
+to software developers decades ago, now also become relevant for science, too. This necessitates to brinfg SE and Research closer together.
 
 ## What are science-specific RSE competencies?
 
