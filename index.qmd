@@ -17,66 +17,28 @@ format:
             longtable: false
 ---
 
-
-
 # Introduction
 
-The term Research Software Engineer, or RSE,
-emerged a little over 10 years ago as a way to represent
-individuals working in the research community but focusing on software development.
-The term has been widely adopted and there are a number of high-level definitions of what an RSE is.
-However, the roles of RSEs vary depending on the institutional context they work in.
-At one end of the spectrum, RSE roles may look similar to a traditional research role.
-At the other extreme, they resemble that of a software engineer in industry.
-Most RSE roles inhabit the space between these two extremes.
+Research Software Engineering (RSE) has become a household name for the increasing demand and professionalized work profile of software engineers in research institutes, universities and research-oriented industry. Research Software Engineering includes aspects of Scientific Computing and Data Science but has been rebranded to include the last 30 to 50 years of advances in software engineering techniques (Softwaretechnik): with growing sizes of scripts, models and programming teams in the sciences, engineering aspects that used to be targeted at large-scale industry applications become more and more relevant for the sciences. This is especially true for natural sciences (from here on "sciences") as the developing circles have not intersected with industry as much as other computational fields such as data science. This progress was further hindered by a growing chasm between software engineering and scientific computing research, practitioners and communities [@kelly_software_2007]. Thus, the idea of introducing a master curriculum for research software engineering was born in order to bridge the gap by training a new generation of software engineers that can connect to the computational sciences.
 
-For the purpose of creating an RSE-Master Programm we identify the RSE as a person who
-creates or improves research software and/or the structures that the software interacts with
-in the computational environment of a research domain.
-In this spectrum we see skilled team member who may also choose to conduct own research as part of their role.
-But on the other end we also see paths for an RSE to specifically focus on a technical
-role as an alternative to a traditional research role
-because they enjoy and wish to focus on the development of research software.
+The research question of this paper is what is the identity needed for students to be both be accepted and feel as qualified software engineers but also be connect intellectually to the natural sciences. In other words: what is special relationship between natural sciences and computing historically, and how does it relate to software engineering foundations. In order to answer this question the paper is structured as follows: (1) the history of natural science and computing (2) the history of software engineering as it relates to research and (3) what is the common core that should be the identity of a research software engineer (4) how does the ideal identity of a research software engineer informs the planned curriculum for research software engineering.
 
-For this task, to support research with/in the creation of digital tools,
-we structure this sample curriculum along three pillars:
+# What is the history of natural science and computing?
 
-- research skills: these are competencies that enable an RSE to effectively participate in the research domain.
-- technical skills: these are competencies, that enable an RSE to create effective tools for research
-- communication skills: these are skills that enable an RSE to effectively work and communicate with its peers and stakeholders across multiple domains.
-
-The RSE curriculum is based on previous work of the deRSE community such as [@Goth2024RSE].
-
-
-## What is the history of natural science and computing?
 ** Here we explain, why Natural sciences and means of computation are linked **
 
-Empirical natural sciences trace its roots back to the renaisance where philosophers like Francis Bacon
-and then scientists like Kepler and Gallileo who actually first measured the behaviour of the natural world and then tried to find
+Empirical natural sciences trace its roots back to the renaissance where philosophers like Francis Bacon
+and then scientists like Kepler and Galileo who actually first measured the behaviour of the natural world and then tried to find
 quantifiable laws from them, giving us e.g. the Keplerian laws.
 Having these laws it became possible to do quantifiable predictions about the behaviour of systems.
 What this also means, that the quality and complexity of these predictions is always inextricably linked
 to the computational power at hand, thereby linking the advancement of modern science and engineering together with the development of humanities computational tools.
 
-Computing devices existed since the antiquity and are not inventions of the 20th century. Two
-of the more famous examples are Blaise Pascal’s "Pascaline" and, of
-course, Charles Babbage’s proposed, but never finished, "Analytical
-engine". The "Analytical engine" would have been the first mechani-
-cal general-purpose computer. Sharing a similar fate as many other inventions of the 20th
-century the electronic computer was conceived in those dark years
-of World War II, giving us a good point in time that we can use to
-locate the beginning of super-computing and modern Monte Carlo
-methods.
-The first computers emerged then independently in the 1940s in Germany, the United Kingdom and the United States.
-The electro-mechanical Z3 developed by Konrad Zuse in 1941 to solve a complex matrix describing flutter of aeroplane wings ([@Zuse1986]).
-But not only geographical borders were rearranged during
-the second World War. In a continuation of the first World War, the
-scientific community was enlisted into the services of the opponents’
-military forces. Taken together with the massive scale of the war, this
-meant that the huge computational efforts on all sides created a de-
-mand for the development of faster means of computation. One ex-
-ample is given by specialized devices for encryption and decryption
-of messages. This therefore led to the construction of specialized computation devices, as e.g.
+Computing devices existed since the antiquity and are not inventions of the 20th century. Two of the more famous examples are Blaise Pascal’s "Pascaline" and, of course, Charles Babbage’s proposed, but never finished, "Analytical engine". The "Analytical engine" would have been the first mechanical general-purpose computer. Sharing a similar fate as many other inventions of the 20th century the electronic computer was conceived in those dark years of World War II, giving us a good point in time that we can use to locate the beginning of super-computing and modern Monte Carlo methods.
+
+The first computers emerged then independently in the 1940s in Germany, the United Kingdom and the United States. The electro-mechanical Z3 developed by Konrad Zuse in 1941 to solve a complex matrix describing flutter of airplane wings ([@Zuse1986]). But not only geographical borders were rearranged during
+the second World War. In a continuation of the first World War, the scientific community was enlisted into the services of the opponents’
+military forces. Taken together with the massive scale of the war, this meant that the huge computational efforts on all sides created a demand for the development of faster means of computation. One example is given by specialized devices for encryption and decryption of messages. This therefore led to the construction of specialized computation devices, as e.g.
 the COLOSSUS in the UK, the first electronic, limited programmable machine developed by Tommy Flowers in 1943.
 The COLOSSUS used valves to decypher German encrypted messages ([@Copeland2004]).
 In the US the ENIAC, also a computer using valves, was designed by John Mauchly and J. Presper Eckert.
@@ -85,7 +47,7 @@ All three systems were developed to support military research.
 
 The programs of early computers were either hardwired (Colossus) or programmed using machine code.
 Grace Hopper developed the first compiler that translated a program written in a more easily understood language to machine code understood by a computer.
-This development allowed the separation of of algorithm expressed in the program from the computer hardware on which that program should run.
+This development allowed the separation of algorithm expressed in the program from the computer hardware on which that program should run.
 The programming language FORTRAN was developed at IBM by a team led by John Backus in the early 1950s.
 The first FORTRAN compiler was released in 1957 ([@Backus1978]).
 FORTRAN was easy to learn and allowed scientists and engineers to develop programs that solve mathematical problems arising for example in physics or material sciences.
@@ -95,18 +57,18 @@ It is considered to be the first supercomputer with a performance of up to 9MFLO
 Cray continued to dominate the supercomputing market by designing an producing a new kind of processor architecture which can perform vectorised computations.
 
 ## A small History of Software Engineering
-** Here we explain, where Software Engineering comes from, and where and why it devated from its co-development with science **
+** Here we explain, where Software Engineering comes from, and where and why it deviated from its co-development with science **
 
 After the second World War the Apollo Program was a major driver in enhancing the quality of software
 of mission-critical software. In this setting the term Software Engineering was coined and two well-known
 conferences were held in 1968 and 1969 to discuss how to keep software projects reliable and in time.
 The notion of the quality and reliability of software continued to be a driving force of software engineering
-with the ever increasing use of software in safety critical systems (e.g. medicine), which meant that software could kill, in the 70s and 80s.
+with the ever-increasing use of software in safety critical systems (e.g. medicine), which meant that software could kill, in the 70s and 80s.
 The next big projects was the development of modern general purpose operating operating systems in the late 80s.
 The advent of the Internet added another level of complexity, since new modes of operation for software across multiple computers are possible.
 
 ## Where are the natural sciences today, and why did we succeed without SE so far
-** Here we explain where natural sciences are today. We also explain, why we were modestly succesful until now without SE (or didn't notice the influence of SE) **
+** Here we explain where natural sciences are today. We also explain, why we were modestly successful until now without SE (or didn't notice the influence of SE) **
 
 - don't forget to mention here how science drove innovation
 
