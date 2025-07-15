@@ -27,34 +27,29 @@ The research question of this paper is what is the identity needed for students 
 
 ** Here we explain, why Natural sciences and means of computation are linked **
 
-Empirical natural sciences trace its roots back to the renaissance where philosophers like Francis Bacon
-and then scientists like Kepler and Galileo who actually first measured the behaviour of the natural world and then tried to find
-quantifiable laws from them, giving us e.g. the Keplerian laws.
-Having these laws it became possible to do quantifiable predictions about the behaviour of systems.
-What this also means, that the quality and complexity of these predictions is always inextricably linked
-to the computational power at hand, thereby linking the advancement of modern science and engineering together with the development of humanities computational tools.
+TODO: check if the content is still valid after rephrasing it with AI for the purpose of this paper:
 
-Computing devices existed since the antiquity and are not inventions of the 20th century. Two of the more famous examples are Blaise Pascal’s "Pascaline" and, of course, Charles Babbage’s proposed, but never finished, "Analytical engine". The "Analytical engine" would have been the first mechanical general-purpose computer. Sharing a similar fate as many other inventions of the 20th century the electronic computer was conceived in those dark years of World War II, giving us a good point in time that we can use to locate the beginning of super-computing and modern Monte Carlo methods.
+From their origins in the Renaissance, the natural sciences have been deeply intertwined with computation. Early pioneers like Kepler and Galileo not only measured natural phenomena but sought mathematical laws to describe them—laws that enabled prediction. This marked the beginning of a fundamental trait of natural science: the drive to quantify and simulate nature, constrained only by the available means of computation.
 
-The first computers emerged then independently in the 1940s in Germany, the United Kingdom and the United States. The electro-mechanical Z3 developed by Konrad Zuse in 1941 to solve a complex matrix describing flutter of airplane wings ([@Zuse1986]). But not only geographical borders were rearranged during
-the second World War. In a continuation of the first World War, the scientific community was enlisted into the services of the opponents’
-military forces. Taken together with the massive scale of the war, this meant that the huge computational efforts on all sides created a demand for the development of faster means of computation. One example is given by specialized devices for encryption and decryption of messages. This therefore led to the construction of specialized computation devices, as e.g.
-the COLOSSUS in the UK, the first electronic, limited programmable machine developed by Tommy Flowers in 1943.
-The COLOSSUS used valves to decypher German encrypted messages ([@Copeland2004]).
-In the US the ENIAC, also a computer using valves, was designed by John Mauchly and J. Presper Eckert.
-It was initially developed to calculate artillery firing tables but was used to compute the feasibility of the thermonuclear weapon ([@Burks1981]).
-All three systems were developed to support military research.
+Throughout history, computational tools—from early mechanical calculators like Pascal’s Pascaline to Babbage’s visionary Analytical Engine—emerged alongside the growing ambitions of science [@pascaline; @babbage].
 
-The programs of early computers were either hardwired (Colossus) or programmed using machine code.
-Grace Hopper developed the first compiler that translated a program written in a more easily understood language to machine code understood by a computer.
-This development allowed the separation of algorithm expressed in the program from the computer hardware on which that program should run.
-The programming language FORTRAN was developed at IBM by a team led by John Backus in the early 1950s.
-The first FORTRAN compiler was released in 1957 ([@Backus1978]).
-FORTRAN was easy to learn and allowed scientists and engineers to develop programs that solve mathematical problems arising for example in physics or material sciences.
+In the 20th century, particularly during World War II, modern computing was born out of scientific necessity. Machines like Zuse’s Z3 in Germany [@Zuse1986], the British COLOSSUS [@Copeland2004], and the American ENIAC [@Burks1981] were built not only to support military operations but also to solve scientific and engineering problems of increasing complexity.
 
-In 1964 the CDC 6600 designed by Seymour Cray was released.
-It is considered to be the first supercomputer with a performance of up to 9MFLOPS ([@Kaufmann1994]).
-Cray continued to dominate the supercomputing market by designing an producing a new kind of processor architecture which can perform vectorised computations.
+This wartime acceleration of computation laid the groundwork for the post-war integration of computing into everyday scientific practice. The development of high-level programming languages like FORTRAN by John Backus and his team at IBM [@Backus1978] enabled scientists to express algorithms independently of hardware, transforming how they interacted with computation.
+
+By the 1960s, with the advent of the CDC 6600—the first supercomputer—designed by Seymour Cray [@Kaufmann1994], computation had become central to the scientific method. Vectorized processors and increasing speed meant that simulation and modeling could now complement, and sometimes replace, physical experimentation.
+
+Computation has since permeated nearly every field of natural science, often giving rise to entire subdisciplines:
+
+- Chemistry: computational chemistry
+- Physics: computational physics, especially astrophysics
+- Physical chemistry: cheminformatics
+- Biology: bioinformatics, biostatistics, computational biology, computational biomodeling
+- Medicine: digital medicine, computer-aided drug design
+- Earth science: weather forecasting, Earth system modeling (climate, ocean, cryosphere, landscape), magneto-hydrodynamic simulation of the Earth’s core, geo-electric simulations (e.g., for resource exploration or space weather), seismic processing (e.g., earthquake prediction, subsurface imaging), and geographic information systems (GIS)
+
+
+Today, the identity of the natural scientist is inseparable from the ability to compute. The development of computational tools is not just a support activity; it defines how science is practiced, scaled, and extended.
 
 ## A small History of Software Engineering
 ** Here we explain, where Software Engineering comes from, and where and why it deviated from its co-development with science **
@@ -64,19 +59,18 @@ of mission-critical software. In this setting the term Software Engineering was 
 conferences were held in 1968 and 1969 to discuss how to keep software projects reliable and in time.
 The notion of the quality and reliability of software continued to be a driving force of software engineering
 with the ever-increasing use of software in safety critical systems (e.g. medicine), which meant that software could kill, in the 70s and 80s.
-The next big projects was the development of modern general purpose operating operating systems in the late 80s.
+The next big projects was the development of modern general purpose operating systems in the late 80s.
 The advent of the Internet added another level of complexity, since new modes of operation for software across multiple computers are possible.
 
-## Where are the natural sciences today, and why did we succeed without SE so far
-** Here we explain where natural sciences are today. We also explain, why we were modestly successful until now without SE (or didn't notice the influence of SE) **
+TODO: How did SE develop and the shift to research software engineering
 
-- don't forget to mention here how science drove innovation
+The professional identity of a software engineer has developed
 
 ## Why do we need to bring it together
 ** Here we look forward to the challenges for (natural) science and why we can only move forward by putting more emphasis on SE techniques **
 
-Science has always had a need for bigger means of computation, but wasn't exposed as much to the question of reliability as other Software was outside of academia.
-This led to a negligence of aspects of SE that tried increase a software's reliability by managing it's complexity.
+Science has always had a need for bigger means of computation, but wasn't exposed as much to the question of reliability as other software was outside of academia.
+This led to a negligence of aspects of SE that tried to increase a software's reliability by managing it's complexity.
 - funding/ transparency (Organisation wie Geld wohin geht. Und wann. Und warum.)
 - standardization of Development Process
 - efficiency 
@@ -87,56 +81,16 @@ This led to a negligence of aspects of SE that tried increase a software's relia
 - maybe Big Data?
 
 We argue, that science has always needed the biggest computational devices possible. But with the now increased complexity, and the easier use of our software in applications
-in other scientists users, the reliability of our software becomes of a far bigger concern. THerefore questions that have been asked by Business users 
-to software developers decades ago, now also become relevant for science, too. This necessitates to brinfg SE and Research closer together.
+in other scientists users, the reliability of our software becomes of a far bigger concern. Therefore, questions that have been asked by Business users
+to software developers decades ago, now also become relevant for science, too. This necessitates to bring SE and Research closer together.
 
-## What are science-specific RSE competencies?
+## What are science-specific SE competencies?
 ** We conclude with the competencies required for RSE in natural sciences and derive them from the historic overview and the future challenges **
 
 - high level of mathematical formal knowledge: We see a need for Linear Algebra, ODEs and PDEs, FFTs, Pattern Matching
-- Curiosity
 - SE enables organization of big projects
 - handling complexities in organization
 - managing the sustainability of an (Open Source) Project
-
-
-## What are existing fields that can be grouped under this header?
-
-* Chemistry
-   * computational chemistry
-* Physics
-   * computational physics
-   * computational astrophysics
-* Physical chemistry
-   * cheminformatics
-* Biology
-   * bioinformatics
-   * biostatistics
-   * computational biology
-   * computational biomodeling
-* Medicine
-   * digital medicine
-   * computer-aided drug design
-* Earth science
-   * weather forecast
-   * Earth system modelling (climate, ocean, cryosphere, landscape)
-   * magneto-hydrodynamic simulation of the Earth's core
-   * geo-electric simulations (exploration, space weather)
-   * seisimic processing (exploration, structure of the Earth, earthquake prediction)
-   * geographic information system
-
-TODO: Is there a common denominator in terms of typical
-
-- problems
-- processes
-- methods/algorithm classes?
-
-TODO: Can we map this to "Forschungsformen" from the Wissenschaftsrat? Portray this as a single graphic or something?
-
-## How are the sciences different from other fields in terms of RSE requirements?
-
-## What are science-specific RSE jobs?
-
 
 ## What should a MNT_RSE-Curriculum should look like?
 
