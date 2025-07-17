@@ -54,7 +54,7 @@ Today, the identity of the natural scientist is inseparable from the ability to 
 ## A small History of Software Engineering
 ** Here we explain, where Software Engineering comes from, and where and why it deviated from its co-development with science **
 
-After the second World War the Apollo Program was a major driver in enhancing the quality of software
+After the second World War the Apollo Program was a major driver in enhancing the quality 
 of mission-critical software. In this setting the term Software Engineering was coined and two well-known
 conferences were held in 1968 and 1969 to discuss how to keep software projects reliable and in time.
 The notion of the quality and reliability of software continued to be a driving force of software engineering
