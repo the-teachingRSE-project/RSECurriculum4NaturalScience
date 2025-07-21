@@ -200,7 +200,9 @@ Natural Sciences have a long history of using computing devices in order to enha
 But in order to move the frontiers of knowledge, inspired individuals in the natural sciences often
 work and innovate outside of standard operating procedures.
 With the advent of the computer, the subliminal application
-of techniques and technologies from SE has been sufficient in the recent past up to the present, to improve the efficiency of these individual scientist creating software.
+of techniques and technologies from SE has been sufficient in the recent past up to the present, to improve the efficiency of these individual scientists creating software.
 But the availability of ever more computing resources will require a control of the complexity of deeper technology stacks and it will require larger forms of organisation in order to drive progress in the natural sciences forward in the future.
+Combined with external pressures to making Research Software FAIR we expect also in the natural sciences a transition to
+more structured development processes.
 The RSE in the Natural Sciences being at home in a natural science *and* in Software Engineering is located perfectly
-to move science to an organisational level that would probably not be possible without SE alone.
+to move science to a level of managing complexity of software project structures that would probably not be possible without SE alone.
