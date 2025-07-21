@@ -43,8 +43,8 @@ can connect to the computational sciences.
 
 The research question of this paper is what is the identity needed for
 students to be both be accepted and feel as qualified software engineers
-but also be connect intellectually to the natural sciences. In other
-words: what is special relationship between natural sciences and
+but also be connected intellectually to the natural sciences. In other
+words: what is the special relationship between natural sciences and
 computing historically, and how does it relate to software engineering
 foundations. In order to answer this question the paper is structured as
 follows: (1) the history of natural science and computing (2) the
@@ -66,7 +66,7 @@ deeply intertwined with computation. Early pioneers like Kepler and
 Galileo not only measured natural phenomena but sought mathematical laws
 to describe them—laws that enabled prediction. This marked the beginning
 of a fundamental trait of natural science: the drive to quantify and
-simulate nature, constrained only by the available means of computation.
+predict nature, constrained only by the available means of computation.
 
 Throughout history, computational tools—from early mechanical
 calculators like Pascal’s Pascaline to Babbage’s visionary Analytical
@@ -140,7 +140,9 @@ The professional identity of a software engineer has developed
 _Here we look forward to the challenges for (natural) science and
 why we can only move forward by putting more emphasis on SE techniques, _
 
-Classical software engineering and computing for the sciences have drifted apart as some influencing factors have developed differently over time. These differences can be illustrated with (at least three) structural dichotomies:
+Classical software engineering and computing for the sciences have drifted apart
+as some influencing factors have developed differently over time.
+These differences can be illustrated with (at least three) structural dichotomies:
 
 - growth vs. fast prototyping
 - internalized knowledge vs. externalized knowledge
@@ -150,13 +152,14 @@ Due to project-based management, limited contracts and the requirement of mass p
 
 Another aspect that distinguishes the typical software process design from research software engineering is the ambition of externalizing all knowledge that is contained in the software. In an industrial setting where bottlenecks are a problem and programmers need to be replaceable this is an essential factor of effectivity. [@gronau2006kmdl]. In the natural sciences, application code is often based on state-of-the-art mathematical models that are only accessible to very few specialized researchers. Here, the question arises if the mathematical model should be considered the documentation whereas the software only plays the role of proof-of-concept implementations.
 
-A similar argument could be made for systematics of software engineering processes and management. Modelling user behavior introduces a set of new complexities that lead to the development of management techniques such as agile development that try to expose the software to the customers as often as possible in order to adapt the software more efficient to the user. From the requirement engineering, to prototyping and evaluation, the social sciences and psychology have played a role in connecting craftsmanship of an engineer to the intricacies of big human teams, customers and stakeholders [find something that talks about human computer interaction and software engineering]. Only recently have research software teams and research groups grown to an extend that these insights are needed [todo reference for claim].
+A similar argument could be made for systematics of software engineering processes and management.
+Modelling user behavior introduces a set of new complexities that lead to the development of management techniques such as agile development that try to expose the software to the customers as often as possible in order to adapt the software more efficiently to the user. From requirements engineering, to prototyping and evaluation, the social sciences and psychology have played a role in connecting craftsmanship of an engineer to the intricacies of big human teams, customers and stakeholders [find something that talks about human computer interaction and software engineering]. Only recently have research software teams and research groups grown to an extent that these insights are needed [todo reference for claim].
 
 _also connect the arguments below to history paragraphs_
 
 Taking the above said into consideration one could arrive at the conclusion that the separated state of computing for the science and software engineering is logical nd should not be challenged. In contrary, recent developments have introduced a number of requirements for scientific work that mimic software engineering principles long in play:
 
-- transparent funding: software processes and contributions need to externalized in order to validate funding
+- transparent funding: software processes and contributions need to be externalized in order to validate funding
 - the redistributable crisis [todo @literatur] has lead to standardization of  scientific development processes:
 - climate crisis and rising costs of energy [add GI paper on water usage here] have contributed to a stronger focus on efficiency
 - managing complexity: the ubiquitous nature of computing in almost all scientific disciplines has lead to an increase in cross-cutting concerns in the organization of science
@@ -176,7 +179,8 @@ While the historical separation between computing in science and in software eng
 
 Taking the historical trend into consideration it becomes apparent that the traditional division of labor between software engineers and computational scientists has run its course. As Research Software Engineering grows as a unifying field the question arises which disciplinary identity a research software engineer should have. In theory, just adding the software engineering identity and the natural scientist identity should accomplish the goal. However, multiple identities are only beneficial as long as they are not in conflict [@josi.12329].
 
-If neither division of labor between software engineers and scientists, nor an additive training to be both work conceptually, the third option is to develop a new identity and corresponding professional field. Similar to data scientists, data stewards and other modern job roles, a research engineer for the natural sciences is not a niche innovation based on a short-living trend. The newly formed identity should encompass the history, culture and key competences from both fields.
+If neither division of labor between software engineers and scientists, nor an additive training to be both work conceptually, the third option is to develop a new identity and a corresponding professional field.
+Similar to data scientists, data stewards and other modern job roles, a research engineer for the natural sciences is not a niche innovation based on a short-living trend. The newly formed identity should encompass the history, culture and key competences from both fields.
 
 Based on the previous discussion and workshops with the RSE-community [add citation to deRSE] the curriculum should contain three parts:
 
