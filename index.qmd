@@ -41,9 +41,9 @@ master curriculum for research software engineering was born in order to
 bridge the gap by training a new generation of software engineers that
 can connect to the computational sciences.
 
-The research question of this paper is what is the identity needed for
-students to be both be accepted and feel as qualified software engineers
-but also be connected intellectually to the natural sciences. In other
+The research question of this paper is "What is the identity needed for
+students to be accepted and feel as qualified software engineers
+but also be  intellectually connected to the natural sciences?". In other
 words: what is the special relationship between natural sciences and
 computing historically, and how does it relate to software engineering
 foundations. In order to answer this question the paper is structured as
@@ -62,15 +62,15 @@ TODO: check if the content is still valid after rephrasing it with AI
 for the purpose of this paper:
 
 From their origins in the Renaissance, the natural sciences have been
-deeply intertwined with computation. Early pioneers like Kepler and
+intertwined with computation. Early pioneers like Kepler and
 Galileo not only measured natural phenomena but sought mathematical laws
-to describe them—laws that enabled prediction. This marked the beginning
+to describe them — laws that enabled prediction. This marked the beginning
 of a fundamental trait of natural science: the drive to quantify and
 predict nature, constrained only by the available means of computation.
 
-Throughout history, computational tools—from early mechanical
+Throughout history, computational tools — from early mechanical
 calculators like Pascal’s Pascaline to Babbage’s visionary Analytical
-Engine—emerged alongside the growing ambitions of science [@bromley2008charles].
+Engine — emerged alongside the growing ambitions of science [@bromley2008charles].
 
 In the 20th century, particularly during World War II, modern computing
 was born out of scientific necessity. Machines like Zuse’s Z3 in Germany
@@ -86,8 +86,8 @@ Backus and his team at IBM [@Backus1978] enabled scientists to express
 algorithms independently of hardware, transforming how they interacted
 with computation.
 
-By the 1960s, with the advent of the CDC 6600—the first
-supercomputer—designed by Seymour Cray [@Kaufmann1994], computation had
+By the 1960s, with the advent of the CDC 6600 — the first
+supercomputer — designed by Seymour Cray [@Kaufmann1994], computation had
 become central to the scientific method. Vectorized processors and
 increasing speed meant that simulation and modeling could now
 complement, and sometimes replace, physical experimentation.
@@ -108,8 +108,8 @@ often giving rise to entire sub-disciplines:
     prediction, subsurface imaging), and geographic information systems
     (GIS)
 
-Today, the identity of the natural scientist is inseparable from the
-ability to compute. The development of computational tools is not just a
+Today, at least some computational skills are needed in most fields of natural sciences.
+The development of computational tools is not just a
 support activity; it defines how science is practiced, scaled, and
 extended.
 
@@ -148,19 +148,30 @@ These differences can be illustrated with (at least three) structural dichotomie
 - internalized knowledge vs. externalized knowledge
 - mathematical driven modelling vs. human driven modelling
 
-Due to project-based management, limited contracts and the requirement of mass publications the research culture has shifted to fast moving goal posts. This also means that software is maintained within the span of a PhD project and rarely beyond. Instead of prototyping in order to prepare a blueprint that a larger team of engineers can use to build a well-designed and sound product, research-oriented software often remains in the prototype stage. Even though the software engineering community has researched prototyping in the context of requirement engineering [@lang2020prototyping], this specific case shows that SE techniques cannot be applied to the research context without some thought. In addition, many principles of software engineering (i.e. separation of concerns, service orientation ...) support long term sustainable growth of software systems which is a relevant factor in market-driven industries [find literature]. However, abstractions can lead to overhead for small developer teams typical to research contexts.
+Due to project-based management, limited contracts and the requirement of mass publications the research culture has shifted to fast moving goal posts.
+This also means that software is maintained within the span of a PhD project and rarely beyond.
+Instead of prototyping in order to prepare a blueprint that a larger team of engineers can use to build a well-designed and sound product, research-oriented software often remains in the prototype stage.
+Even though the software engineering community has researched prototyping in the context of requirement engineering [@lang2020prototyping], this specific case shows that SE techniques cannot be applied to the research context without some thought.
+In addition, many principles of software engineering (i.e. separation of concerns, service orientation ...) support long term sustainable growth of software systems which is a relevant factor in market-driven industries [find literature].
+However, abstractions can lead to overhead for small developer teams typical to research contexts.
 
-Another aspect that distinguishes the typical software process design from research software engineering is the ambition of externalizing all knowledge that is contained in the software. In an industrial setting where bottlenecks are a problem and programmers need to be replaceable this is an essential factor of effectivity. [@gronau2006kmdl]. In the natural sciences, application code is often based on state-of-the-art mathematical models that are only accessible to very few specialized researchers. Here, the question arises if the mathematical model should be considered the documentation whereas the software only plays the role of proof-of-concept implementations.
+Another aspect that distinguishes the typical software process design from research software engineering is the ambition of externalizing all knowledge that is contained in the software.
+In an industrial setting where bottlenecks are a problem and programmers need to be replaceable this is an essential factor of effectivity [@gronau2006kmdl].
+In the natural sciences, application code is often based on state-of-the-art mathematical models that are only accessible to very few specialized researchers.
+Here, the question arises if the mathematical model should be considered the documentation whereas the software only plays the role of proof-of-concept implementations.
 
 A similar argument could be made for systematics of software engineering processes and management.
-Modelling user behavior introduces a set of new complexities that lead to the development of management techniques such as agile development that try to expose the software to the customers as often as possible in order to adapt the software more efficiently to the user. From requirements engineering, to prototyping and evaluation, the social sciences and psychology have played a role in connecting craftsmanship of an engineer to the intricacies of big human teams, customers and stakeholders [find something that talks about human computer interaction and software engineering]. Only recently have research software teams and research groups grown to an extent that these insights are needed [todo reference for claim].
+Modelling user behavior introduces a set of new complexities that lead to the development of management techniques such as agile development that try to expose the software to the customers as often as possible in order to adapt the software more efficiently to the user.
+From requirements engineering, to prototyping and evaluation, the social sciences and psychology have played a role in connecting craftsmanship of an engineer to the intricacies of big human teams, customers and stakeholders [find something that talks about human computer interaction and software engineering].
+Only recently have research software teams and research groups grown to an extent that these insights are needed [todo reference for claim].
 
 _also connect the arguments below to history paragraphs_
 
-Taking the above said into consideration one could arrive at the conclusion that the separated state of computing for the science and software engineering is logical nd should not be challenged. In contrary, recent developments have introduced a number of requirements for scientific work that mimic software engineering principles long in play:
+Taking the above said into consideration one could arrive at the conclusion that the separated state of computing for the science and software engineering is logical and should not be challenged.
+In contrary, recent developments have introduced a number of requirements for scientific work that mimic software engineering principles long in play:
 
 - transparent funding: software processes and contributions need to be externalized in order to validate funding
-- the redistributable crisis [todo @literatur] has lead to standardization of  scientific development processes:
+- the redistributable crisis [todo @literatur] has lead to standardization of scientific development processes:
 - climate crisis and rising costs of energy [add GI paper on water usage here] have contributed to a stronger focus on efficiency
 - managing complexity: the ubiquitous nature of computing in almost all scientific disciplines has lead to an increase in cross-cutting concerns in the organization of science
 - Transdisciplinary research
@@ -173,14 +184,21 @@ Inversely, software engineers sometimes struggle to work in the research context
 -   handling cultural complexities in research organizations
 -   managing the sustainability and community in fast changing teams
 
-While the historical separation between computing in science and in software engineering may seem logical at first glance, recent developments increasingly challenge this divide. Scientific work now faces growing demands that align closely with established software engineering principles. These include the need for transparent and auditable software contributions to justify funding, standardized development processes driven by the reproducibility crisis, and an emphasis on energy efficiency in response to the climate crisis. Furthermore, the growing complexity of research, the rise of transdisciplinary collaboration, and the integration of advanced technologies like large language models have introduced intricate software pipelines across disciplines. Together, these trends highlight the convergence of scientific computing and software engineering practices.
+While the historical separation between computing in science and in software engineering may seem logical at first glance, recent developments increasingly challenge this divide.
+Scientific work now faces growing demands that align closely with established software engineering principles. These include the need for transparent and auditable software contributions to justify funding, standardized development processes driven by the reproducibility crisis, and an emphasis on energy efficiency in response to the climate crisis.
+Furthermore, the growing complexity of research, the rise of transdisciplinary collaboration, and the integration of advanced technologies like large language models have introduced intricate software pipelines across disciplines.
+Together, these trends highlight the convergence of scientific computing and software engineering practices.
 
 ## A RSE Master Curriculum
 
-Taking the historical trend into consideration it becomes apparent that the traditional division of labor between software engineers and computational scientists has run its course. As Research Software Engineering grows as a unifying field the question arises which disciplinary identity a research software engineer should have. In theory, just adding the software engineering identity and the natural scientist identity should accomplish the goal. However, multiple identities are only beneficial as long as they are not in conflict [@josi.12329].
+Taking the historical trend into consideration it becomes apparent that the traditional division of labor between software engineers and computational scientists has run its course.
+As Research Software Engineering grows as a unifying field the question arises which disciplinary identity a research software engineer should have.
+In theory, just adding the software engineering identity and the natural scientist identity should accomplish the goal
+However, multiple identities are only beneficial as long as they are not in conflict [@josi.12329].
 
 If neither division of labor between software engineers and scientists, nor an additive training to be both work conceptually, the third option is to develop a new identity and a corresponding professional field.
-Similar to data scientists, data stewards and other modern job roles, a research engineer for the natural sciences is not a niche innovation based on a short-living trend. The newly formed identity should encompass the history, culture and key competences from both fields.
+Similar to data scientists, data stewards and other modern job roles, a research engineer for the natural sciences is not a niche innovation based on a short-living trend.
+The newly formed identity should encompass the history, culture and key competences from both fields.
 
 Based on the previous discussion and workshops with the RSE-community [add citation to deRSE] the curriculum should contain three parts:
 
