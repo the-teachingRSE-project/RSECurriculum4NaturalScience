@@ -96,7 +96,7 @@ Computation has since permeated nearly every field of natural science,
 often giving rise to entire sub-disciplines:
 
 -   Chemistry: computational chemistry
--   Physics: Solid-state Physics, Elementary Particle Physics (Lattice QCD, CERN), Quantum Computing?
+-   Physics: Solid-state Physics, Elementary Particle Physics (Lattice QCD, CERN), Astrophysics, Quantum Computing?
 -   Physical chemistry: cheminformatics
 -   Biology: bioinformatics, biostatistics, computational biology,
     computational bio-modeling
