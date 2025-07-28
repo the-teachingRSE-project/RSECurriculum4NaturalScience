@@ -64,13 +64,13 @@ for the purpose of this paper:
 From their origins in the Renaissance, the natural sciences have been
 intertwined with computation. Early pioneers like Kepler and
 Galileo not only measured natural phenomena but sought mathematical laws
-to describe them — laws that enabled prediction. This marked the beginning
+to describe them—laws that enabled prediction. This marked the beginning
 of a fundamental trait of natural science: the drive to quantify and
 predict nature, constrained only by the available means of computation.
 
-Throughout history, computational tools — from early mechanical
+Throughout history, computational tools—from early mechanical
 calculators like Pascal’s Pascaline to Babbage’s visionary Analytical
-Engine — emerged alongside the growing ambitions of science [@bromley2008charles].
+Engine—emerged alongside the growing ambitions of science [@bromley2008charles].
 
 In the 20th century, particularly during World War II, modern computing
 was born out of scientific necessity. Machines like Zuse’s Z3 in Germany
@@ -86,8 +86,8 @@ Backus and his team at IBM [@Backus1978] enabled scientists to express
 algorithms independently of hardware, transforming how they interacted
 with computation.
 
-By the 1960s, with the advent of the CDC 6600 — the first
-supercomputer — designed by Seymour Cray [@Kaufmann1994], computation had
+By the 1960s, with the advent of the CDC 6600—the first
+supercomputer—designed by Seymour Cray [@Kaufmann1994], computation had
 become central to the scientific method. Vectorized processors and
 increasing speed meant that simulation and modeling could now
 complement, and sometimes replace, physical experimentation.
@@ -156,7 +156,7 @@ In addition, many principles of software engineering (i.e. separation of concern
 However, abstractions can lead to overhead for small developer teams typical to research contexts.
 
 Another aspect that distinguishes the typical software process design from research software engineering is the ambition of externalizing all knowledge that is contained in the software.
-In an industrial setting where bottlenecks are a problem and programmers need to be replaceable this is an essential factor of effectivity [@gronau2006kmdl].
+In an industrial setting where bottlenecks are a problem and programmers need to be replaceable this is an essential factor of effectiveness [@gronau2006kmdl].
 In the natural sciences, application code is often based on state-of-the-art mathematical models that are only accessible to very few specialized researchers.
 Here, the question arises if the mathematical model should be considered the documentation whereas the software only plays the role of proof-of-concept implementations.
 
@@ -193,7 +193,7 @@ Together, these trends highlight the convergence of scientific computing and sof
 
 Taking the historical trend into consideration it becomes apparent that the traditional division of labor between software engineers and computational scientists has run its course.
 As Research Software Engineering grows as a unifying field the question arises which disciplinary identity a research software engineer should have.
-In theory, just adding the software engineering identity and the natural scientist identity should accomplish the goal
+In theory, just adding the software engineering identity and the natural scientist identity should accomplish the goal.
 However, multiple identities are only beneficial as long as they are not in conflict [@josi.12329].
 
 If neither division of labor between software engineers and scientists, nor an additive training to be both work conceptually, the third option is to develop a new identity and a corresponding professional field.
