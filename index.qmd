@@ -202,7 +202,12 @@ The newly formed identity should encompass key competences from both fields, be 
 Based on the previous discussion and workshops with the RSE-community [add citation to deRSE] the curriculum should contain three parts:
 
 1. software engineering foundation and required computer science modules
-2. a firm background in natural science methods (Math and domain specific modules)
+   - Here a selection of topics from SE is taught. E.g. Computer Architecture, Visualization, Distributed Systems, Software Architecture. (Selection from Uni Stuttgart, SE Master)
+   - A homework project on Software Engineering(could be done in the domain)
+2. a firm background in natural science methods
+   - A continuation of the theoretical foundations with the goal of exposing the students to modern research
+   - Further lab work(maybe electronics lab?), since it is the foundation of the empirical sciences
+   - a domain specialization (towards the master)
 3. an identity building group of modules that addresses key RSE issues such as ...
    - high performance computing
    - the role of simulation modelling in scientific practice
