@@ -180,9 +180,8 @@ In contrary, recent developments have introduced a number of requirements for sc
 
 Inversely, software engineers sometimes struggle to work in the research context due to a number of reasons:
 
--   needed high level of mathematical formal knowledge: Linear Algebra, ODEs and PDEs, FFTs, Pattern Matching
--   handling cultural complexities in research organizations
--   managing the sustainability and community in fast changing teams
+- handling cultural complexities in research organizations
+- managing the sustainability and community in fast changing teams
 
 While the historical separation between computing in science and in software engineering may seem logical at first glance, recent developments increasingly challenge this divide.
 Scientific work now faces growing demands that align closely with established software engineering principles. These include the need for transparent and auditable software contributions to justify funding, standardized development processes driven by the reproducibility crisis, and an emphasis on energy efficiency in response to the climate crisis.
@@ -202,17 +201,19 @@ The newly formed identity should encompass key competences from both fields, be 
 Based on the previous discussion and workshops with the RSE-community [add citation to deRSE] the curriculum should contain three parts:
 
 1. software engineering foundation and required computer science modules
-   - Here a selection of topics from SE is taught. E.g. Computer Architecture, Visualization, Distributed Systems, Software Architecture. (Selection from Uni Stuttgart, SE Master)
-   - A homework project on Software Engineering(could be done in the domain)
+   - here a selection of topics from SE is taught. E.g. Computer Architecture,
+     Visualization, Distributed Systems, Software Architecture. (Selection from Uni Stuttgart, SE Master)
+   - a homework project on Software Engineering (could be done in the domain)
 2. a firm background in natural science methods
-   - A continuation of the theoretical foundations with the goal of exposing the students to modern research
-   - Further lab work(maybe electronics lab?), since it is the foundation of the empirical sciences
+   - a continuation of the theoretical foundations with the goal of exposing the students to modern research
+   - further lab work (maybe electronics lab?), since it is the foundation of the empirical sciences
+   - a high level of mathematical formal knowledge: linear algebra, ODEs and PDEs, FFTs, pattern matching
    - a domain specialization (towards the master)
 3. an identity building group of modules that addresses key RSE issues such as ...
    - high performance computing
    - the role of simulation modelling in scientific practice
    - numerical methods
-   - machine learning methods 
+   - machine learning methods
    - reproducibility hackathon practical course
    - the scientific method, epistemology and ethics
    - history of software engineering in science
@@ -239,3 +240,15 @@ Combined with external pressures to making Research Software FAIR we expect also
 more structured development processes.
 The RSE in the Natural Sciences being at home in a natural science *and* in Software Engineering is located perfectly
 to move science to a level of managing complexity of software project structures that would probably not be possible without SE alone.
+
+Similar efforts are carried out in allied communities,
+such as the RSE-HPC curriculum [@Filinger2025] by the UNIVERSE-HPC project,
+the RSE curriculum for computer scientists [@Chourdakis2025] at the Technical University of Munich,
+the Simulation Software Engineering course [@Uekermann2021] at the University of Stuttgart,
+or the Bachelor's and Master's program "Simulation Technology" from the Cluster
+of Excellence "Data-Integrated Simulation Science (SimTech)" [@SimTech2019]
+for computer science students.
+A RSE for Natural Sciences curriculum would also be of interest to train
+natural science Ph.D. candidates in specific aspects of SE and RSE practices
+relevant to their software applications, while also receiving academic credit
+through their graduate school.
