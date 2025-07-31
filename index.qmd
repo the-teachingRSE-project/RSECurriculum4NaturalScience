@@ -36,7 +36,7 @@ sciences. This is especially true for natural sciences (from here on
 as much as other computational fields such as data science. This
 progress was further hindered by a growing chasm between software
 engineering and scientific computing research, practitioners and
-communities [@kelly_software_2007]. Thus, the idea of introducing a
+communities [@Kelly2007]. Thus, the idea of introducing a
 master curriculum for research software engineering was born in order to
 bridge the gap by training a new generation of software engineers that
 can connect to the computational sciences.
@@ -109,9 +109,8 @@ often giving rise to entire sub-disciplines:
     (GIS)
 
 Today, at least some computational skills are needed in most fields of natural sciences.
-The development of computational tools is not just a
-support activity; it defines how science is practiced, scaled, and
-extended.
+The development of computational tools is not just a support activity;
+it defines how science is practiced, scaled, and extended.
 
 ## A small History of Software Engineering and Research Applications
 
@@ -146,13 +145,15 @@ These differences can be illustrated with (at least three) structural dichotomie
 
 - growth vs. fast prototyping
 - internalized knowledge vs. externalized knowledge
-- mathematical driven modelling vs. human driven modelling
+- mathematically-driven modelling vs. human-driven modelling
 
 Due to project-based management, limited contracts and the requirement of mass publications the research culture has shifted to fast moving goal posts.
 This also means that software is maintained within the span of a PhD project and rarely beyond.
 Instead of prototyping in order to prepare a blueprint that a larger team of engineers can use to build a well-designed and sound product, research-oriented software often remains in the prototype stage.
-Even though the software engineering community has researched prototyping in the context of requirement engineering [@lang2020prototyping], this specific case shows that SE techniques cannot be applied to the research context without some thought.
-In addition, many principles of software engineering (i.e. separation of concerns, service orientation ...) support long term sustainable growth of software systems which is a relevant factor in market-driven industries [find literature].
+Even though the software engineering community has researched prototyping in the context of requirement engineering [@lang2020prototyping],
+this specific case shows that SE techniques cannot be applied to the research context without some thought.
+In addition, many principles of software engineering (i.e. separation of concerns, service orientation, \ldots)
+support long term sustainable growth of software systems which is a relevant factor in market-driven industries [find literature].
 However, abstractions can lead to overhead for small developer teams typical to research contexts.
 
 Another aspect that distinguishes the typical software process design from research software engineering is the ambition of externalizing all knowledge that is contained in the software.
@@ -171,11 +172,11 @@ Taking the above said into consideration one could arrive at the conclusion that
 In contrary, recent developments have introduced a number of requirements for scientific work that mimic software engineering principles long in play:
 
 - transparent funding: software processes and contributions need to be externalized in order to validate funding
-- the redistributable crisis [todo @literatur] has lead to standardization of scientific development processes:
+- the redistributable crisis [todo literature] has lead to standardization of scientific development processes
 - climate crisis and rising costs of energy [add GI paper on water usage here] have contributed to a stronger focus on efficiency
 - managing complexity: the ubiquitous nature of computing in almost all scientific disciplines has lead to an increase in cross-cutting concerns in the organization of science
 - Transdisciplinary research
-- large language model hype lead to complex software pipelines in a variety of fields
+- large language model hype leads to complex software pipelines in a variety of fields
 - ...
 
 Inversely, software engineers sometimes struggle to work in the research context due to a number of reasons:
@@ -217,9 +218,12 @@ Based on the previous discussion and workshops with the RSE-community [add citat
 Natural Sciences have a long history of using computing devices in order to enhance the predictive power of their theories.
 But in order to move the frontiers of knowledge, inspired individuals in the natural sciences often
 work and innovate outside of standard operating procedures.
-With the advent of the computer, the subliminal application
-of techniques and technologies from SE has been sufficient in the recent past up to the present, to improve the efficiency of these individual scientists creating software.
-But the availability of ever more computing resources will require a control of the complexity of deeper technology stacks and it will require larger forms of organisation in order to drive progress in the natural sciences forward in the future.
+With the advent of the computer, the subliminal application of techniques and technologies
+from SE has been sufficient in the recent past up to the present,
+to improve the efficiency of these individual scientists creating software.
+But the availability of ever more computing resources will require a control
+of the complexity of deeper technology stacks and it will require larger forms
+of organisation in order to drive progress in the natural sciences forward in the future.
 Combined with external pressures to making Research Software FAIR we expect also in the natural sciences a transition to
 more structured development processes.
 The RSE in the Natural Sciences being at home in a natural science *and* in Software Engineering is located perfectly
