@@ -22,24 +22,36 @@ editor:
 
 # Introduction
 
-Research Software Engineering (RSE) has become a household name for the
-increasing demand and professionalized work profile of software
-engineers in research institutes, universities and research-oriented
-industry. Research Software Engineering includes aspects of Scientific
-Computing and Data Science but has been newly branded to include the
-last 30 to 50 years of advances in software engineering techniques
-(Softwaretechnik): with growing sizes of scripts, models and programming
-teams in the sciences, engineering aspects that used to be targeted at
-large-scale industry applications become more and more relevant for the
-sciences. This is especially true for natural sciences (from here on
-"sciences") as the developing circles have not intersected with industry
-as much as other computational fields such as data science. This
-progress was further hindered by a growing chasm between software
-engineering and scientific computing research, practitioners and
-communities [@Kelly2007]. Thus, the idea of introducing a
-master curriculum for research software engineering was born in order to
-bridge the gap by training a new generation of software engineers that
-can connect to the computational sciences.
+The term Research Software Engineer (RSE) has become a label
+for specific technical job roles in universities and research institutions.
+It relates to work that includes elements of traditional software engineering
+but also rests on a broad spectrum of skills from neighbouring domains
+such as scientific computing, data science and research data management,
+as well as skills that have not been packaged into elements of established curricula in formal education yet.
+
+Software engineering as a discipline has evolved, over the past four decades,
+into a mature field with a large body of knowledge that includes
+methods, theory, codes of practice and well developed sub-fields.
+Established curricula in degree programs produce practitioners of a well defined engineering profession.
+
+The much younger community of RSE professionals to a large extent consists of people with no formal software engineering education.
+It has realized that the increasing importance of
+computational science, complexity, demands, size of teams, number of collaboration partners
+and generally the need for more ambitious software projects
+calls for a better and more systematic making use of knowledge and skills from software engineering.
+This is especially true for natural sciences (from here on "sciences"),
+where RSEs' expertise often focuses on very specialized technical problem-solving in close conjunction with a specific research question
+at the expense of the larger picture and mastery of more general concepts.
+
+A disconnect between scientific computing and software engineering practitioners and communities has been already observed by @kelly2007.
+We aim to improve the situation in the spirit of her conclusion,
+which urges the scientific community to better apply the current solutions offered by the software engineering community
+and the latter to better cater to the sciences as an application domain.
+Thus, the idea of introducing a master curriculum for research software engineering was born.
+A formal training in research software engineering should produce a new generation of RSEs.
+On the one hand, those RSEs should be firmly grounded in software engineering and assume practices and the mindset of a software engineer.
+On the other hand, these RSEs should develop a deep understanding of computational scientific work and the relevant methods and practices. They should assume a specific professional identity that also includes the self-image of a scientist
+with the associated values and practices. 
 
 The research question of this paper is "What is the identity needed for
 students to be accepted and feel as qualified software engineers
@@ -52,6 +64,17 @@ history of software engineering as it relates to research. (3) What
 is the common core that should be the identity of a research software
 engineer? (4) How does the ideal identity of a research software engineer
 inform the planned curriculum for research software engineering?
+
+
+-------------------------------------------------------------------------------
+- semantic line breaks
+- RSE stands for Research Software Engineer
+- wording that doesn't suggest "research software engineering" was included in "software engineering" or just a specialization of it.
+- Make the storyline "RSE didn't catch up with SE, even where it would be beneficial" more clear and logically plausible
+- minor fix in bibliography
+
+
+------------------------------------------------
 
 # What is the history of natural science and computing?
 
