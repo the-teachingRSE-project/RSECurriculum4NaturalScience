@@ -168,65 +168,86 @@ although the term 'research software engineer' wouldn't be coined until 2012[@Ba
 
 ## Research Software Engineering for Natural Sciences
 
-_Here we look forward to the challenges for (natural) science and
-why we can only move forward by putting more emphasis on SE techniques, _
+[ Recent trends in the sciences and the organization of science have incurred the need to incorporate
+practices from software engineering that hitherto have been neglected in science  ]
 
-Classical software engineering and computing for the sciences have drifted apart
-as some influencing factors have developed differently over time.
-These differences can be illustrated with (at least three) structural dichotomies:
+__also connect the arguments below to history paragraphs_
+- growth of research groups requires a more systematic approach to workflows and team organization 
+- funding requirements: software development needs to be made transparent, documented and tracked in order justify funding and quantify development cost.
+- increasing demands for reproducible computing in response to
+  - the "replication crisis" [@Pashler2012]
+  - requirements to honour the FAIR principles [@Hutton2016; @Stagge2019; @Stodden2018]
+- increasing demands for reliability of research software
+  - __Glaubwürdigkeitkrise der Wissenschaft_
+  - check bug references [@Miller2006Xray; @Smart2018] (or both [@Miller2016fMRI]),
+- needs to the standardization of scientific development processes [@Sandve2013; @Junk2020]
+- pressure to consider environmental impact of scientific computing [@lannelongue2023] 
+- a trend toward transdisciplinary projects leads to more complex requirements due to a more heterogeneous set of stakeholders.
+- the emerging use of large language models in software development processes requires that the latest results from software engineering research are considered.
 
-- fast prototyping / short term  vs. longer-term software growth
-- internalized knowledge vs. externalized knowledge
-- mathematically-driven modelling vs. human-driven modelling
 
-Due to project-based management, limited contracts and the requirement of mass publications the research culture has shifted to fast moving goal posts.
-This also means that software is maintained within the span of a PhD project and rarely beyond.
-Instead of prototyping in order to prepare a blueprint that a larger team of engineers can use to build a well-designed and sound product, research-oriented software often remains in the prototype stage.
-Duplication of effort, or "reinventing the wheel", has been documented in research software [@Smith2024],
-and funding agencies have created incentives to consolidate fragmented markets by prioritizing research software
-that are easily extensive and re-usable in different contexts with minimally-invasive adaptations [@DFG2022RSE].
-Even though the software engineering community has researched prototyping in the context of requirement engineering [@lang2020prototyping],
-this specific case shows that SE techniques cannot be applied to the research context without some thought.
-In addition, many principles of software engineering (i.e. separation of concerns, service orientation, \ldots)
-support long term sustainable growth of software systems which is a relevant factor in market-driven industries [find literature].
-However, abstractions can lead to overhead for small developer teams typical to research contexts [@Lawrence2006].
+ XXXXXXXXXX hier weiter XXXXXXXXXXXXXXXXXXXXXXX
+[ Why traditional software engineers won't cut it ]
 
-Another aspect that distinguishes the typical software process design from research software engineering is the ambition of externalizing all knowledge that is contained in the software.
-In an industrial setting where bottlenecks are a problem and programmers need to be replaceable this is an essential factor of effectiveness [@gronau2006kmdl].
-In the natural sciences, application code is often based on state-of-the-art mathematical models that are only accessible to very few specialized researchers.
-Here, the question arises if the mathematical model should be considered the documentation whereas the software only plays the role of proof-of-concept implementations.
-
-A similar argument could be made for systematics of software engineering processes and management.
-Modelling user behavior introduces a set of new complexities that lead to the development of management techniques such as agile development that try to expose the software to the customers as often as possible in order to adapt the software more efficiently to the user.
-From requirements engineering, to prototyping and evaluation, the social sciences and psychology have played a role in connecting craftsmanship of an engineer to the intricacies of big human teams, customers and stakeholders [find something that talks about human computer interaction and software engineering].
-Only recently have research software teams and research groups grown to an extent that these insights are needed [todo reference for claim].
-
-_also connect the arguments below to history paragraphs_
-
-Taking the above said into consideration one could arrive at the conclusion that the separated state of computing for the science and software engineering is logical and should not be challenged.
-In contrary, recent developments have introduced a number of requirements for scientific work that mimic software engineering principles long in play:
-
-- transparent funding: software processes and contributions need to be externalized in order to validate funding
-- the replication crisis [@Pashler2012] is affecting computational fields
-  due to unavailable scripts/data/workflows [@Hutton2016; @Stagge2019; @Stodden2018]
-  or software bugs [@Miller2006Xray; @Smart2018] (or both [@Miller2016fMRI]),
-  leading to standardization of scientific development processes [@Sandve2013; @Junk2020]
-  and fairification of research data [@FAIR] and research software [@FAIR4RS]
-- climate crisis and rising costs of energy [add GI paper on water usage here] have contributed to a stronger focus on efficiency
-- managing complexity: the ubiquitous nature of computing in almost all scientific disciplines has lead to an increase in cross-cutting concerns in the organization of science
-- Transdisciplinary research
-- large language model hype leads to complex software pipelines in a variety of fields
-- ...
-
-Inversely, software engineers sometimes struggle to work in the research context due to a number of reasons:
-
-- handling cultural complexities in research organizations
+- lack of depth of domain specific knowledge 
+- lack of understanding handling cultural complexities in research organizations
 - managing the sustainability and community in fast changing teams
 
 While the historical separation between computing in science and in software engineering may seem logical at first glance, recent developments increasingly challenge this divide.
 Scientific work now faces growing demands that align closely with established software engineering principles. These include the need for transparent and auditable software contributions to justify funding, standardized development processes driven by the reproducibility crisis, and an emphasis on energy efficiency in response to the climate crisis.
 Furthermore, the growing complexity of research, the rise of transdisciplinary collaboration, and the integration of advanced technologies like large language models have introduced intricate software pipelines across disciplines.
 Together, these trends highlight the convergence of scientific computing and software engineering practices.
+
+
+_Here we look forward to the challenges for (natural) science and
+why we can only move forward by putting more emphasis on SE techniques, _
+
+XXXXXXX bis hier XXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXX Übergang XXXXXXXXXXXXXXXXXXXXXXX
+
+Classical software engineering and computing for the sciences have drifted apart
+as some influencing factors have developed differently over time.
+These differences can be illustrated with (at least three) structural dichotomies:
+
+- fast prototyping / short term  vs. long-term software growth
+- internalized knowledge vs. externalized knowledge
+- mathematically-driven modelling vs. human-driven modelling
+
+[Lack of overlap SE / RSE cause by software often one-shot, for personal growth (qualification) as opposed to growth of organization]
+Scientific academic culture is characterized by a rapidly changing environment and the pressure to publish frequently.
+This also means that software is often developed and maintained only during a single PhD project.
+Instead of prototyping in order to prepare a blueprint that a larger team of engineers can use to build a well-designed and sound product, research-oriented software often remains in the prototype stage. Therefore duplication of effort, or "reinventing the wheel", has been documented in research software [@Smith2024].
+To counteract this trend, funding agencies have created incentives to consolidate fragmented domain codes by prioritizing research software
+that is easily extensible and re-usable in different contexts with minimally-invasive adaptations [@DFG2022RSE].
+
+[ Adaption needed I ]
+The need for flexibility in scientific software development in principle lends itself ideally
+to the application of agile methods. Therefore this situation calls for an injection of
+professional SE-Know-How in that area. However the tradition agile development methodologies
+(Scrum, Kanban,.. ) are presented for large team and large industry-style projects. An adaption
+f these practices to small and even 1-person teams would be a useful part of an RSE4NatSci-curriculum]
+This specific case shows that SE techniques in general cannot be applied to the research context without adaptions.
+
+[ Adaption needed II ]
+Testing. Often testing can not be handled by external
+parties since a high level of domain-specific knowledge is required to construct suitable
+tests. On the other hand, formal testing is often less important for scientific code developed
+and used by one single person in an iterative manner. A systematic testing strategy tailored to these condition is needed.
+
+[Adaptions needed III ]
+However, abstractions can lead to overhead for small developer teams typical to research contexts [@Lawrence2006].
+
+[Some SE processes are not applicable in NatSci]
+From requirements engineering, to prototyping and evaluation, the social sciences and psychology have played a role in connecting craftsmanship of an engineer to the intricacies of big human teams, customers and stakeholders [find something that talks about human computer interaction and software engineering.
+
+Another aspect that distinguishes the typical software process design from research software engineering is the ambition of externalizing all knowledge that is contained in the software.
+In an industrial setting where programmers need to be replaceable this is an essential factor of effectiveness [@gronau2006kmdl].
+In the natural sciences in contrast, application code is often based on state-of-the-art mathematical models that are only accessible to very few specialized researchers.
+
+[Some SE topics should be taken up by RSEs4NatSci unchanged]
+SOLID principles, design patterns, .....
+
+
 
 ## A RSE Master Curriculum
 
