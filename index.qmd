@@ -118,21 +118,39 @@ _Here we explain, where Software Engineering comes from, and where
 and why it deviated from its co-development with science_
 
 After the second World War the Apollo Program was a major driver in
-enhancing the quality of mission-critical software. In this setting the
-term Software Engineering was coined and two well-known conferences were
-held in 1968 and 1969 to discuss how to keep software projects reliable
-and in time. The notion of the quality and reliability of software
+enhancing the quality of mission-critical software.
+In this setting the term 'software engineering' was coined[@Randell1979]
+and two well-known NATO conferences were held in 1968[@Naur1969] and
+1969[@Buxton1970] to discuss how to keep software projects reliable and in time.
+While good programming practices were already circulating as soon as 1961[@Hosier1961],
+these NATO conferences shed light on the 'software crisis'[@Randell1979].
+Adoption of best coding practices was slow[@Boehm1979], with calls to reform
+not just programming techniques but also programming culture[@Weinberg1971; @Boehm1979],
+e.g. by promoting software documentation and teamwork over lone coders
+with full knowledge of the codebase[@Weinberg1971, p. 100]
+(with an early formulation[@Weinberg1971, p. 114] of what is now known
+as the 'bus factor'[@Zazworka2010; @Jabrayilzade2022]).
+The notion of the quality and reliability of software
 continued to be a driving force of software engineering with the
-ever-increasing use of software in safety critical systems (e.g.
-medicine), which meant that software could kill, in the 70s and 80s. The
-next big projects was the development of modern general purpose
-operating systems in the late 80s. The advent of the Internet added
-another level of complexity, since new modes of operation for software
-across multiple computers are possible.
+ever-increasing use of software in safety-critical systems
+(e.g. medicine or aviation), which meant that software could kill, in the 70s and 80s.
+The next big projects was the development of modern general purpose
+operating systems in the late 80s, which combined with affordable
+personal computers, helped democratize the use and development of
+research software for lab instrument control, data acquisition,
+and statistical analysis[@Robinson1984].
+The advent of the Internet added another level of complexity,
+since new modes of operation for software across multiple computers are possible.
+In 2005, the Software Engineering Body of Knowledge (SWEBOK) was created
+to document foundational competencies of SEs[@SWEBOK2005]
+and design academic curricula[@Fairley2014].
 
-TODO: How did SE develop and the shift to research software engineering ...
-
-The professional identity of a software engineer has developed
+In the 2000s, the SE community identified a special case of software users nicknamed
+'professional end-user developers'[@Segal2005; @Segal2007; @Segal2009b].
+Most of the interviews were conducted with scientists and revealed the difficulties
+of reconciling research practices with software engineering practices[@Segal2005; @Segal2009; @Lawrence2006; @Wood2003; @Storer2017].
+In parallel, science communities also identified a new role centered around research software[@Baxter2006],
+although the term 'research software engineer' wouldn't be coined until 2012[@Baxter2012].
 
 ## Research Software Engineering for Natural Sciences
 
@@ -150,11 +168,14 @@ These differences can be illustrated with (at least three) structural dichotomie
 Due to project-based management, limited contracts and the requirement of mass publications the research culture has shifted to fast moving goal posts.
 This also means that software is maintained within the span of a PhD project and rarely beyond.
 Instead of prototyping in order to prepare a blueprint that a larger team of engineers can use to build a well-designed and sound product, research-oriented software often remains in the prototype stage.
+Duplication of effort, or "reinventing the wheel", has been documented in research software [@Smith2024],
+and funding agencies have created incentives to consolidate fragmented markets by prioritizing research software
+that are easily extensive and re-usable in different contexts with minimally-invasive adaptations [@DFG2022RSE].
 Even though the software engineering community has researched prototyping in the context of requirement engineering [@lang2020prototyping],
 this specific case shows that SE techniques cannot be applied to the research context without some thought.
 In addition, many principles of software engineering (i.e. separation of concerns, service orientation, \ldots)
 support long term sustainable growth of software systems which is a relevant factor in market-driven industries [find literature].
-However, abstractions can lead to overhead for small developer teams typical to research contexts.
+However, abstractions can lead to overhead for small developer teams typical to research contexts [@Lawrence2006].
 
 Another aspect that distinguishes the typical software process design from research software engineering is the ambition of externalizing all knowledge that is contained in the software.
 In an industrial setting where bottlenecks are a problem and programmers need to be replaceable this is an essential factor of effectiveness [@gronau2006kmdl].
@@ -172,7 +193,11 @@ Taking the above said into consideration one could arrive at the conclusion that
 In contrary, recent developments have introduced a number of requirements for scientific work that mimic software engineering principles long in play:
 
 - transparent funding: software processes and contributions need to be externalized in order to validate funding
-- the redistributable crisis [todo literature] has lead to standardization of scientific development processes
+- the replication crisis [@Pashler2012] is affecting computational fields
+  due to unavailable scripts/data/workflows [@Hutton2016; @Stagge2019; @Stodden2018]
+  or software bugs [@Miller2006Xray; @Smart2018] (or both [@Miller2016fMRI]),
+  leading to standardization of scientific development processes [@Sandve2013; @Junk2020]
+  and fairification of research data [@FAIR] and research software [@FAIR4RS]
 - climate crisis and rising costs of energy [add GI paper on water usage here] have contributed to a stronger focus on efficiency
 - managing complexity: the ubiquitous nature of computing in almost all scientific disciplines has lead to an increase in cross-cutting concerns in the organization of science
 - Transdisciplinary research
