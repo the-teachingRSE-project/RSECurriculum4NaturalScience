@@ -66,15 +66,7 @@ engineer? (4) How does the ideal identity of a research software engineer
 inform the planned curriculum for research software engineering?
 
 
--------------------------------------------------------------------------------
-- semantic line breaks
-- RSE stands for Research Software Engineer
-- wording that doesn't suggest "research software engineering" was included in "software engineering" or just a specialization of it.
-- Make the storyline "RSE didn't catch up with SE, even where it would be beneficial" more clear and logically plausible
-- minor fix in bibliography
 
-
-------------------------------------------------
 
 # What is the history of natural science and computing?
 
