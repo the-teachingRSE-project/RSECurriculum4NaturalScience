@@ -206,9 +206,8 @@ In contrary, recent developments have introduced a number of requirements for sc
 
 Inversely, software engineers sometimes struggle to work in the research context due to a number of reasons:
 
--   needed high level of mathematical formal knowledge: Linear Algebra, ODEs and PDEs, FFTs, Pattern Matching
--   handling cultural complexities in research organizations
--   managing the sustainability and community in fast changing teams
+- handling cultural complexities in research organizations
+- managing the sustainability and community in fast changing teams
 
 While the historical separation between computing in science and in software engineering may seem logical at first glance, recent developments increasingly challenge this divide.
 Scientific work now faces growing demands that align closely with established software engineering principles. These include the need for transparent and auditable software contributions to justify funding, standardized development processes driven by the reproducibility crisis, and an emphasis on energy efficiency in response to the climate crisis.
@@ -217,29 +216,46 @@ Together, these trends highlight the convergence of scientific computing and sof
 
 ## A RSE Master Curriculum
 
-Taking the historical trend into consideration it becomes apparent that the traditional division of labor between software engineers and computational scientists has run its course.
-As Research Software Engineering grows as a unifying field the question arises which disciplinary identity a research software engineer should have.
-In theory, just adding the software engineering identity and the natural scientist identity should accomplish the goal.
-However, multiple identities are only beneficial as long as they are not in conflict [@josi.12329].
+Taking the historical trend into consideration it becomes apparent that the traditional division of labor between software engineers and computational scientists is no longer appropriate for today's challenges.
+As Research Software Engineering starts to combine software engineering and science again, therby reversing the historical trend, the question arises which disciplinary identity a research software engineer should have.
 
-If neither division of labor between software engineers and scientists, nor an additive training to be both work conceptually, the third option is to develop a new identity and a corresponding professional field.
+We argue that neither additional traing in a natural science for software engineers nor vice versa would be suited for the development of an adequate professional identity. For example an SE-curriculum augmented with physics courses within the typical timeframe alloted for a masters degree will not be sufficent for a student to accumulate the exposure, knowledge and experience necessary to develop a physicist's identity in addition to her SE identity. As @gomez2025 observe, a new discipline is required for a new professional identity aquired through formal academic education. 
+
 Similar to data scientists, data stewards and other modern job roles, a research engineer for the natural sciences is not a niche innovation based on a short-living trend.
-The newly formed identity should encompass the history, culture and key competences from both fields.
+The newly formed identity should encompass key competences from both fields, be rooted in the history and culture of both SE and natural sciences while including new competencies that arise from the special requirements for typical RSE work.
 
 Based on the previous discussion and workshops with the RSE-community [add citation to deRSE] the curriculum should contain three parts:
 
 1. software engineering foundation and required computer science modules
-2. a firm background in natural science methods (Math and domain specific modules)
+   - here a selection of topics from SE is taught. E.g. Computer Architecture,
+     Visualization, Distributed Systems, Software Architecture. (Selection from Uni Stuttgart, SE Master)
+   - a homework project on Software Engineering (could be done in the domain)
+2. a firm background in natural science methods
+   - a continuation of the theoretical foundations with the goal of exposing the students to modern research
+   - further lab work (maybe electronics lab?), since it is the foundation of the empirical sciences
+   - a high level of mathematical formal knowledge: linear algebra, ODEs and PDEs, FFTs, pattern matching
+   - a domain specialization (towards the master)
 3. an identity building group of modules that addresses key RSE issues such as ...
+   - high performance computing
+   - the role of simulation modelling in scientific practice
+   - numerical methods
+   - machine learning methods
+   - reproducibility hackathon practical course
+   - the scientific method, epistemology and ethics
    - history of software engineering in science
-   - research software science [add citation]
-   - management and communication in the research context
-   - required tooling and open source concepts
-   - ethical implications of research software (energy consumption, social engineering etc.)
-   - mathematical (high) performance computing
-   - neighbouring computational science fields (data science, research data management ...)
+   - research software engineering research [@felderer2025]
+   - interpersonal competencies
+   - research data management and good scientific practice
+   - the open source software community of practice
+   - distributed research infrastructure technologies 
+
+This set of skills makes the RSE a professional who is able to take a set of
+equations from a modern theory, implement them, create a reliable and
+reusable program and maintain a successful software-project for the academic
+world around it.
 
 ## Conclusion
+
 Natural Sciences have a long history of using computing devices in order to enhance the predictive power of their theories.
 But in order to move the frontiers of knowledge, inspired individuals in the natural sciences often
 work and innovate outside of standard operating procedures.
@@ -253,3 +269,15 @@ Combined with external pressures to making Research Software FAIR we expect also
 more structured development processes.
 The RSE in the Natural Sciences being at home in a natural science *and* in Software Engineering is located perfectly
 to move science to a level of managing complexity of software project structures that would probably not be possible without SE alone.
+
+Similar efforts are carried out in allied communities,
+such as the RSE-HPC curriculum [@Filinger2025] by the UNIVERSE-HPC project,
+the RSE curriculum for computer scientists [@Chourdakis2025] at the Technical University of Munich,
+the Simulation Software Engineering course [@Uekermann2021] at the University of Stuttgart,
+or the Bachelor's and Master's program "Simulation Technology" from the Cluster
+of Excellence "Data-Integrated Simulation Science (SimTech)" [@SimTech2019]
+for computer science students.
+A RSE for Natural Sciences curriculum would also be of interest to train
+natural science Ph.D. candidates in specific aspects of SE and RSE practices
+relevant to their software applications, while also receiving academic credit
+through their graduate school.
