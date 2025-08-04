@@ -66,25 +66,29 @@ the Simulation Software Engineering course [@Uekermann2021] at the University o
 or the Bachelor's and Master's program "Simulation Technology" from the Cluster
 of Excellence "Data-Integrated Simulation Science (SimTech)" [@SimTech2019]
 for computer science students.
-A RSE for Natural Sciences curriculum would help professionalize RSE career
+An RSE for Natural Sciences curriculum would help professionalize RSE career
 paths in natural sciences, while also addressing the specific needs of scientists,
 such as accumulating enough academic credit in natural sciences to be able to
 enroll in a Ph.D. program in a STEM field.
+
 Such a curriculum would also be of interest to train natural science Ph.D. candidates
 in specific aspects of SE and RSE practices relevant to their software applications,
 while also receiving academic credit through their graduate school.
 
-The research question of this paper is "What is the identity needed for
-students to be accepted and feel as qualified software engineers
-but also be intellectually connected to the natural sciences?".
-In other words: what is the special relationship between natural sciences
-and computing historically, and how does it relate to software engineering
-foundations. In order to answer this question the paper is structured as
-follows: (1) the history of natural science and computing (2) the
-history of software engineering as it relates to research. (3) What
-is the common core that should be the identity of a research software
-engineer? (4) How does the ideal identity of a research software engineer
-inform the planned curriculum for research software engineering?
+Historically, Natural sciences and software engineering share common threads in the fabric of their identities,
+but different challenges in the past 60 years have led to an estrangement between the fields.
+Today students of one field can not easily cross over into the other field and contribute their knowledge,
+due to the different domain identites that have been forged.
+
+In order to bridge this apparent chasm we argue that it is necessary to shape a new identity for a domain in the middle between software engineering and the natural sciences.
+This should form the basis for a master's program that gives student's an identity,
+that makes them qualified Software Engineer's as well as accepted scientists in the natural sciences that feel intellectually at home in both domains.
+
+In order to answer this question the paper is structured as follows: 
+(1) The history of natural science and computing.
+(2) The history of software engineering as it relates to research.
+(3) What are challenges that define the identity of a research software engineer?
+(4) How do the challenges and the identity of a research software engineer inform the planned curriculum for research software engineering?
 
 # What is the history of natural science and computing?
 
