@@ -118,7 +118,7 @@ _Here we explain, where Software Engineering comes from, and where
 and why it deviated from its co-development with science_
 
 After the second World War the Apollo Program was a major driver in
-enhancing the quality of mission-critical software.
+enhancing the quality of mission-critical software. (TODO: We could mention Margaret Hamilton, as the first person identifying herself as a "software engineer".) 
 In this setting the term 'software engineering' was coined[@Randell1979]
 and two well-known NATO conferences were held in 1968[@Naur1969] and
 1969[@Buxton1970] to discuss how to keep software projects reliable and in time.
@@ -173,9 +173,12 @@ and funding agencies have created incentives to consolidate fragmented markets b
 that are easily extensive and re-usable in different contexts with minimally-invasive adaptations [@DFG2022RSE].
 Even though the software engineering community has researched prototyping in the context of requirement engineering [@lang2020prototyping],
 this specific case shows that SE techniques cannot be applied to the research context without some thought.
+
+(TODO: From my perspective, this part needs more elaboration. Also, I'm personally hesitant about our stance regarding the use of abstraction. I searched for "abstraction" in @Lawrence2006, but did not succeed in finding the respective statement.)
 In addition, many principles of software engineering (i.e. separation of concerns, service orientation, \ldots)
 support long term sustainable growth of software systems which is a relevant factor in market-driven industries [find literature].
 However, abstractions can lead to overhead for small developer teams typical to research contexts [@Lawrence2006].
+
 
 Another aspect that distinguishes the typical software process design from research software engineering is the ambition of externalizing all knowledge that is contained in the software.
 In an industrial setting where bottlenecks are a problem and programmers need to be replaceable this is an essential factor of effectiveness [@gronau2006kmdl].
