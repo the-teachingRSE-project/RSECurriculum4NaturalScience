@@ -26,7 +26,7 @@ The term Research Software Engineer (RSE) has become a label
 for specific technical job roles in universities and research institutions.
 It relates people doing work that includes elements of traditional software engineering
 but also rests on a broad spectrum of skills from neighbouring domains
-such as scientific computing, data science and research data management,
+such as scientific computing, data science, research data management, and the open science movement in general
 as well as skills that have not been packaged into elements of established curricula in formal education yet.
 
 Software engineering as a discipline has evolved, over the past four decades,
@@ -35,7 +35,7 @@ methods, theory, codes of practice and well developed sub-fields.
 Established curricula in degree programs produce practitioners of a well defined engineering profession.
 
 The much younger community of RSE professionals to a large extent consists of people with no formal software engineering education.
-It has realized that the increasing importance of
+It has been realized that the increasing importance of
 computational science, complexity, demands, size of teams, number of collaboration partners
 and generally the need for more ambitious software projects
 calls for a better and more systematic making use of knowledge and skills from software engineering.
