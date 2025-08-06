@@ -24,7 +24,7 @@ editor:
 
 The term Research Software Engineer (RSE) has become a label
 for specific technical job roles in universities and research institutions.
-It relates people doing work that includes elements of traditional software engineering
+It relates to people doing work that includes elements of traditional software engineering
 but also rests on a broad spectrum of skills from neighbouring domains
 such as scientific computing, data science and research data management,
 as well as skills that have not been packaged into elements of established curricula in formal education yet.
@@ -43,7 +43,7 @@ and more systematic making use of knowledge and skills from software engineering
 This is especially true for natural sciences (from here on "sciences"),
 where RSEs' expertise often focuses on very specialized technical
 problem-solving in close conjunction with a specific research question
-at the expense of the larger picture and mastery of more general concepts.
+at the expense of the mastery of more general concepts of software engineering.
 
 A disconnect between scientific computing and software engineering
 practitioners and communities has been already observed by @Kelly2007.
@@ -52,14 +52,14 @@ which urges the scientific community to better apply the current solutions
 offered by the software engineering community and the latter to better cater
 to the sciences as an application domain.
 Thus, the idea of introducing a master curriculum for research software engineering for natural sciences was born.
-A formal training in research software engineering should produce a new generation of RSEs.
+A formal training in research software engineering for a natural science should produce a new generation of RSEs.
 On the one hand, those RSEs should be firmly grounded in software engineering and assume practices and the mindset of a software engineer.
 On the other hand, these RSEs should develop a deep understanding of computational scientific work and the relevant methods and practices.
 They should assume a specific professional identity that also includes
 the self-image of a scientist with the associated values, practices,
 and functions, and is recognized as an equal member of a domain research team.
 
-Similar efforts were carried out in allied communities and yielded tailored curricula,
+Similar efforts were carried out in allied communities and have yielded tailored curricula,
 such as the RSE-HPC curriculum [@Filinger2025] by the UNIVERSE-HPC project,
 the RSE curriculum for computer scientists [@Chourdakis2025] at the Technical University of Munich,
 the Simulation Software Engineering course [@Uekermann2021] at the University of Stuttgart,
@@ -75,20 +75,26 @@ Such a curriculum would also be of interest to train natural science Ph.D. candi
 in specific aspects of SE and RSE practices relevant to their software applications,
 while also receiving academic credit through their graduate school.
 
-Historically, Natural sciences and software engineering share common threads in the fabric of their identities,
-but different challenges in the past 60 years have led to an estrangement between the fields.
+Historically, natural sciences and software engineering share common threads in the fabric of their identities,
+but different challenges in the past decades have led to an estrangement between the fields.
 Today students of one field can not easily cross over into the other field and contribute their knowledge,
 due to the different domain identites that have been forged.
 
-In order to bridge this apparent chasm we argue that it is necessary to shape a new identity for a domain in the middle between software engineering and the natural sciences.
-This should form the basis for a master's program that gives student's an identity,
-that makes them qualified Software Engineer's as well as accepted scientists in the natural sciences that feel intellectually at home in both domains.
+Here we argue that it is not enough to augment a software engineering curriculum with a specialization in a natural science
+or to add or improve the computer programming modules in a science curriculum.
+We propose that it is necessary to create a set of new disciplines that more fundamentally fuse software engineering with a natural science.
+A discipline of this kind, e.g. "Research Software Engineering in Earth Science", should be more than a combination of both fields.
+It should rather assume an own distinct identity
+and generate new research questions, new methods to address them,
+and a new type of expert to substantially re-shape and advance relevant scientific sub-domains, e.g. climate system modeling.
+This goal should form the basis for creating new  master's programs that lay the foundation for students to assume a professional identity as Research Software Engineers in Science.
+It should make them qualified Software Engineers as well as fully accepted scientists in a natural sciences who feel intellectually at home in both domains.
 
-In order to answer this question the paper is structured as follows: 
-(1) The history of natural science and computing.
-(2) The history of software engineering as it relates to research.
-(3) What are challenges that define the identity of a research software engineer?
-(4) How do the challenges and the identity of a research software engineer inform the planned curriculum for research software engineering?
+To further explore this proposition we first briefly review
+the history of natural science and computing
+as well as the history of software engineering as it relates to research.
+We then identify challenges that currently define the identity research software engineers and
+conclude  how these challenges and the RSE-identity could inform a future curriculum for Research Software Engineering for Natural Science.
 
 # What is the history of natural science and computing?
 
