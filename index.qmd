@@ -168,9 +168,11 @@ In parallel, science communities also identified a new role centered around rese
 although the term 'research software engineer' wouldn't be coined until 2012[@Baxter2012].
 
 ## Research Software Engineering for Natural Sciences
-
-[ Recent trends in the sciences and the organization of science have incurred the need to incorporate
-practices from software engineering that hitherto have been neglected in science  ]
+While it appears, that software engineering and science have drifted apart,
+the ongoing digitalization of society as a whole, and science in particular, 
+make it apparent, that a reevaluation of this separation is required.
+To be more precise, this has led to a series of trends in the sciences themselves, but also in the way how science is conducted and organized
+that have incurred  the need to incorporate practices from software engineering that hitherto have been neglected in science.
 
 __also connect the arguments below to history paragraphs_
 - growth of research groups requires a more systematic approach to workflows and team organization 
@@ -238,17 +240,17 @@ Since Software is often developed for a personal goal, e.g. the PhD, separation 
 Developers, are testers, users, and documentation writers at the same time.
 For testing this is even often desirable, since testing can not be handled by external parties because a high level of domain-specific knowledge is required to construct suitable tests for research codes.
 On the other hand, formal testing is often less important for scientific code developed and used by one single person in an iterative manner.
-An adpated testing strategy tailored that does not swamp PhDs in testing maintenance is needed.
+An adapted testing strategy that does not swamp PhDs in testing maintenance is needed.
+
+Another aspect that distinguishes the typical software process design from research software engineering is the ambition of externalizing all knowledge that is contained in the software.
+In an industrial setting where programmers need to be replaceable this is an essential factor of effectiveness [@gronau2006kmdl].
+In the natural sciences in contrast, application code is often based on state-of-the-art mathematical models that are only accessible to very few specialized researchers.
 
 [Adaptions needed III ]
 However, abstractions can lead to overhead for small developer teams typical to research contexts [@Lawrence2006].
 
 [Some SE processes are not applicable in NatSci]
 From requirements engineering, to prototyping and evaluation, the social sciences and psychology have played a role in connecting craftsmanship of an engineer to the intricacies of big human teams, customers and stakeholders [find something that talks about human computer interaction and software engineering.
-
-Another aspect that distinguishes the typical software process design from research software engineering is the ambition of externalizing all knowledge that is contained in the software.
-In an industrial setting where programmers need to be replaceable this is an essential factor of effectiveness [@gronau2006kmdl].
-In the natural sciences in contrast, application code is often based on state-of-the-art mathematical models that are only accessible to very few specialized researchers.
 
 [Some SE topics should be taken up by RSEs4NatSci unchanged]
 SOLID principles, design patterns, .....
