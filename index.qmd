@@ -174,9 +174,9 @@ make it apparent, that a reevaluation of this separation is required.
 To be more precise, this has led to a series of trends in the sciences themselves, but also in the way how science is conducted and organized
 that have incurred  the need to incorporate practices from software engineering that hitherto have been neglected in science.
 
-__also connect the arguments below to history paragraphs_
-- growth of research groups requires a more systematic approach to workflows and team organization 
-- funding requirements: software development needs to be made transparent, documented and tracked in order justify funding and quantify development cost.
+- So far, it was "Good Enough" to have the software developed by a single PhD. But in order to progress a growth of research groups requires a more systematic approach to workflows and team organization.
+- Previously software has been developed as a by-product of science, and it was often not made explicit in grant proposals. But with increasing reliance of science on software also funder requirements have changed and software development needs to be made transparent, documented and tracked in order to justify funding and quantify development cost.
+- The increasing availability  
 - increasing demands for reproducible computing in response to
   - the "replication crisis" [@Pashler2012]
   - requirements to honour the FAIR principles [@Hutton2016; @Stagge2019; @Stodden2018]
