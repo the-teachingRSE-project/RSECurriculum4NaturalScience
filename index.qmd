@@ -217,16 +217,16 @@ These differences can be illustrated with (at least three) structural dichotomie
 [Lack of overlap SE / RSE cause by software often one-shot, for personal growth (qualification) as opposed to growth of organization]
 Scientific academic culture is characterized by a rapidly changing environment and the pressure to publish frequently.
 This also means that software is often developed and maintained only during a single PhD project.
-Instead of prototyping in order to prepare a blueprint that a larger team of engineers can use to build a well-designed and sound product, research-oriented software often remains in the prototype stage. Therefore duplication of effort, or "reinventing the wheel", has been documented in research software [@Smith2024].
+Instead of prototyping in order to prepare a blueprint that a larger team of engineers can use to build a well-designed and sound product, research-oriented software often remains in the prototype stage.
+Therefore duplication of effort, or "reinventing the wheel", has been documented in research software [@Smith2024].
 To counteract this trend, funding agencies have created incentives to consolidate fragmented domain codes by prioritizing research software
 that is easily extensible and re-usable in different contexts with minimally-invasive adaptations [@DFG2022RSE].
 
-[ Adaption needed I ]
-The need for flexibility in scientific software development in principle lends itself ideally
-to the application of agile methods. Therefore this situation calls for an injection of
-professional SE-Know-How in that area. However the tradition agile development methodologies
-(Scrum, Kanban,.. ) are presented for large team and large industry-style projects. An adaption
-f these practices to small and even 1-person teams would be a useful part of an RSE4NatSci-curriculum]
+The rapidly changing environment in academia requires flexible processes.
+This need for flexibility in scientific software development in principle lends itself ideally to the application of agile methods.
+Therefore this situation calls for an injection of professional SE-Know-How in that area.
+However the traditional agile development methodologies (Scrum, Kanban,.. ) are usually presented for large team and large industry-style projects.
+An adaption of these practices to small and even one-person teams would be a useful part of an RSE4NatSci-curriculum.
 This specific case shows that SE techniques in general cannot be applied to the research context without adaptions.
 
 [ Adaption needed II ]
