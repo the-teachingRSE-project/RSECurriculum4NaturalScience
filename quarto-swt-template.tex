@@ -46,12 +46,16 @@ $endif$
 \usepackage{threeparttablex}
 \usepackage[normalem]{ulem}
 \usepackage{makecell}
-
 \usepackage{framed} % Needed for code blocks
+\usepackage{orcidlink}
+\usepackage{authblk}
 
 $if(highlighting-macros)$
 $highlighting-macros$
 $endif$
+
+% configure hyperlinks
+\hypersetup{pdfborder = { 0 0 0 }}
 
 % solve \tightlist error
 \providecommand{\tightlist}{%
@@ -60,12 +64,17 @@ $endif$
 % solve \pandocbounded error
 \providecommand{\pandocbounded}[1]{#1}
 
+\renewcommand\Authands{\normalfont\small \ and }
+\renewcommand\Authfont{\scshape\small}
+\renewcommand\Affilfont{\normalfont\footnotesize}
+
 
 % rewrite longtable command to fit 2-columns
 
 \makeatletter
 \let\oldlt\longtable
 \let\endoldlt\endlongtable
+
 \def\longtable{\@ifnextchar[\longtable@i \longtable@ii}
 \def\longtable@i[#1]{\begin{figure}[t]
 \onecolumn
@@ -82,21 +91,17 @@ $endif$
 \twocolumn
 \end{figure}}
 \makeatother
+\title{$title$}
+$for(author)$
+  \author[$author.index$]{$author.name$ \orcidlink{$author.orcid$}}
+  \affil[$author.index$]{$author.affiliation$}
+$endfor$
+\date{}
 
 
 \begin{document}
+    \maketitle
 
-    \twocolumn[{
-
-        \Large
-
-        \centerline{$title$}
-
-        %$author$
-
-        ~\\[-2mm]
-
-    }]
 
 
 % Body

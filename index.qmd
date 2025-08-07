@@ -1,13 +1,43 @@
 ---
 title: "Research Software Engineering for Natural Sciences"
-author: ["Max Mustermann"]
+author:
+  - name: Julian Dehne
+    affiliation: GI
+    orcid: 0000-0001-9265-9619
+    index: 1
+  - name: Simon Christ
+    affiliation: Leibniz University Hannover, Department of Cell Biology and Biophysics, Computational Biology, Germany
+    orcid: 0000-0002-5866-1472
+    index: 2
+  - name: Florian Goth
+    affiliation: Würzburg-Dresden Cluster of Excellence ct.qmat, University of Würzburg, 97074, Würzburg, Germany
+    orcid: 0000-0003-2707-4790
+    index: 3
+  - name: Jean-Noël Grad
+    affiliation: Institute for Computational Physics, University of Stuttgart, Germany
+    index: 4
+    orcid: 0000-0002-5821-4912
+  - name: Magnus Hagdorn
+    affiliation: Geschäftsbereich IT, Charité Universitätsmedizin Berlin, Germany
+    orcid: 0000-0002-5076-4864
+    index: 5
+  - name: Jan Philipp Thiele
+    affiliation: Technische Universität Braunschweig, Germany
+    orcid: 0000-0002-2755-5087
+    index: 6
+  - name: Harald von Waldow
+    affiliation: Johann Heinrich von Thünen Institute, Centre for Information Management, Germany
+    orcid: 0000-0003-4800-2833
+    index: 7
+    
 format:
     pdf:
+        documntclass: srcartcl
         template: quarto-swt-template.tex
         classoption: [twocolumn, german, biblatex]
         cite-method: biblatex
         keep-tex: true
-        pdf-engine: pdflatex
+        pdf-engine: lualatex
         biblio-style: lni
         bibliography: my-paper.bib
         include-in-header:
