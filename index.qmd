@@ -308,7 +308,7 @@ Based on the previous discussion and workshops with the RSE-community [add citat
 If neither division of labor between software engineers and scientists, nor an additive training to be both work conceptually, the third option is to develop a new identity and a corresponding professional field.
 Similar to data scientists, data stewards and other modern job roles, a research engineer for the natural sciences is not a niche innovation based on a short-living trend. The newly formed identity should encompass the history, culture and key competences from both fields.
 
-Based on the previous discussion and workshops with the RSE-community [@derseev] the curriculum should contain three parts:
+Based on the previous discussion and workshops with the RSE-community [@derseev] the curriculum should contain these parts:
 
 1. software engineering foundation and required computer science modules
 2. a firm background in natural science methods (Math and domain specific modules)
@@ -336,12 +336,19 @@ Based on the previous discussion and workshops with the RSE-community [@derseev]
    - software engineering operations
    - software construction
    - practical software engineering project
-5. specialization in their original natural science domain, e.g. in the case of physics
-   - quantum field theory
-   - elementary particle physics
-   - particle detector design
-   - further lab work (e.g. electronics labs),
-   - elective course for example from string thory, group theory, general relativity
+5. specialization in their original natural science domain 
+   a. exemplary specialization in theoretical particle physics
+     - quantum field theory
+     - elementary particle physics
+     - particle detector design
+     - further lab work (e.g. electronics labs),
+     - elective course for example from string thory, group theory, general relativity
+   b. exemplary specialization in computational biology
+     - applied cell and molecular biology
+     - quantitive genetics
+     - quantitive cell and molecular biology laboratory
+     - genomics
+     - statistical genetics
 
 This set of skills makes the RSE a professional who is able to take a set of
 equations from a modern theory, implement them reliably and reusably and lead an interdisciplinary team to create and maintain a successful software-project for the academic world around it.
