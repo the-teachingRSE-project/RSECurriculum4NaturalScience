@@ -234,6 +234,42 @@ although the term 'research software engineer' wouldn't be coined until 2012[@Ba
 
 # Research Software Engineering for Natural Sciences
 
+While it appears, that software engineering and science have drifted apart,
+the ongoing digitalization of society as a whole, and science in particular, 
+make it apparent, that a reevaluation of this separation is required.
+To be more precise, this has led to a series of, mostly outside, trends in the sciences themselves, but also in the way how science is conducted and organized
+that have incurred  the need to incorporate practices from software engineering that hitherto have been neglected in science.
+
+- So far, it was "Good Enough" to have the software developed by a single PhD. But in order to progress a growth of research groups requires a more systematic approach to workflows and team organization.
+- Previously software has been developed as a by-product of science, and it was often not made explicit in grant proposals. But with increasing reliance of science on software also funder requirements have changed and software development needs to be made transparent, documented and tracked in order to justify funding and quantify development cost.
+- A recent trend is that also the environmental impact of scientific computing needs to be considered [@lannelongue2023].
+- The increasing availability of computing power even in the daily lives of researchers starting in the nineties led to an ever increasing amount of research conducted with computers. But since no processes were established to ensure the quality of the used software this led to the famous "replication crisis" [@Pashler2012]. As a reaction to this, there were increasing demands for the reproducibility of research which led to the formulation of the FAIR principles [@Hutton2016; @Stagge2019; @Stodden2018].
+- While initially a lot of research could be conducted by using standard commercial software packages and without having a lot of software dependencies, an ever-increasing amount of research software relies on other research software.
+This means that used software now has to provide stable interfaces and be reliable across multiple versions, therefore placing a higher pressure for reliability on the software. Also it occured that buggy software was shipped that was used in science, that led to wrong conclusions in publications [@Miller2006Xray; @Smart2018, @Miller2016fMRI].
+- A trend toward transdisciplinary projects leads to more complex requirements due to a more heterogeneous set of stakeholders.
+- The emerging use of large language models in software development processes requires that the latest results from software engineering research are considered.
+- __Glaubwürdigkeitkrise der Wissenschaft_
+
+These are a set of outside trends that have and will characterize science and they clearly show that new complexities beyond the hard domain complexity will become a part of 
+the lives of scientists working in the natural science.
+Some of these trends point towards an increase in the administrative complexities while others point to a complexities duw to a deeper integration of research software.
+Both are topics that Software Engineering traditionally has put a strong emphasis on, and has contributed by respective standardized processes.
+Even the sciences themselves [@Sandve2013; @Junk2020] have argued for the standardization of scientific development processes.
+
+While the historical separation between computing in science and in software engineering may seem logical at first glance, recent developments increasingly challenge this divide.
+Scientific work now faces growing demands that align closely with established software engineering principles.
+These include the need for transparent and auditable software contributions to justify funding, standardized development processes driven by the reproducibility crisis, and an emphasis on energy efficiency in response to the climate crisis.
+Furthermore, the growing complexity of research, the rise of transdisciplinary collaboration, and the integration of advanced technologies like large language models have introduced intricate software pipelines across disciplines.
+Together, these trends highlight the convergence of scientific computing and software engineering practices.
+
+If the new complexities are already well understood by Software Engineering, would a suitable approach not be 
+the inclusion of traineds Software Engineers into research projects?
+We argue that this is not a solution, since,generic graduated Software Engineers
+
+- lack the theoretical depth of domain specific knowledge,
+- lack of understanding handling cultural complexities in research organizations,
+- and lack experience in dealing with the  community in fast changing teams
+
 _Here we look forward to the challenges for (natural) science and
 why we can only move forward by putting more emphasis on SE techniques, _
 
