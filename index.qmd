@@ -132,7 +132,7 @@ It should make them qualified Software Engineers as well as fully accepted scien
 To further explore this proposition we first briefly review
 the history of natural sciences and computing
 as well as the history of software engineering as it relates to research.
-We then identify challenges that currently define the identity research software engineers and
+We then identify challenges that currently define the identity of research software engineers and
 conclude how these challenges and the RSE-identity could inform a future curriculum for Research Software Engineering for Natural Science.
 
 # What is the history of natural science and computing?
