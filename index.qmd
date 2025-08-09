@@ -234,6 +234,8 @@ although the term 'research software engineer' wouldn't be coined until 2012[@Ba
 
 # Research Software Engineering for Natural Sciences
 
+Since the "birth" of software engineering at the NATO conference in 1969 [@Naur1969], the communities of software engineering (SE) and scientific computing — now referred to as research software engineering (RSE) — have largely evolved along separate paths. The SE community, much like computer science as a whole, has focused almost exclusively on business and embedded software [@Johanson2018]. Nevertheless, there is much that the RSE community can learn from and adopt within software engineering practices. Conversely, the research software engineering (RSEng) opens up a new field of research for the SE community nowadays referred to as RSE research [@Felderer2025].
+
 Classical software engineering and computing for the sciences have drifted apart
 as some influencing factors have developed differently over time.
 These differences can be illustrated with (at least three) structural dichotomies:
