@@ -56,10 +56,10 @@ for specific technical job roles in universities and research institutions.
 It relates to people doing work that includes elements of traditional software engineering
 but also rests on a broad spectrum of skills from neighbouring domains
 such as scientific computing, data science, research data management, and the open science movement in general
-as well as skills that have not been packaged into elements of established curricula in formal education yet.
+including skills that have not been packaged into elements of established curricula in formal education yet.
 
 Software engineering as a discipline has evolved, over the past four decades,
-into a mature field with a large body of knowledge that includes
+into a mature field with a rich tool set as well as a large body of knowledge that includes
 methods, theory, codes of practice and well developed sub-fields.
 Established curricula in degree programs produce practitioners of a well defined engineering profession.
 
@@ -75,7 +75,7 @@ problem-solving in close conjunction with a specific research question
 at the expense of the mastery of more general concepts of software engineering.
 
 A disconnect between scientific computing and software engineering
-practitioners and communities has been already observed by @Kelly2007.
+practitioners and communities has been already observed by others including @Kelly2007.
 We aim to improve the situation in the spirit of her conclusion,
 which urges the scientific community to better apply the current solutions
 offered by the software engineering community and the latter to better cater
@@ -104,7 +104,7 @@ the RSE curriculum for computer scientists [@Chourdakis2025] at the Technical Un
 the Simulation Software Engineering course [@Uekermann2021] at the University of Stuttgart,
 or the Bachelor's and Master's program "Simulation Technology" from the Cluster
 of Excellence "Data-Integrated Simulation Science (SimTech)" [@SimTech2019]
-for computer science students.
+for computer science students. In addition there's experiences from teaching Research Software Engineering Courses at four German universities in different masters programs described by Bertrand et al. [@Bertrand2025].
 An RSE for Natural Sciences curriculum would help professionalize RSE career
 paths in natural sciences, while also addressing the specific needs of scientists,
 such as accumulating enough academic credit in natural sciences to be able to
@@ -127,12 +127,12 @@ It should rather assume its own distinct identity
 and generate new research questions, new methods to address them,
 and a new type of expert to substantially re-shape and advance relevant scientific sub-domains, e.g. climate system modeling.
 This goal should form the basis for creating new  master's programs that lay the foundation for students to assume a professional identity as Research Software Engineers in Science.
-It should make them qualified Software Engineers as well as fully accepted scientists in a natural science, who feel intellectually at home in both domains.
+It should make them qualified Software Engineers as well as fully accepted scientists in a natural science, who feel at home in both domains.
 
 To further explore this proposition we first briefly review
 the history of natural sciences and computing
 as well as the history of software engineering as it relates to research.
-We then identify challenges that currently define the identity research software engineers and
+We then identify challenges that currently define the identity of research software engineers and
 conclude how these challenges and the RSE-identity could inform a future curriculum for Research Software Engineering for Natural Science.
 
 # What is the history of natural science and computing?
@@ -234,20 +234,22 @@ although the term 'research software engineer' wouldn't be coined until 2012[@Ba
 
 # Research Software Engineering for Natural Sciences
 
-Classical software engineering and computing for the sciences have drifted apart
-as some influencing factors have developed differently over time.
+Since the "birth" of software engineering at the NATO conference in 1969 [@Naur1969], the communities of software engineering (SE) and scientific computing — now referred to as research software engineering (RSE) — have largely evolved along separate paths. The SE community, much like computer science as a whole, has focused almost exclusively on business and embedded software [@Johanson2018]. Nevertheless, there is much that the RSE community can learn from and adopt within software engineering practices. Conversely, the research software engineering (RSEng) opens up a new field of research for the SE community nowadays referred to as RSE research [@Felderer2025].
+
+There are certain influencing factors that have developed differently over time, causing 
+classical software engineering and computing for the sciences drifting apart.
 These differences can be illustrated with (at least three) structural dichotomies:
 - fast prototyping / short term  vs. long-term software growth
 - internalized knowledge vs. externalized knowledge
 - mathematically-driven modelling vs. human-driven modelling
 
-Most research in academia[find citation that shows 70% of output is generated by PhDs] is usually driven by individuals that often do their research
+Most research in academia [find citation that shows 70% of output is generated by PhDs] is usually driven by individuals that often do their research
 in order to a achieve a personal qualification goal, such as a PhD.
-This leads to a set of intermingling goals, on the hand there is the personal qualification goal, that has to be achieved in a given time-scale
-in order to move on, on the other hand there are goals of the organisation.
-And let us not forget, that scientific academic culture is characterized by a rapidly changing environment and a pressure to publish frequently.
-This web of goals leads to certain aspects that are peculiar to software development in academia.
-First, software is often developed and maintained only during a single PhD project.
+This leads to a set of intermingling goals. On the one hand there is the personal qualification goal, that has to be achieved in a given timeframe
+in order to advance in the career. On the other hand, the institution has its own long-term goals and must cope with the high fluctuation rate of researchers. 
+Also, the scientific academic culture in general is characterized by a rapidly changing environment and frequent publication pressure.
+This web of goals leads to certain aspects that are peculiar to software development in academia, such as frequent turnover of developers, limited long-term maintenance, and a focus on producing quick results for publications rather than building robust, reusable software.
+In particular, software is often developed and maintained only during a single PhD project.
 Instead of prototyping in order to prepare a blueprint that a larger team of engineers can use to build a well-designed and sound product, research-oriented software hence often remains in the prototype stage.
 Therefore, duplication of effort, or "reinventing the wheel", has been documented in research software [@Smith2024].
 To counteract this trend, funding agencies have created incentives to consolidate fragmented domain codes by prioritizing research software
