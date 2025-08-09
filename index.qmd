@@ -75,7 +75,7 @@ problem-solving in close conjunction with a specific research question
 at the expense of the mastery of more general concepts of software engineering.
 
 A disconnect between scientific computing and software engineering
-practitioners and communities has been already observed by @Kelly2007.
+practitioners and communities has been already observed by others including @Kelly2007.
 We aim to improve the situation in the spirit of her conclusion,
 which urges the scientific community to better apply the current solutions
 offered by the software engineering community and the latter to better cater
