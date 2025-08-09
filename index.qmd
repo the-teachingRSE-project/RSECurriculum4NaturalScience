@@ -127,7 +127,7 @@ It should rather assume its own distinct identity
 and generate new research questions, new methods to address them,
 and a new type of expert to substantially re-shape and advance relevant scientific sub-domains, e.g. climate system modeling.
 This goal should form the basis for creating new  master's programs that lay the foundation for students to assume a professional identity as Research Software Engineers in Science.
-It should make them qualified Software Engineers as well as fully accepted scientists in a natural science, who feel intellectually at home in both domains.
+It should make them qualified Software Engineers as well as fully accepted scientists in a natural science, who feel at home in both domains.
 
 To further explore this proposition we first briefly review
 the history of natural sciences and computing
