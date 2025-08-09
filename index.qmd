@@ -59,7 +59,7 @@ such as scientific computing, data science, research data management, and the op
 including skills that have not been packaged into elements of established curricula in formal education yet.
 
 Software engineering as a discipline has evolved, over the past four decades,
-into a mature field with a large body of knowledge that includes
+into a mature field with a rich tool set as well as a large body of knowledge that includes
 methods, theory, codes of practice and well developed sub-fields.
 Established curricula in degree programs produce practitioners of a well defined engineering profession.
 
