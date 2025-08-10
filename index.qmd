@@ -268,40 +268,30 @@ This means that used software now has to provide stable APIs and be reliable acr
 - A trend toward transdisciplinary projects leads to more complex requirements due to a more heterogeneous set of stakeholders.
 - The emerging use of large language models in software development processes requires that the latest results from software engineering research are considered.
 
-These are a set of outside trends that have and will characterize science and they clearly show that new complexities beyond the hard domain complexity will become a part of 
-the lives of scientists working in the natural science.
-Some of these trends point towards an increase in the administrative complexities while others point to a complexities due to a deeper integration of research software.
-Both are topics that Software Engineering traditionally has put a strong emphasis on, and has contributed by respective standardized processes.
-Even the sciences themselves [@Sandve2013; @Junk2020] have argued for the standardization of scientific development processes.
-
-While the historical separation between computing in science and in software engineering may seem logical at first glance, recent developments increasingly challenge this divide.
+While the historical separation between computing in science and in software engineering may seem logical at first glance, the recent developments increasingly challenge this divide.
 Scientific work now faces growing demands that align closely with established software engineering principles.
 These include the need for transparent and auditable software contributions to justify funding, standardized development processes driven by the reproducibility crisis, and an emphasis on energy efficiency in response to the climate crisis.
 Furthermore, the growing complexity of research, the rise of transdisciplinary collaboration, and the integration of advanced technologies like large language models have introduced intricate software pipelines across disciplines.
 Together, these trends highlight the convergence of scientific computing and software engineering practices.
 
-If the new complexities are already well understood by Software Engineering, would a suitable approach not be 
-the inclusion of trained Software Engineers into research projects?
-We argue that this is not a solution, since, generic graduated Software Engineers
+Two courses of action suggest themselves. First, trained software engineers could be embedded within research projects or domain scientists could adopt more software engineering techniques and practices.
+
+We argue that the first option is not a general solution, since, generic graduated Software Engineers
 
 - lack the theoretical depth of domain specific knowledge,
 - lack of understanding handling cultural complexities in research organizations,
 - and lack experience in dealing with the  community in fast changing teams
 
-[JL: I don't understand the meaning of the following...] The straight-forward adaption of SE techniques has also been rejected in the sciences and are in need of adaptions.
-
-Software engineering techniques often rely on the use of abstractions to achieve modularity, maintainability, and scalability in complex systems. On the other hand, in research software, the overhead introduced by additional abstraction layers can be challenging for developers not familiar with the techniques. Hence, the additional complexity sometimes hinder rapid prototyping and direct implementation of domain-specific algorithms, especially when developer teams are small and focused on immediate scientific goals.
+However, the straight-forward adoption of SE techniques without adaptations for the research context also has limitations. E.g. software engineering techniques often rely on the use of abstractions to achieve modularity, maintainability, and scalability in complex systems. On the other hand, in research software, the overhead introduced by additional abstraction layers can be challenging for developers not familiar with the techniques. Hence, the additional complexity sometimes hinder rapid prototyping and direct implementation of domain-specific algorithms, especially when developer teams are small and focused on immediate scientific goals.
 
 Another aspect that distinguishes the typical software process design from research software engineering is the ambition of externalizing all knowledge that is contained in the software.
 In an industrial setting where bottlenecks are a problem and programmers need to be replaceable this is an essential factor of effectiveness [@gronau2006kmdl].
-In the natural sciences, application code is often based on state-of-the-art mathematical models that are only accessible to very few specialized researchers.
+In the natural sciences, research software is often based on state-of-the-art mathematical models that are only accessible to very few specialized researchers.
 Here, the question arises if the mathematical model should be considered the documentation whereas the software only plays the role of proof-of-concept implementations.
 
 A similar argument could be made for systematics of software engineering processes and management.
 Modelling user behavior introduces a set of new complexities that lead to the development of management techniques such as agile development that try to expose the software to the customers as often as possible in order to adapt the software more efficiently to the user. From requirements engineering, to prototyping and evaluation, the social sciences and psychology have played a role in connecting craftsmanship of an engineer to the intricacies of big human teams, customers and stakeholders [find something that talks about human computer interaction and software engineering]. Only recently have research software teams and research groups grown to an extent that these insights are needed [todo reference for claim].
 
-[Adaptions needed III ]
-However, abstractions can lead to overhead for small developer teams typical to research contexts [@Lawrence2006].
 
 [Some SE processes are not applicable in NatSci]
 From requirements engineering, to prototyping and evaluation, the social sciences and psychology have played a role in connecting craftsmanship of an engineer to the intricacies of big human teams, customers and stakeholders [find something that talks about human computer interaction and software engineering.
