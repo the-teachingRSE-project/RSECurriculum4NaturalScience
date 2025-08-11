@@ -64,7 +64,8 @@ methods, theory, codes of practice and well developed sub-fields.
 Established curricula in degree programs produce practitioners of a well defined engineering profession.
 
 
-Although researchers have used computers in scientific work since the dawn of the computing era, the formal role of Research Software Engineer (RSE) has only recently been recognized. Nevertheless, the RSE community largely comprises individuals without formal education in software engineering.
+Although researchers have used computers in scientific work since the dawn of the computing era, the formal role of Research Software Engineer (RSE) has only recently been recognized.
+Nevertheless, the RSE community largely comprises individuals without formal education in software engineering.
 However, it has been realized that the increasing importance of
 computational science, complexity, demands, size of teams, number of collaboration partners
 and generally the need for more ambitious software projects
@@ -86,17 +87,19 @@ On the one hand, those RSEs should be firmly grounded in software engineering an
 On the other hand, these RSEs should develop a deep understanding of computational scientific work and the relevant methods and practices.
 They should assume a specific professional identity that also includes the self-image of a scientist with the associated values and practices, functions and is recognized as an equal member of a domain research team.
 
-The research question of this paper is "What is the identity needed for
+A guiding question of this paper is "What is the identity needed for
 students to be accepted and feel as qualified software engineers
-but also be  intellectually connected to the natural sciences?". In other
-words: what is the special relationship between natural sciences and
-computing historically, and how does it relate to software engineering
-foundations. In order to answer this question the paper is structured as
-follows: (1) the history of natural science and computing (2) the
-history of software engineering as it relates to research. (3) What
-is the common core that should be the identity of a research software
-engineer? (4) How does the ideal identity of a research software engineer
-inform the planned curriculum for research software engineering?
+but also be  intellectually connected to the natural sciences?".
+In other words: what is the special relationship between natural sciences and
+computing historically, and how does it relate to software engineering foundations.
+In order to answer this question the paper is structured as follows.
+the paper will first trace back the history of the natural sciences and computing.
+After that we will give a view on the history of software engineering as it relates to research.
+Arriving at the present, we shine a light, how software is currently developed in academia,
+before considering larger trends and challenges, that will shape software development for research in the near future.
+From this we synthesize a common core that should be the identity of a research software engineer in science,
+before we detail how this ideal identity of a research software engineer
+informs the planned curriculum for research software engineering.
 
 Similar efforts were carried out in allied communities and have yielded tailored curricula,
 such as the RSE-HPC curriculum [@Filinger2025] by the UNIVERSE-HPC project,
@@ -107,12 +110,8 @@ of Excellence "Data-Integrated Simulation Science (SimTech)" [@SimTech2019]
 for computer science students. In addition there's experiences from teaching Research Software Engineering Courses at four German universities in different masters programs described by Bertrand et al. [@Bertrand2025].
 An RSE for Natural Sciences curriculum would help professionalize RSE career
 paths in natural sciences, while also addressing the specific needs of scientists,
-such as accumulating enough academic credit in natural sciences to be able to
+such as accumulating enough academic credit (e.g. through their graduate school) in natural sciences to be able to
 enroll in a Ph.D. program in a STEM field.
-
-Such a curriculum would also be of interest to train natural science Ph.D. candidates
-in specific aspects of SE and RSE practices relevant to their software applications,
-while also receiving academic credit through their graduate school.
 
 Historically, natural sciences and software engineering share common threads in the fabric of their identities,
 but different challenges in the past decades have led to an estrangement between the fields.
