@@ -162,18 +162,7 @@ has lead a high fidelity of simulation results.
 Consequently, so called in silico experiments are becoming a valid alternative for many in vivo or in vitro experiments.
 
 Computation, in the modern sense of computer-aided work, has since permeated nearly every field of natural science,
-often giving rise to entire sub-disciplines such as:
-
--   Chemistry: computational chemistry
--   Physics: Solid-state Physics, Elementary Particle Physics (Lattice QCD, CERN), Astrophysics, Quantum Computing?
--   Physical chemistry: cheminformatics
--   Biology: bioinformatics, biostatistics, computational biology,
-    computational bio-modeling
--   Medicine: digital medicine, computer-aided drug design
--   Earth science: weather forecasting, Earth system modeling (climate,
-    ocean, cryosphere, landscape), magneto-hydrodynamic simulation of
-    the Earth’s core, geo-electric simulations, seismic processing, and geographic information systems
-    (GIS)
+often giving rise to entire sub-disciplines, such as computational astrophysics, bioinformatics, computer-aided pharmacy, and earth system simulation.
 
 Today, at least some computational skills are needed in most fields of natural sciences.
 The development of computational tools is not just a support activity;
