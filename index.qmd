@@ -87,11 +87,25 @@ On the one hand, those RSEs should be firmly grounded in software engineering an
 On the other hand, these RSEs should develop a deep understanding of computational scientific work and the relevant methods and practices.
 They should assume a specific professional identity that also includes the self-image of a scientist with the associated values and practices, functions and is recognized as an equal member of a domain research team.
 
-A guiding question of this paper is "What is the identity needed for
-students to be accepted and feel as qualified software engineers
-but also be  intellectually connected to the natural sciences?".
-In other words: what is the special relationship between natural sciences and
-computing historically, and how does it relate to software engineering foundations.
+A guiding question of this paper is
+"What is the identity needed for students to be accepted and feel as qualified software engineers but also be  intellectually connected to the natural sciences?".
+In other words: what is the special relationship between natural sciences and computing historically, and how does it relate to software engineering foundations?
+
+Historically, natural sciences and software engineering share common threads in the fabric of their identities,
+but different challenges in the past decades have led to an estrangement between the fields.
+Today students of one field can not easily cross over into the other field and contribute their knowledge,
+due to the different domain identites that have been forged.
+
+We argue that it is not enough to augment a software engineering curriculum with a specialization in a natural science
+or to add or improve the computer programming modules in a science curriculum.
+We propose that it is necessary to create a set of new disciplines that more fundamentally fuse software engineering with a natural science.
+A discipline of this kind, e.g. "Research Software Engineering in geoscience", should be more than a combination of both fields.
+It should rather assume its own distinct identity
+and generate new research questions, new methods to address them,
+and a new type of expert to substantially re-shape and advance relevant scientific sub-domains, e.g. climate system modeling.
+This goal should form the basis for creating new  master's programs that lay the foundation for students to assume a professional identity as Research Software Engineers in Science.
+It should make them qualified Software Engineers as well as fully accepted scientists in a natural science, who feel at home in both domains.
+
 In order to answer this question the paper is structured as follows.
 the paper will first trace back the history of the natural sciences and computing.
 After that we will give a view on the history of software engineering as it relates to research.
@@ -100,6 +114,12 @@ before considering larger trends and challenges, that will shape software develo
 From this we synthesize a common core that should be the identity of a research software engineer in science,
 before we detail how this ideal identity of a research software engineer
 informs the planned curriculum for research software engineering.
+
+To further explore this proposition we first briefly review
+the history of natural sciences and computing
+as well as the history of software engineering as it relates to research.
+We then identify challenges that currently define the identity of research software engineers and
+conclude how these challenges and the RSE-identity could inform a future curriculum for Research Software Engineering for Natural Science.
 
 Similar efforts were carried out in allied communities and have yielded tailored curricula,
 such as the RSE-HPC curriculum [@Filinger2025] by the UNIVERSE-HPC project,
@@ -113,26 +133,6 @@ paths in natural sciences, while also addressing the specific needs of scientist
 such as accumulating enough academic credit (e.g. through their graduate school) in natural sciences to be able to
 enroll in a Ph.D. program in a STEM field.
 
-Historically, natural sciences and software engineering share common threads in the fabric of their identities,
-but different challenges in the past decades have led to an estrangement between the fields.
-Today students of one field can not easily cross over into the other field and contribute their knowledge,
-due to the different domain identites that have been forged.
-
-Here we argue that it is not enough to augment a software engineering curriculum with a specialization in a natural science
-or to add or improve the computer programming modules in a science curriculum.
-We propose that it is necessary to create a set of new disciplines that more fundamentally fuse software engineering with a natural science.
-A discipline of this kind, e.g. "Research Software Engineering in Earth Science", should be more than a combination of both fields.
-It should rather assume its own distinct identity
-and generate new research questions, new methods to address them,
-and a new type of expert to substantially re-shape and advance relevant scientific sub-domains, e.g. climate system modeling.
-This goal should form the basis for creating new  master's programs that lay the foundation for students to assume a professional identity as Research Software Engineers in Science.
-It should make them qualified Software Engineers as well as fully accepted scientists in a natural science, who feel at home in both domains.
-
-To further explore this proposition we first briefly review
-the history of natural sciences and computing
-as well as the history of software engineering as it relates to research.
-We then identify challenges that currently define the identity of research software engineers and
-conclude how these challenges and the RSE-identity could inform a future curriculum for Research Software Engineering for Natural Science.
 
 # What is the history of natural science and computing?
 
