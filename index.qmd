@@ -116,7 +116,7 @@ informs the planned curriculum for research software engineering.
 
 Similar efforts were carried out in allied communities and have yielded tailored curricula,
 such as the RSE-HPC curriculum [@Filinger2025] by the UNIVERSE-HPC project,
-the RSE curriculum for computational scientists and engineers [@Chourdakis2025] at the Technical University of Munich,
+the RSE curriculum track for computational scientists and engineers [@Chourdakis2025] at the Technical University of Munich,
 the Simulation Software Engineering course [@Uekermann2021] at the University of Stuttgart,
 or the Bachelor's and Master's program "Simulation Technology" from the Cluster
 of Excellence "Data-Integrated Simulation Science (SimTech)" [@SimTech2019]
