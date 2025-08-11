@@ -143,38 +143,33 @@ linked _
 TODO: check if the content is still valid after rephrasing it with AI
 for the purpose of this paper:
 
-From their origins in the Renaissance, the natural sciences have been
-intertwined with computation. Early pioneers like Kepler and
-Galileo not only measured natural phenomena but sought mathematical laws
-to describe them—laws that enabled prediction. This marked the beginning
-of a fundamental trait of natural science: the drive to quantify and
-predict nature, constrained only by the available means of computation.
+Ever since early astronomy, humans have used computation to quantify and predict nature. 
+To help with these tasks, humans also invented practical tools like water clocks and the abacus 
+as well as theoretical tools and concepts, 
+like the hindu-arabic decimal system or binary numbers.
+Some of these theoretical concepts become complete subfields such as Algebra, which was introduced as al-jabr 
+by the persian astronomer al-Khwarizmi, 
+whose name incidentally is also the origin of the word algorithm.
 
-Throughout history, computational tools—from early mechanical
-calculators like Pascal’s Pascaline to Babbage’s visionary Analytical
-Engine—emerged alongside the growing ambitions of science [@bromley2008charles].
+In a sort of virtuous cycle, advancements in science lead to advancements in engineering and manufacturing,
+allowing for the construction of increasingly complex computational machines, 
+which in turn enabled further scientific discoveries.
+These computing machines range from mechanical devices  like the Pascaline or the Analytical Engine [@bromley2008charles],
+over electro-mechanical machines like like Zuse's Z3 [@Zuse1986], or the British COLOSSUS [@Copeland2004] 
+to the fully electronic machines that are ubiquitous today.
 
-In the 20th century, particularly during World War II, modern computing
-was born out of scientific necessity. Machines like Zuse’s Z3 in Germany
-[@Zuse1986], the British COLOSSUS [@Copeland2004], and the American
-ENIAC [@Burks1981] were built not only to support military operations
-but also to solve scientific and engineering problems of increasing
-complexity.
+Starting with high-level programming languages like 
+FORTRAN by John Backus and his team at IBM [@Backus1978],
+scientists have been enabled to express
+algorithms independently of hardware, 
+transforming how they interacted with computation.
 
-This wartime acceleration of computation laid the groundwork for the
-post-war integration of computing into everyday scientific practice. The
-development of high-level programming languages like FORTRAN by John
-Backus and his team at IBM [@Backus1978] enabled scientists to express
-algorithms independently of hardware, transforming how they interacted
-with computation.
+The rapid increase in computing capabilities, 
+together with advancements in mathematical modeling and scientific software,
+has lead a high fidelity of simulation results.
+Consequently, so called in silico experiments are becoming a valid alternative for many in vivo or in vitro experiments.
 
-By the 1960s, with the advent of the CDC 6600—the first
-supercomputer—designed by Seymour Cray [@Kaufmann1994], computation had
-become central to the scientific method. Vectorized processors and
-increasing speed meant that simulation and modeling could now
-complement, and sometimes replace, physical experimentation.
-
-Computation has since permeated nearly every field of natural science,
+Computation, in the modern sense of computer-aided work, has since permeated nearly every field of natural science,
 often giving rise to entire sub-disciplines such as:
 
 -   Chemistry: computational chemistry
