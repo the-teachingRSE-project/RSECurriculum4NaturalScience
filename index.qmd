@@ -314,7 +314,8 @@ The newly formed identity should encompass key competences from both fields, be 
 We proposed a rough outline for a masters curriculum that includes a track for Research Software Engineering for Natural Science that is suited for students with a Bachelor degree in a natural science. The track will be of type 3 of the recommendations of the German Computer Society which the domain science having an equal share as computer science [@zukunft2016empfehlungen]. A second track of type 1 (computer science in the lead) is also planned but is secondary to this paper. The current state of the development process and corresponding discussions can be found at [@RSECurriculums2021].
 
 If neither division of labor between software engineers and scientists, nor an additive training to be both work conceptually, the third option is to develop a new identity and a corresponding professional field.
-Similar to data scientists, data stewards and other modern job roles, a research engineer for the natural sciences is not a niche innovation based on a short-living trend. The newly formed identity should encompass the history, culture and key competences from both fields. Based on the above discussion and workshops with the RSE-community [@derseev] the curriculum should contain these parts:
+Similar to data scientists, data stewards and other modern job roles, a research engineer for the natural sciences is not a niche innovation based on a short-living trend. The newly formed identity should encompass the history, culture and key competences from both fields.
+Based on the above discussion and workshops with the RSE-community [@derseev] the curriculum should contain these parts:
 
 1. an identity building group of modules that addresses key RSE issues such as ...
    - history of software engineering in science [@leroy_when_2021]
@@ -370,5 +371,13 @@ of the complexity of deeper technology stacks and it will require larger forms
 of organisation in order to drive progress in the natural sciences forward in the future.
 Combined with external pressures to making Research Software FAIR we expect also in the natural sciences a transition to
 more structured development processes.
-The RSE in the Natural Sciences being at home in a natural science *and* in Software Engineering is located perfectly
+In order to be prepared for these changes we argue that a new job profile is necessary.
+While the generic Research Software Engineer is already meant to work at this intersection of research and Software Engineering,
+succesful work in the natural sciences poses additional challenges. The inherent complexity of the domain requires a deep knowledge in the domain,
+and collaboration in teams of scientists is only facilitated by a respective knowledge of the domains culture.
+We argue that in order to address this challenge, a unique identity is needed for these professionals, and by extension then requires a specialized Master's degree that builds upon a domain bachelor.
+This RSE-Master for the natural sciences will then combine the hard domain science with software engineering training and modules that address key RSE issues,
+enabling them to work in or lead highly specialized teams of scientists.
+
+Being at home in a natural science *and* in Software Engineering the RSE in the Natural Sciences is located perfectly
 to move science to a level of managing complexity of software project structures that would probably not be possible without SE alone.
