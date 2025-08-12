@@ -230,7 +230,7 @@ Since the "birth" of software engineering at the NATO conference in 1969 [@Naur1
 There are certain influencing factors that have developed differently over time, causing 
 classical software engineering and computing for the sciences drifting apart.
 These differences can be illustrated with (at least three) structural dichotomies:
-- fast prototyping / short term  vs. long-term software growth
+- fast prototyping (short term) vs. long-term software growth
 - internalized knowledge vs. externalized knowledge
 - mathematically-driven modelling vs. human-driven modelling
 
@@ -241,7 +241,7 @@ in order to advance in the career. On the other hand, the institution has its ow
 Also, the scientific academic culture in general is characterized by a rapidly changing environment and frequent publication pressure.
 This web of goals leads to certain aspects that are peculiar to software development in academia, such as frequent turnover of developers, limited long-term maintenance, and a focus on producing quick results for publications rather than building robust, reusable software.
 
- In particular, software is often developed and maintained only during a single PhD project. Hence, the development is mostly research-oriented. Therefore the software often remains in the prototype stage instead of prototyping in order to prepare a blueprint that a larger team of engineers can use to build a well-designed and sound product.
+In particular, software is often developed and maintained only during a single PhD project. Hence, the development is mostly research-oriented. Therefore the software often remains in the prototype stage instead of prototyping in order to prepare a blueprint that a larger team of engineers can use to build a well-designed and sound product.
 Often this results in a duplication of effort or "reinventing the wheel" [@Smith2024].
 To counteract this trend, funding agencies have created incentives to consolidate fragmented domain codes by prioritizing research software
 that is easily extensible and re-usable in different contexts with minimally-invasive adaptations [@DFG2022RSE].
