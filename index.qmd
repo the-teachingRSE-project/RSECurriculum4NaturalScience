@@ -63,7 +63,6 @@ into a mature field with a rich tool set as well as a large body of knowledge th
 methods, theory, codes of practice and well developed sub-fields.
 Established curricula in degree programs produce practitioners of a well defined engineering profession.
 
-
 Although researchers have used computers in scientific work since the dawn of the computing era, the formal role of Research Software Engineer (RSE) has only recently been recognized.
 Nevertheless, the RSE community largely comprises individuals without formal education in software engineering.
 However, it has been realized that the increasing importance of
@@ -113,6 +112,8 @@ before considering larger trends and challenges, that will shape software develo
 From this we synthesize a common core that should be the identity of a research software engineer in science,
 before we detail how this ideal identity of a research software engineer
 informs the planned curriculum for research software engineering.
+
+# Related work and programs
 
 Similar efforts were carried out in allied communities and have yielded tailored curricula,
 such as the RSE-HPC curriculum [@Filinger2025] by the UNIVERSE-HPC project,
