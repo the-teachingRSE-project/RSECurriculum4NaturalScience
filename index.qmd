@@ -85,7 +85,7 @@ which urges the scientific community to better apply the current solutions
 offered by the software engineering community and the latter to better cater
 to the sciences as an application domain.
 Thus, the idea of introducing a master curriculum for research software engineering for natural sciences was born.
-Establishing this formal training in Research Software engineering(RSEng) will raise specialists that can fill a vacuum for computational specialists in the sciences.
+Establishing this formal training in Research Software engineering(RSEng) will raise specialists that can help alleviate the lack of computational specialists in the sciences.
 On the one hand, those RSEs should be firmly grounded in software engineering and assume practices and the mindset of a software engineer.
 On the other hand, these RSEs should develop a deep understanding of computational scientific work and the relevant methods and practices.
 They should assume a specific professional identity that also includes the self-image of a scientist with the associated values and practices, functions and is recognized as an equal member of a domain research team.
