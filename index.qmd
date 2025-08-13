@@ -94,7 +94,7 @@ We then have to ask, what is the identity needed for students to be accepted and
 In other words: what is the special relationship between natural sciences and computing historically, and how does it relate to software engineering foundations?
 
 Historically, natural sciences and software engineering share common threads in the fabric of their identities,
-but different challenges in the past decades have led to an estrangement between the fields.
+but different challenges in the past decades have led to a divergence of the fields.
 Today students of one field can not easily cross over into the other field and contribute their knowledge,
 due to the different domain identites that have been forged.
 
