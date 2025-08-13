@@ -205,12 +205,19 @@ is taught in numerous degree-programs and produces highly sought-after professio
 
 The bulk of this development however took place in what @boehm1976 identified as "Area 2"
 and catered to problems that have not been pressing in scientific applications.
-If the developer coincides with user, requirements analysis for example looses importance.
 A lot of the development of software engineering is driven by the needs of businesses and business applications.
 Software engineers "need to learn the key engineering skills to enable them to build products that are safe for the public to use" [@oregan2012]
 and consider the "challenges and constraints of 'industrial-strength' software in a competitive market" [@mahoney2004].
 Moreover, software engineering was influenced by the aim of serving management needs
 such as analysis and design matching hierarchical division of projects, hierarchical assignment of tasks and methods for cost accounting and estimation [mahoney2004].
+A direct application of SE techniques in the research context is often not feasible or necessary.
+If the developer coincides with user, requirements analysis for example looses importance.
+Scientific software development often aims exclusively at the production of code that supports a specific investigation where speed is often of the essence.
+Hence, the software whole construction is frequently best characterized as "rapid prototyping".
+In a business-context, the externalization of knowledge about the software in the form of the documentation
+(of the development process, of the internal functioning of the software and of the user-facing functionality) is very important,
+but hardly plays a role in many scientific applications, where users are domain-experts and can read and modify the source code.
+
 
 From this perspective it is not surprising that the community of software developers in science has lost touch with mainstream software engineering,
 which for a long time had little to offer to a domain where for example state-of-the-art software-projects are written in Fortran [e.g. powers2017].
