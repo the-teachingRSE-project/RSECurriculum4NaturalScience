@@ -126,7 +126,7 @@ the Simulation Software Engineering course [@Uekermann2021] at the University of
 or the Bachelor's and Master's program "Simulation Technology" from the Cluster
 of Excellence "Data-Integrated Simulation Science (SimTech)" [@SimTech2019]
 for computer science students. In addition there is experiences from teaching Research Software Engineering Courses at four German universities in different masters programs described by Bertrand et al. [@Bertrand2025].
-An RSE for Natural Sciences curriculum would help professionalize RSE career
+An RSE for Natural Sciences curriculum will help professionalize RSE career
 paths in natural sciences, while also addressing the specific needs of scientists,
 such as accumulating enough academic credit (e.g. through their graduate school) in natural sciences to be able to
 enroll in a Ph.D. program in a STEM field.
