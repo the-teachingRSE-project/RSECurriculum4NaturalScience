@@ -213,7 +213,7 @@ such as analysis and design matching hierarchical division of projects, hierarch
 A direct application of SE techniques in the research context is often not feasible or necessary.
 If the developer coincides with user, requirements analysis for example looses importance.
 Scientific software development often aims exclusively at the production of code that supports a specific investigation where speed is often of the essence.
-Hence, the software whole construction is frequently best characterized as "rapid prototyping".
+Hence, the whole software construction process is frequently best characterized as "rapid prototyping".
 In a business-context, the externalization of knowledge about the software in the form of the documentation
 (of the development process, of the internal functioning of the software and of the user-facing functionality) is very important,
 but hardly plays a role in many scientific applications, where users are domain-experts and can read and modify the source code.
