@@ -194,7 +194,7 @@ as the 'bus factor'[@Zazworka2010; @Jabrayilzade2022]).
 The notion of the quality and reliability of software
 continued to be a driving force of software engineering with the
 ever-increasing use of software in safety-critical systems
-(e.g. medicine or aviation), which meant that software could kill, in the 70s and 80s.
+(e.g. medicine or aviation) in the 70s and 80s.
 The next big projects was the development of modern general purpose
 operating systems in the late 80s, which combined with affordable
 personal computers, helped democratize the use and development of
