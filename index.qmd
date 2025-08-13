@@ -154,7 +154,7 @@ These computing machines range from mechanical devices  like the Pascaline or th
 over electro-mechanical machines like Zuse's Z3 [@Zuse1986], or the British COLOSSUS [@Copeland2004]
 to the fully electronic machines that are ubiquitous today.
 
-Starting with high-level programming languages like 
+Starting with the first high-level programming language 
 FORTRAN by John Backus and his team at IBM [@Backus1978],
 scientists have been enabled to express
 algorithms independently of hardware, 
@@ -176,7 +176,7 @@ it defines how science is practiced, scaled, and extended.
 
 Starting in the late 1950ies large computer became available to universities and research institutions
 and were mainly used in egineering and the natural sciences [@wirth2008].
-Consequently, the first high-level language, FORTRAN (FORmula TRANslator),
+As its name suggests, FORTRAN (FORmula TRANslator),
 was  designed for scientific and engineering applications [@oregan2012].
 The appearance of COBOL (COmmon Business-oriented Language) in 1960
 marks the adoption of computing for application in business.
@@ -218,8 +218,7 @@ In a business-context, the externalization of knowledge about the software in th
 (of the development process, of the internal functioning of the software and of the user-facing functionality) is very important,
 but hardly plays a role in many scientific applications, where users are domain-experts and can read and modify the source code.
 
-
-From this perspective it is not surprising that the community of software developers in science has lost touch with mainstream software engineering,
+For these reasons the community of software developers in science has lost touch with mainstream software engineering,
 which for a long time had little to offer to a domain where for example state-of-the-art software-projects are written in Fortran [e.g. powers2017].
 There are efforts from the software engineering community to identify and describe the lack of adoption of software engineering principles in computational science [@Kelly2007; @Johanson2018],
 but efforts to improve the situation have mainly come from the newly emerging community of Research Software Engineers. 
