@@ -56,7 +56,6 @@ editor:
 # Introduction
 
 The term Research Software Engineer (RSE) has become a label
-for specific technical job roles in universities and research institutions.
 It relates to people doing work that includes elements of traditional software engineering
 but also rests on a broad spectrum of skills from neighbouring domains
 such as scientific computing, data science, research data management, and the open science movement in general
