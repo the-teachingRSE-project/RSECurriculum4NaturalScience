@@ -200,7 +200,7 @@ and continues "And in Area 2, our scientific foundations are so slight that one 
 This question has been answered in the positive by the academic community by now.
 However it took well into the 21st century for software engineering to fully emancipate from computer science [see e.g. @parnas1999].
 Today, software engineering has developed into a mature academic discipline in its own right,
-has an extensive body of knowledge [see @SWEBOK2024], continually increases its number of sub-disciplines,
+has an extensive body of knowledge [see @swebok2024], continually increases its number of sub-disciplines,
 is taught in numerous degree-programs and produces highly sought-after professionals.
 
 The bulk of this development however took place in what @boehm1976 identified as "Area 2"
