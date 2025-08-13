@@ -332,7 +332,7 @@ equations from a modern theory, implement them reliably and reusable and lead an
 Natural Sciences have a long history of using computing devices in order to enhance the predictive power of their theories.
 But in order to move the frontiers of knowledge, inspired individuals in the natural sciences often
 work and innovate outside of standard operating procedures.
-With the advent of the computer, the subliminal application of techniques and technologies
+With the advent of the computer, the casual application of techniques and technologies
 from SE has been sufficient in the recent past up to the present,
 to improve the efficiency of these individual scientists creating software.
 But the availability of ever more computing resources will require a control
