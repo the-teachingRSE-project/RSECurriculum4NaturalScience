@@ -246,12 +246,12 @@ A recent trend is the growing awareness of the environmental impact of scientifi
 
 While initially much research could be conducted using standard commercial software packages with few dependencies, an ever-increasing amount of research software now relies on other research software. This means that software must provide stable APIs and be reliable across multiple versions, placing greater pressure on reliability. There have also been cases where buggy software led to incorrect scientific conclusions, resulting in what has been called the "credibility crisis" [@Miller2006Xray; @Smart2018; @Miller2016fMRI].
 
-Additionally, the trend toward transdisciplinary projects has introduced more complex requirements due to a more heterogeneous set of stakeholders. Also, the emerging use of large language models in software development processes further requires that the latest results from software engineering research are taken into account.
+Additionally, the trend toward transdisciplinary projects has introduced more complex requirements due to a more heterogeneous set of stakeholders. Also, the emerging use of large language models (LLMs) in software development processes further requires that the latest results from software engineering research are taken into account.
 
 While the historical separation between computing in science and in software engineering may seem logical at first glance, the recent developments increasingly challenge this divide.
 Scientific work now faces growing demands that align closely with established software engineering principles.
 These include the need for transparent and auditable software contributions to justify funding, standardized development processes driven by the reproducibility crisis, and an emphasis on energy efficiency in response to the climate crisis.
-Furthermore, the growing complexity of research, the rise of transdisciplinary collaboration, and the integration of advanced technologies like large language models have introduced intricate software pipelines across disciplines.
+Furthermore, the growing complexity of research, the rise of transdisciplinary collaboration, and the integration of advanced technologies like LLMs have introduced intricate software pipelines across disciplines.
 Together, these trends highlight the convergence of scientific computing and software engineering practices.
 
 Two courses of action suggest themselves. First, trained software engineers could be embedded within research projects or domain scientists could adopt more software engineering techniques and practices.
