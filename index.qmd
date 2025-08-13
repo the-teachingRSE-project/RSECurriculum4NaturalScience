@@ -201,7 +201,7 @@ personal computers, helped democratize the use and development of
 research software for lab instrument control, data acquisition,
 and statistical analysis[@Robinson1984].
 The advent of the Internet added another level of complexity,
-since new modes of operation for software across multiple computers are possible.
+since new modes of operation for software across multiple computers became possible.
 In 2005, the Software Engineering Body of Knowledge (SWEBOK) was created
 to document foundational competencies of SEs[@SWEBOK2005]
 and design academic curricula[@Fairley2014].
