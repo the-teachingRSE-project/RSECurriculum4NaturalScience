@@ -96,7 +96,7 @@ In other words: what is the special relationship between natural sciences and co
 Historically, natural sciences and software engineering share common threads in the fabric of their identities,
 but different challenges in the past decades have led to a divergence of the fields.
 Today students of one field can not easily cross over into the other field and contribute their knowledge,
-due to the different domain identites that have been forged.
+due to the different domain identities that have been forged.
 
 We argue that it is not enough to augment a software engineering curriculum with a specialization in a natural science
 or to add or improve the computer programming modules in a science curriculum.
@@ -126,13 +126,12 @@ the Simulation Software Engineering course [@Uekermann2021] at the University of
 or the Bachelor's and Master's program "Simulation Technology" from the Cluster
 of Excellence "Data-Integrated Simulation Science (SimTech)" [@SimTech2019]
 for computer science students. In addition there is experiences from teaching Research Software Engineering Courses at four German universities in different masters programs described by Bertrand et al. [@Bertrand2025].
-An RSE for Natural Sciences curriculum will help professionalize RSE career
-paths in natural sciences, while also addressing the specific needs of scientists,
+An RSE for Natural Sciences curriculum will help professionalize RSE career paths in natural sciences, while also addressing the specific needs of scientists,
 such as accumulating enough academic credit (e.g. through their graduate school) in natural sciences to be able to
 enroll in a Ph.D. program in a STEM field.
 
 
-# What is the history of natural science and computing?
+# Science and Computing: Common History
 
 _Here we explain, why Natural sciences and means of computation are
 linked _
@@ -152,7 +151,7 @@ In a sort of virtuous cycle, advancements in science lead to advancements in eng
 allowing for the construction of increasingly complex computational machines, 
 which in turn enabled further scientific discoveries.
 These computing machines range from mechanical devices  like the Pascaline or the Analytical Engine [@bromley2008charles],
-over electro-mechanical machines like like Zuse's Z3 [@Zuse1986], or the British COLOSSUS [@Copeland2004] 
+over electro-mechanical machines like Zuse's Z3 [@Zuse1986], or the British COLOSSUS [@Copeland2004]
 to the fully electronic machines that are ubiquitous today.
 
 Starting with high-level programming languages like 
@@ -164,7 +163,7 @@ transforming how they interacted with computation.
 The rapid increase in computing capabilities, 
 together with advancements in mathematical modeling and scientific software,
 has lead a high fidelity of simulation results.
-Consequently, so called in silico experiments are becoming a valid alternative for many in vivo or in vitro experiments.
+Consequently, so-called in silico experiments are becoming a valid alternative for many in vivo or in vitro experiments.
 
 Computation, in the modern sense of computer-aided work, has since permeated nearly every field of natural science,
 often giving rise to entire sub-disciplines, such as computational astrophysics, bioinformatics, computer-aided pharmacy, and earth system simulation.
@@ -173,7 +172,7 @@ Today, at least some computational skills are needed in most fields of natural s
 The development of computational tools is not just a support activity;
 it defines how science is practiced, scaled, and extended.
 
-# A small History of Software Engineering and Research Applications
+# Software Engineering and Research Applications: Divergence
 
 _Here we explain, where Software Engineering comes from, and where
 and why it deviated from its co-development with science_
@@ -213,7 +212,18 @@ of reconciling research practices with software engineering practices[@Segal2005
 In parallel, science communities also identified a new role centered around research software[@Baxter2006],
 although the term 'research software engineer' wouldn't be coined until 2012[@Baxter2012].
 
-# Research Software Engineering for Natural Sciences
+
+The straight-forward adoption of SE techniques without adaptations for the research context has proven to be limited. E.g. software engineering techniques often rely on the use of abstractions to achieve modularity, maintainability, and scalability in complex systems. On the other hand, in research software, the overhead introduced by additional abstraction layers can be challenging for developers not familiar with the techniques. Hence, the additional complexity sometimes hinder rapid prototyping and direct implementation of domain-specific algorithms, especially when developer teams are small and focused on immediate scientific goals.
+
+Another aspect that distinguishes the typical software process design from research software engineering is the ambition of externalizing all knowledge that is contained in the software.
+In an industrial setting where bottlenecks are a problem and programmers need to be replaceable this is an essential factor of effectiveness [@gronau2006kmdl].
+In the natural sciences, research software is often based on state-of-the-art mathematical models that are only accessible to very few specialized researchers.
+Here, the question arises if the mathematical model should be considered the documentation whereas the software only plays the role of proof-of-concept implementations.
+
+A similar argument could be made for systematics of software engineering processes and management.
+Modelling user behavior introduces a set of new complexities that lead to the development of management techniques such as agile development that try to expose the software to the customers as often as possible in order to adapt the software more efficiently to the user. From requirements engineering, to prototyping and evaluation, the social sciences and psychology have played a role in connecting craftsmanship of an engineer to the intricacies of big human teams, customers and stakeholders [find something that talks about human computer interaction and software engineering]. Only recently have research software teams and research groups grown to an extent that these insights are needed [todo reference for claim].
+
+# Research Software Engineering for Natural Sciences: Convergence
 
 Since the "birth" of software engineering at the NATO conference in 1969 [@Naur1969], the communities of software engineering (SE) and scientific computing — now referred to as research software engineering (RSE) — have largely evolved along separate paths. The SE community, much like computer science as a whole, has focused almost exclusively on business and embedded software [@Johanson2018]. Nevertheless, there is much that the RSE community can learn from and adopt within software engineering practices. Conversely, the research software engineering (RSEng) opens up a new field of research for the SE community nowadays referred to as RSE research [@Felderer2025].
 
@@ -223,6 +233,8 @@ These differences can be illustrated with (at least three) structural dichotomie
 - fast prototyping (short term) vs. long-term software growth
 - internalized knowledge vs. externalized knowledge
 - mathematically-driven modelling vs. human-driven modelling
+
+In the following we will discuss these formerly dividing points and how they are becoming less polarized due to the changing academic landscape.
 
 Most research in academia [find citation that shows 70% of output is generated by PhDs] is usually driven by individuals that often do their research
 in order to achieve a personal qualification goal, such as a PhD.
@@ -254,33 +266,6 @@ These include the need for transparent and auditable software contributions to j
 Furthermore, the growing complexity of research, the rise of transdisciplinary collaboration, and the integration of advanced technologies like LLMs have introduced intricate software pipelines across disciplines.
 Together, these trends highlight the convergence of scientific computing and software engineering practices.
 
-Two courses of action suggest themselves. First, trained software engineers could be embedded within research projects or domain scientists could adopt more software engineering techniques and practices.
-
-We argue that the first option is not a general solution, since, generic graduated Software Engineers
-
-- lack the theoretical depth of domain specific knowledge,
-- lack of understanding handling cultural complexities in research organizations,
-- and lack experience in dealing with the  community in fast changing teams
-
-However, the straight-forward adoption of SE techniques without adaptations for the research context also has limitations. E.g. software engineering techniques often rely on the use of abstractions to achieve modularity, maintainability, and scalability in complex systems. On the other hand, in research software, the overhead introduced by additional abstraction layers can be challenging for developers not familiar with the techniques. Hence, the additional complexity sometimes hinder rapid prototyping and direct implementation of domain-specific algorithms, especially when developer teams are small and focused on immediate scientific goals.
-
-Another aspect that distinguishes the typical software process design from research software engineering is the ambition of externalizing all knowledge that is contained in the software.
-In an industrial setting where bottlenecks are a problem and programmers need to be replaceable this is an essential factor of effectiveness [@gronau2006kmdl].
-In the natural sciences, research software is often based on state-of-the-art mathematical models that are only accessible to very few specialized researchers.
-Here, the question arises if the mathematical description of a model should be considered the documentation whereas the software only plays the role of proof-of-concept implementations.
-
-A similar argument could be made for systematics of software engineering processes and management.
-Modelling user behavior introduces a set of new complexities that lead to the development of management techniques such as agile development that try to expose the software to the customers as often as possible in order to adapt the software more efficiently to the user. From requirements engineering, to prototyping and evaluation, the social sciences and psychology have played a role in connecting craftsmanship of an engineer to the intricacies of big human teams, customers and stakeholders [find something that talks about human computer interaction and software engineering]. Only recently have research software teams and research groups grown to an extent that these insights are needed [todo reference for claim].
-
-
-[Some SE processes are not applicable in NatSci]
-From requirements engineering, to prototyping and evaluation, the social sciences and psychology have played a role in connecting craftsmanship of an engineer to the intricacies of big human teams, customers and stakeholders [find something that talks about human computer interaction and software engineering.
-
-[Some SE topics should be taken up by RSEs4NatSci unchanged]
-SOLID principles, design patterns, .....
-
-
-
 # A RSE Master Curriculum
 
 Taking the historical trend into consideration it becomes apparent that the traditional division of labor between software engineers and computational scientists is no longer appropriate for today's challenges.
@@ -300,19 +285,10 @@ Based on the above discussion and workshops with the RSE-community [@derseev] th
 1. an identity building group of modules that addresses key RSE issues such as ...
    - history of software engineering in science [@leroy_when_2021]
    - research software science [@felderer_investigating_2025;@heroux_research_2022]
-   - management and communication in the research context
+   - interpersonal competencies such as management and communication in the research context
    - ethical implications of research software (energy consumption, social engineering etc.)
-   - mathematical (high) performance computing
-   - neighbouring computational science fields (data science, research data management ...)
-   - the role of simulation modelling in scientific practice
    - software requirements in the research context
-   - numerical methods and high performance computing
-   - statistics and machine learning methods
-   - reproducibility hackathon practical course
-   - the scientific method, epistemology and ethics
-   - interpersonal competencies
    - the open source software community of practice
-   - distributed research infrastructure technologies
 2. software engineering foundation and required computer science modules, e.g.
    - software architecture and design
    - database and information systems
@@ -321,7 +297,12 @@ Based on the above discussion and workshops with the RSE-community [@derseev] th
    - software engineering operations
    - software construction
    - practical software engineering project
-3. specialization in their original natural science domain
+3. science specific computation modules
+   - numerical methods and high performance computing
+   - statistics and machine learning methods
+   - the role of simulation modelling in scientific practice
+   - distributed research infrastructure technologies
+4. specialization in their original natural science domain
    a. exemplary specialization in theoretical particle physics
      - quantum field theory
      - elementary particle physics
@@ -334,6 +315,11 @@ Based on the above discussion and workshops with the RSE-community [@derseev] th
      - quantitative cell and molecular biology laboratory
      - genomics
      - statistical genetics
+5. neighbouring cross-cutting computational fields
+   - data science
+   - research data management
+   - ...
+
 
 This set of skills makes the RSE a professional who is able to take a set of
 equations from a modern theory, implement them reliably and reusable and lead an interdisciplinary team to create and maintain a successful software-project for the academic world around it.
