@@ -68,7 +68,7 @@ methods, theory, codes of practice and well developed sub-fields.
 Established curricula in degree programs educate practitioners of a well defined engineering profession.
 
 Although researchers have used computers in scientific work since the dawn of the computing era, the formal role of Research Software Engineer (RSE) has only recently been recognized.
-Nevertheless, the RSE community largely comprises individuals without formal education in software engineering.
+Nevertheless, the RSE community is largely comprised of individuals without formal education in software engineering.
 However, it has been realized that the increasing importance of
 computational science, complexity, demands, size of teams, number of collaboration partners
 and generally the need for more ambitious software projects
@@ -101,11 +101,11 @@ due to the different domain identities that have been forged.
 We argue that it is not enough to augment a software engineering curriculum with a specialization in a natural science
 or to add or improve the computer programming modules in a science curriculum.
 We propose that it is necessary to create a set of new disciplines that more fundamentally fuse software engineering with a natural science.
-A discipline of this kind, e.g. "Research Software Engineering in geoscience", should be more than a combination of both fields.
+A discipline of this kind, e.g. "Research Software Engineering in Geoscience", should be more than a combination of both fields.
 It should rather assume its own distinct identity
 and generate new research questions, new methods to address them,
 and a new type of expert to substantially re-shape and advance relevant scientific sub-domains, e.g. climate system modeling.
-This goal should form the basis for creating new  master's programs that lay the foundation for students to assume a professional identity as Research Software Engineers in Science.
+This goal should form the basis for creating new  master's programs that lay the foundation for students to assume a professional identity as Research Software Engineers in science.
 It should make them qualified Software Engineers as well as fully accepted scientists in a natural science, who feel at home in both domains.
 
 In order to expose this identity to the reader, the paper is structured as follows.
@@ -117,7 +117,7 @@ From this we synthesize a common core that should be the identity of a research 
 before we detail how this ideal identity of a research software engineer
 informs the planned curriculum for research software engineering.
 
-# Related work and programs
+# Related Work
 
 Similar efforts were carried out in allied communities and have yielded tailored curricula,
 such as the RSE-HPC curriculum [@Filinger2025] by the UNIVERSE-HPC project,
@@ -125,19 +125,13 @@ the RSE curriculum track for computational scientists and engineers [@Chourdakis
 the Simulation Software Engineering course [@Uekermann2021] at the University of Stuttgart,
 or the Bachelor's and Master's program "Simulation Technology" from the Cluster
 of Excellence "Data-Integrated Simulation Science (SimTech)" [@SimTech2019]
-for computer science students. In addition there is experiences from teaching Research Software Engineering Courses at four German universities in different masters programs described by Bertrand et al. [@Bertrand2025].
-An RSE for Natural Sciences curriculum will help professionalize RSE career paths in natural sciences, while also addressing the specific needs of scientists,
+for computer science students. In addition, there is experiences from teaching Research Software Engineering courses at four German universities in different masters programs described by Bertrand et al. [@Bertrand2025].
+An RSE for natural sciences curriculum will help professionalize RSE career paths in natural sciences, while also addressing the specific needs of scientists,
 such as accumulating enough academic credit (e.g. through their graduate school) in natural sciences to be able to
 enroll in a Ph.D. program in a STEM field.
 
 
 # Science and Computing: Common History
-
-_Here we explain, why Natural sciences and means of computation are
-linked _
-
-TODO: check if the content is still valid after rephrasing it with AI
-for the purpose of this paper:
 
 Ever since early astronomy, humans have used computation to quantify and predict nature. 
 To help with these tasks, humans also invented practical tools like water clocks and the abacus 
@@ -219,25 +213,26 @@ In a business-context, the externalization of knowledge about the software in th
 but hardly plays a role in many scientific applications, where users are domain-experts and can read and modify the source code.
 
 
-From this perspective it is not surprising that the community of software developers in science has lost touch with mainstream software engineering,
+For these reasons the community of software developers in science has lost touch with mainstream software engineering,
 which for a long time had little to offer to a domain where for example state-of-the-art software-projects are written in Fortran [e.g. powers2017].
 There are efforts from the software engineering community to identify and describe the lack of adoption of software engineering principles in computational science [@Kelly2007; @Johanson2018],
 but efforts to improve the situation have mainly come from the newly emerging community of Research Software Engineers. 
 
 # Research Software Engineering for Natural Sciences: Convergence
 
-Since the "birth" of software engineering at the NATO conference in 1969 [@Naur1969], the communities of software engineering (SE) and scientific computing — now referred to as research software engineering (RSE) — have largely evolved along separate paths. The SE community, much like computer science as a whole, has focused almost exclusively on business and embedded software [@Johanson2018]. Nevertheless, there is much that the RSE community can learn from and adopt within software engineering practices. Conversely, the research software engineering opens up a new field of research for the SE community nowadays referred to as RSE research [@Felderer2025].
+There is much that the RSE community can learn from software engineering and adopt common practices. Conversely, the research software engineering opens up a new field of research for the SE community nowadays referred to as RSE research [@Felderer2025].
 
 There are certain influencing factors that have developed differently over time, causing 
 classical software engineering and computing for the sciences to drift apart.
 These differences can be illustrated with (at least three) structural dichotomies:
+
 - fast prototyping (short term) vs. long-term software growth
 - internalized knowledge vs. externalized knowledge
 - mathematically-driven modelling vs. human-driven modelling
 
-In the following we will discuss these formerly dividing points and how they are becoming less polarized due to the changing academic landscape.
+We will now discuss these formerly dividing points and how they are becoming less polarized due to the changing academic landscape.
 
-Most research in academia [find citation that shows 70% of output is generated by PhDs] is usually driven by individuals that often do their research
+Most research in academia is usually driven by individuals that often do their research
 in order to achieve a personal qualification goal, such as a PhD.
 This leads to a set of intermingling goals. On the one hand there is the personal qualification goal, that has to be achieved in a given timeframe
 in order to advance in the career. On the other hand, the institution has its own long-term goals and must cope with a high turnover of researchers. 
@@ -259,12 +254,12 @@ A recent trend is the growing awareness of the environmental impact of scientifi
 
 While initially much research could be conducted using standard commercial software packages with few dependencies, an ever-increasing amount of research software now relies on other research software. This means that software must provide stable APIs and be reliable across multiple versions, placing greater pressure on reliability. There have also been cases where buggy software led to incorrect scientific conclusions, resulting in what has been called the "credibility crisis" [@Miller2006Xray; @Smart2018; @Miller2016fMRI].
 
-Additionally, the trend toward transdisciplinary projects has introduced more complex requirements due to a more heterogeneous set of stakeholders. Also, the emerging use of large language models (LLMs) in software development processes further requires that the latest results from software engineering research are taken into account [@Farshidi2025].
+Additionally, the trend toward transdisciplinary projects has introduced more complex requirements due to a more heterogeneous set of stakeholders. Also, the emerging use of large language models (LLMs) or quantum computing in software development processes further requires that the latest results from software engineering research are taken into account [@Farshidi2025].
 
 While the historical separation between computing in science and in software engineering may seem logical at first glance, the recent developments increasingly challenge this divide.
 Scientific work now faces growing demands that align closely with established software engineering principles.
 These include the need for transparent and auditable software contributions to justify funding, standardized development processes driven by the reproducibility crisis, and an emphasis on energy efficiency in response to the climate crisis.
-Furthermore, the growing complexity of research, the rise of transdisciplinary collaboration, and the integration of advanced technologies like LLMs have introduced intricate software pipelines across disciplines.
+Furthermore, the growing complexity of research, the rise of transdisciplinary collaboration, and the integration have introduced intricate software pipelines across disciplines.
 Together, these trends highlight the convergence of scientific computing and software engineering practices.
 
 # A RSE Master Curriculum
