@@ -145,7 +145,7 @@ To help with these tasks, humans also invented practical tools like water clocks
 as well as theoretical tools and concepts, 
 like the hindu-arabic decimal system or binary numbers.
 Some of these theoretical concepts become complete subfields such as Algebra, which was introduced as al-jabr 
-by the persian astronomer al-Khwarizmi, 
+by the Persian astronomer al-Khwarizmi, 
 whose name incidentally is also the origin of the word algorithm.
 
 In a sort of virtuous cycle, advancements in science lead to advancements in engineering and manufacturing,
