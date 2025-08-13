@@ -229,7 +229,7 @@ in order to achieve a personal qualification goal, such as a PhD.
 This leads to a set of intermingling goals. On the one hand there is the personal qualification goal, that has to be achieved in a given timeframe
 in order to advance in the career. On the other hand, the institution has its own long-term goals and must cope with a high turnover of researchers. 
 Also, the scientific academic culture in general is characterized by a rapidly changing environment and frequent publication pressure.
-This web of goals leads to certain aspects that are peculiar to software development in academia, such as frequent turnover of developers, limited long-term maintenance, and a focus on producing quick results for publications rather than building robust, reusable software.
+This web of goals leads to certain aspects that are particular to software development in academia, such as frequent turnover of developers, limited long-term maintenance, and a focus on producing quick results for publications rather than building robust, reusable software.
 
 In particular, software is often developed and maintained only during a single PhD project. Hence, the development is mostly research-oriented. Therefore the software often remains in the prototype stage instead of prototyping in order to prepare a blueprint that a larger team of engineers can use to build a well-designed and sound product.
 Often this results in a duplication of effort or "reinventing the wheel" [@Smith2024].
