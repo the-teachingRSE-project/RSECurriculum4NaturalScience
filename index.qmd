@@ -267,7 +267,7 @@ However, the straight-forward adoption of SE techniques without adaptations for 
 Another aspect that distinguishes the typical software process design from research software engineering is the ambition of externalizing all knowledge that is contained in the software.
 In an industrial setting where bottlenecks are a problem and programmers need to be replaceable this is an essential factor of effectiveness [@gronau2006kmdl].
 In the natural sciences, research software is often based on state-of-the-art mathematical models that are only accessible to very few specialized researchers.
-Here, the question arises if the mathematical model should be considered the documentation whereas the software only plays the role of proof-of-concept implementations.
+Here, the question arises if the mathematical description of a model should be considered the documentation whereas the software only plays the role of proof-of-concept implementations.
 
 A similar argument could be made for systematics of software engineering processes and management.
 Modelling user behavior introduces a set of new complexities that lead to the development of management techniques such as agile development that try to expose the software to the customers as often as possible in order to adapt the software more efficiently to the user. From requirements engineering, to prototyping and evaluation, the social sciences and psychology have played a role in connecting craftsmanship of an engineer to the intricacies of big human teams, customers and stakeholders [find something that talks about human computer interaction and software engineering]. Only recently have research software teams and research groups grown to an extent that these insights are needed [todo reference for claim].
