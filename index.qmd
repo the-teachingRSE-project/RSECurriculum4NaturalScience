@@ -90,7 +90,7 @@ On the one hand, those RSEs should be firmly grounded in software engineering an
 On the other hand, these RSEs should develop a deep understanding of computational scientific work and the relevant methods and practices.
 They should assume a specific professional identity that also includes the self-image of a scientist with the associated values and practices, functions and is recognized as an equal member of a domain research team.
 
-Then we have to ask, what is the identity needed for students to be accepted and feel as qualified software engineers but also be intellectually connected to the natural sciences?
+We then have to ask, what is the identity needed for students to be accepted and feel as qualified software engineers but also be intellectually connected to the natural sciences?
 In other words: what is the special relationship between natural sciences and computing historically, and how does it relate to software engineering foundations?
 
 Historically, natural sciences and software engineering share common threads in the fabric of their identities,
