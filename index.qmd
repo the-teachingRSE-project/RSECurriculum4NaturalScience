@@ -29,6 +29,10 @@ author:
     affiliation: Johann Heinrich von Thünen Institute, Centre for Information Management, Germany
     orcid: 0000-0003-4800-2833
     index: 7
+  - name: Jan Linxweiler
+    affiliation: Technische Universität Braunschweig, Germany
+    orcid: 0000-0002-2755-5087
+    index: 8
 
 format:
     pdf:
@@ -227,7 +231,7 @@ Since the "birth" of software engineering at the NATO conference in 1969 [@Naur1
 There are certain influencing factors that have developed differently over time, causing 
 classical software engineering and computing for the sciences drifting apart.
 These differences can be illustrated with (at least three) structural dichotomies:
-- fast prototyping / short term  vs. long-term software growth
+- fast prototyping (short term) vs. long-term software growth
 - internalized knowledge vs. externalized knowledge
 - mathematically-driven modelling vs. human-driven modelling
 
@@ -238,23 +242,22 @@ in order to advance in the career. On the other hand, the institution has its ow
 Also, the scientific academic culture in general is characterized by a rapidly changing environment and frequent publication pressure.
 This web of goals leads to certain aspects that are peculiar to software development in academia, such as frequent turnover of developers, limited long-term maintenance, and a focus on producing quick results for publications rather than building robust, reusable software.
 
- In particular, software is often developed and maintained only during a single PhD project. Hence, the development is mostly research-oriented. Therefore the software often remains in the prototype stage instead of prototyping in order to prepare a blueprint that a larger team of engineers can use to build a well-designed and sound product.
+In particular, software is often developed and maintained only during a single PhD project. Hence, the development is mostly research-oriented. Therefore the software often remains in the prototype stage instead of prototyping in order to prepare a blueprint that a larger team of engineers can use to build a well-designed and sound product.
 Often this results in a duplication of effort or "reinventing the wheel" [@Smith2024].
 To counteract this trend, funding agencies have created incentives to consolidate fragmented domain codes by prioritizing research software
 that is easily extensible and re-usable in different contexts with minimally-invasive adaptations [@DFG2022RSE].
 
 Academic software development operates in rapidly changing environments and therefore requires flexible processes. In principle, this aligns well with agile methods. However, agile methodologies are typically taught and tooled for larger, industry-style teams (e.g., Scrum, Kanban, ...). In research contexts—often small, transient, or even single-developer teams—these practices need careful adaptation. Incorporating lightweight, research-appropriate agile workflows, supported by professional software engineering expertise, should be a core element of an RSE for Natural Sciences curriculum. More generally, this illustrates that SE techniques cannot be transferred into research settings without thoughtful adaptation and opens room for RSE research.
 
-In addition, the ongoing digitalization of society and of science in particular has reshaped the scientific ecosystem, making a reevaluation of this separation necessary. Certain progresses, and also the way how science is conducted and organized have incurred the need to incorporate practices from software engineering that hitherto have been neglected:
+In addition, the ongoing digitalization of society and of science in particular has reshaped the scientific ecosystem, making a reevaluation of this separation necessary. Certain progresses, and also the way how science is conducted and organized have incurred the need to incorporate practices from software engineering that hitherto have been neglected.
 
-- So far, it was "Good Enough" to have the software developed by a single PhD. But the growth of research groups requires a more systematic approach to workflows and team organization.
-- Previously software has been developed as a by-product of science, and it was often not made explicit in grant proposals. But with increasing reliance of science on software also funders requirements have changed and software development needs to be made transparent, documented and tracked in order to justify funding and quantify development cost.
-- A recent trend is that also the environmental impact of scientific computing needs to be considered [@lannelongue2023].
-- The increasing availability of computing power even in the daily lives of researchers starting in the nineties led to an ever increasing amount of research conducted with computers. But since no processes were established to ensure the quality of the used software this led to the famous "reproducibility crisis" [@Pashler2012]. As a reaction to this, there were increasing demands for the reproducibility of research which led to the formulation of the FAIR principles [@Hutton2016; @Stagge2019; @Stodden2018].
-- While initially a lot of research could be conducted by using standard commercial software packages and without having a lot of software dependencies, an ever-increasing amount of research software relies on other research software.
-This means that used software now has to provide stable APIs and be reliable across multiple versions, therefore placing a higher pressure for reliability on the software. Also it occured that buggy software was shipped that was used in science, that led to wrong conclusions in publications - called the "credibility crisis" [@Miller2006Xray; @Smart2018; @Miller2016fMRI].
-- A trend toward transdisciplinary projects leads to more complex requirements due to a more heterogeneous set of stakeholders.
-- The emerging use of large language models in software development processes requires that the latest results from software engineering research are considered.
+In the past, it was considered "good enough" for software to be developed by a single PhD student. However, as research groups have grown, there is now a need for more systematic approaches to workflows and team organization. Previously, software was often developed as a by-product of scientific work and was rarely made explicit in grant proposals. However, with the increasing reliance of science on software, funding agencies have changed their requirements: software development must now be transparent, documented, and tracked to justify funding and quantify development costs. 
+
+A recent trend is the growing awareness of the environmental impact of scientific computing, which is now being considered in research planning [@lannelongue2023]. The increasing availability of computing power, especially since the 1990s, has led to a surge in research conducted with computers. However, the lack of established processes to ensure software quality contributed to the so-called "reproducibility crisis" [@Pashler2012]. In response, there have been increasing demands for reproducible research, leading to the formulation of the FAIR principles [@Hutton2016; @Stagge2019; @Stodden2018].
+
+While initially much research could be conducted using standard commercial software packages with few dependencies, an ever-increasing amount of research software now relies on other research software. This means that software must provide stable APIs and be reliable across multiple versions, placing greater pressure on reliability. There have also been cases where buggy software led to incorrect scientific conclusions, resulting in what has been called the "credibility crisis" [@Miller2006Xray; @Smart2018; @Miller2016fMRI].
+
+Additionally, the trend toward transdisciplinary projects has introduced more complex requirements due to a more heterogeneous set of stakeholders. Also, the emerging use of large language models in software development processes further requires that the latest results from software engineering research are taken into account.
 
 While the historical separation between computing in science and in software engineering may seem logical at first glance, the recent developments increasingly challenge this divide.
 Scientific work now faces growing demands that align closely with established software engineering principles.
