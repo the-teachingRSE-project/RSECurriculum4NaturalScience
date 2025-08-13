@@ -254,7 +254,7 @@ A recent trend is the growing awareness of the environmental impact of scientifi
 
 While initially much research could be conducted using standard commercial software packages with few dependencies, an ever-increasing amount of research software now relies on other research software. This means that software must provide stable APIs and be reliable across multiple versions, placing greater pressure on reliability. There have also been cases where buggy software led to incorrect scientific conclusions, resulting in what has been called the "credibility crisis" [@Miller2006Xray; @Smart2018; @Miller2016fMRI].
 
-Additionally, the trend toward transdisciplinary projects has introduced more complex requirements due to a more heterogeneous set of stakeholders. Also, the emerging use of large language models (LLMs) or quantum computing in software development processes further requires that the latest results from software engineering research are taken into account [@Farshidi2025].
+Additionally, the trend toward transdisciplinary projects has introduced more complex requirements due to a more heterogeneous set of stakeholders. Also, the emerging use of large language models (LLMs) or quantum computing in software development processes further requires that the latest results from software engineering research are taken into account [@Farshidi2025v1].
 
 While the historical separation between computing in science and in software engineering may seem logical at first glance, the recent developments increasingly challenge this divide.
 Scientific work now faces growing demands that align closely with established software engineering principles.
@@ -287,7 +287,7 @@ Based on the above discussion and workshops with the RSE-community [@derseev] th
 
 1. an identity building group of modules that addresses key RSE issues such as ...
    - history of software engineering in science [@leroy_when_2021]
-   - research software science [@felderer_investigating_2025;@heroux_research_2022]
+   - research software science [@Felderer2025;@heroux_research_2022]
    - interpersonal competencies such as management and communication in the research context
    - ethical implications of research software (energy consumption, social engineering etc.)
    - software requirements in the research context
