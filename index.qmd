@@ -220,7 +220,7 @@ In a business-context, the externalisation of knowledge about the software in th
 but hardly plays a role in many scientific applications, where users are domain-experts and can read and modify the source code.
 
 For these reasons the community of software developers in science has lost touch with mainstream software engineering,
-which for a long time had little to offer to a domain where for example state-of-the-art software-projects are written in Fortran [e.g. @powers2017].
+which for a long time had little to offer to a domain where for example state-of-the-art software-projects are written in Fortran (e.g. @powers2017).
 There are efforts from the software engineering community to identify and describe the lack of adoption of software engineering principles in computational science [@Kelly2007; @Johanson2018].
 However, activities to improve this situation have mainly come from the newly emerging community of Research Software Engineers. 
 
