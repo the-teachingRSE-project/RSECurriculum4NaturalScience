@@ -183,7 +183,7 @@ marks the adoption of computing for application in business.
 The term "software engineering" is attributed to Margaret Hamilton,
 who wanted to stress the legitimacy of her work as "as part of the overall systems engineering process"
 when developing the guidance and navigation system for the Apollo missions [@cameron2018].
-The ever-increasing size and complexity of software systems in military and business applications in the 1960ies
+The ever-increasing size and complexity of software systems in military and business applications in the 1960s
 led to a gap between ambitions and achievements in software development regarding performance, reliability and cost.
 To address this "software crisis", the first software engineering conferences were held in 1968 and 1969 [@Randell1979; @Buxton1970].
 These conferences are frequently cited as the beginning of the field "software engineering".
