@@ -148,7 +148,7 @@ These computing machines range from mechanical devices  like the Pascaline or th
 over electro-mechanical machines like Zuse's Z3 [@Zuse1986], or the British COLOSSUS [@Copeland2004]
 to the fully electronic machines that are ubiquitous today.
 
-Starting with high-level programming languages like 
+Starting with the first high-level programming language 
 FORTRAN by John Backus and his team at IBM [@Backus1978],
 scientists have been enabled to express
 algorithms independently of hardware, 
@@ -168,9 +168,14 @@ it defines how science is practiced, scaled, and extended.
 
 # Software Engineering and Research Applications: Divergence
 
-Starting in the late 1950ies large computer became available to universities and research institutions
+The close relationship between computation and science
+did not make science the primary application domain for the discipline concerned with the professional production of software
+that is called Software Engineering today.
+In the early days of transistor and integrated circuit based computers,
+programming as an activity was dominated by the mathematics, science and engineering communities.
+Starting in the late 1950s, large computers became available to universities and research institutions
 and were mainly used in egineering and the natural sciences [@wirth2008].
-Consequently, the first high-level language, FORTRAN (FORmula TRANslator),
+As its name suggests, FORTRAN (FORmula TRANslator),
 was  designed for scientific and engineering applications [@oregan2012].
 The appearance of COBOL (COmmon Business-oriented Language) in 1960
 marks the adoption of computing for application in business.
@@ -180,7 +185,8 @@ who wanted to stress the legitimacy of her work as "as part of the overall syste
 when developing the guidance and navigation system for the Apollo missions [@cameron2018].
 The ever-increasing size and complexity of software systems in military and business applications in the 1960ies
 led to a gap between ambitions and achievements in software development regarding performance, reliability and cost.
-To address this "software crisis", the first software engineering conferences were held in 1968 and 1969 [@Randell1979; @Buxton1970]. These conferences are frequently cited as the beginning of the field "software engineering".
+To address this "software crisis", the first software engineering conferences were held in 1968 and 1969 [@Randell1979; @Buxton1970].
+These conferences are frequently cited as the beginning of the field "software engineering".
 
 The decoupling of software engineering as the "application of engineering to software, and the study of such approaches" [@ieee610.12-990]
 from the root of software development in scientific programming
@@ -190,12 +196,12 @@ In an early article defining the term "software engineering", @boehm1976 separat
 "*Area 1: detailed design and coding of systems software by experts in a relatively economics-independent context.*
 Unfortunately, the most pressing software development problems are in an area we shall call *Area 2: requirements analysis design, test, and maintenance of applications software by technicians in an economics-driven context.*"
 
-and continues "And in Area 2, our scientific foundations are so slight that one can seriously question whether our current techniques deserve to be called "software engineering."
+He continues "And in Area 2, our scientific foundations are so slight that one can seriously question whether our current techniques deserve to be called "software engineering."
 This question has been answered in the positive by the academic community by now.
-However it took well into the 21st century for software engineering to fully emancipate from computer science [see e.g. @parnas1999].
+However, it took well into the 21st century for software engineering to fully emancipate from computer science (see e.g. @parnas1999).
 Today, software engineering has developed into a mature academic discipline in its own right,
-has an extensive body of knowledge [see @swebok2024], continually increases its number of sub-disciplines,
-is taught in numerous degree-programs and produces highly sought-after professionals.
+has an extensive body of knowledge (see @swebok2024), continually increases its number of sub-disciplines,
+is taught in numerous degree-programs, and produces highly sought-after professionals.
 
 The bulk of this development however took place in what @boehm1976 identified as "Area 2"
 and catered to problems that have not been pressing in scientific applications.
@@ -203,20 +209,20 @@ A lot of the development of software engineering is driven by the needs of busin
 Software engineers "need to learn the key engineering skills to enable them to build products that are safe for the public to use" [@oregan2012]
 and consider the "challenges and constraints of 'industrial-strength' software in a competitive market" [@mahoney2004].
 Moreover, software engineering was influenced by the aim of serving management needs
-such as analysis and design matching hierarchical division of projects, hierarchical assignment of tasks and methods for cost accounting and estimation [mahoney2004].
-A direct application of SE techniques in the research context is often not feasible or necessary.
+such as analysis and design matching hierarchical division of projects, hierarchical assignment of tasks and methods for cost accounting and estimation [@mahoney2004].
+A direct application of SE techniques in the research context is often neither feasible nor necessary.
 If the developer coincides with user, requirements analysis for example looses importance.
-Scientific software development often aims exclusively at the production of code that supports a specific investigation where speed is often of the essence.
-Hence, the whole software construction process is frequently best characterized as "rapid prototyping".
+Scientific software development frequently aims exclusively at the production of code that supports a specific investigation where speed is often of the essence.
+Hence, the whole software construction process might best be characterized as "rapid prototyping"
+and foregoes the level of planning that would be required by SE best practices.
 In a business-context, the externalization of knowledge about the software in the form of the documentation
 (of the development process, of the internal functioning of the software and of the user-facing functionality) is very important,
 but hardly plays a role in many scientific applications, where users are domain-experts and can read and modify the source code.
 
-
 For these reasons the community of software developers in science has lost touch with mainstream software engineering,
-which for a long time had little to offer to a domain where for example state-of-the-art software-projects are written in Fortran [e.g. powers2017].
-There are efforts from the software engineering community to identify and describe the lack of adoption of software engineering principles in computational science [@Kelly2007; @Johanson2018],
-but efforts to improve the situation have mainly come from the newly emerging community of Research Software Engineers. 
+which for a long time had little to offer to a domain where for example state-of-the-art software-projects are written in Fortran [e.g. @powers2017].
+There are efforts from the software engineering community to identify and describe the lack of adoption of software engineering principles in computational science [@Kelly2007; @Johanson2018].
+However, activities to improve this situation have mainly come from the newly emerging community of Research Software Engineers. 
 
 # Research Software Engineering for Natural Sciences: Convergence
 
