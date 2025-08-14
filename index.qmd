@@ -210,7 +210,7 @@ Software engineers "need to learn the key engineering skills to enable them to b
 and consider the "challenges and constraints of 'industrial-strength' software in a competitive market" [@mahoney2004].
 Moreover, software engineering was influenced by the aim of serving management needs
 such as analysis and design matching hierarchical division of projects, hierarchical assignment of tasks and methods for cost accounting and estimation [@mahoney2004].
-A direct application of SE techniques in the research context is often not feasible or necessary.
+A direct application of SE techniques in the research context is often neither feasible nor necessary.
 If the developer coincides with user, requirements analysis for example looses importance.
 Scientific software development frequently aims exclusively at the production of code that supports a specific investigation where speed is often of the essence.
 Hence, the whole software construction process might best be characterized as "rapid prototyping"
