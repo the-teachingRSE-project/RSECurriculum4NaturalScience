@@ -9,6 +9,7 @@ You can follow the RSE-Curriculum-News [here](https://www.listserv.dfn.de/sympa/
 - edit `index.qmd` following [quarto markdown rules](https://quarto.org/docs/authoring/markdown-basics.html)
 - in `my-paper.bib` add further bib records
 - NOTE: if you have problems with the quarto pipeline, just add the content to index.qmd file and I will check this out
+- we use British English spelling
 
 ## HOW to run
 
