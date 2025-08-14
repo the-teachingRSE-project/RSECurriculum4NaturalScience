@@ -173,7 +173,7 @@ did not make science the primary application domain for the discipline concerned
 that is called Software Engineering today.
 In the early days of transistor and integrated circuit based computers,
 programming as an activity was dominated by the mathematics, science and engineering communities.
-Starting in the late 1950ies, large computers became available to universities and research institutions
+Starting in the late 1950s, large computers became available to universities and research institutions
 and were mainly used in egineering and the natural sciences [@wirth2008].
 As its name suggests, FORTRAN (FORmula TRANslator),
 was  designed for scientific and engineering applications [@oregan2012].
