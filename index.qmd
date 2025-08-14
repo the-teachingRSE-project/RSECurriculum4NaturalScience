@@ -67,7 +67,7 @@ into a mature field with a rich tool set as well as a large body of knowledge th
 methods, theory, codes of practice and well developed sub-fields.
 Established curricula in degree programmes educate practitioners of a well defined engineering profession.
 
-Although researchers have used computers in scientific work since the dawn of the computing era, the formal role of Research Software Engineer (RSE) has only recently been recognised.
+Although researchers have used computers in scientific work since the dawn of the computing era, the formal role of Research Software Engineer (RSE) has only recently been recognized [@baxter2012research].
 Nevertheless, the RSE community is largely comprised of individuals without formal education in software engineering.
 However, it has been realised that the increasing importance of
 computational science, complexity, demands, size of teams, number of collaboration partners
