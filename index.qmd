@@ -79,7 +79,7 @@ We aim to improve the situation in the spirit of her conclusion,
 which urges the scientific community to better apply the current solutions
 offered by the software engineering community and the latter to better cater
 to the sciences as an application domain.
-Thus, the idea of introducing a masters curriculum for research software engineering for natural sciences was born.
+Thus, the idea of introducing a master's curriculum for research software engineering for natural sciences was born.
 Establishing this formal training in Research Software Engineering (RSEng) will raise specialists that can help alleviate the lack of computational specialists in the sciences.
 On the one hand, those RSEs should be firmly grounded in software engineering and assume practices and the mindset of a software engineer.
 On the other hand, these RSEs should develop a deep understanding of computational scientific work and the relevant methods and practices.
@@ -114,7 +114,7 @@ Examples for GI lead concepts are the recommendations for Business & Information
 or data science [@abedjan_empfehlungen_2021]. A possible RSE master would be similar to the first in that it combines two fields (i.e. computer science and physics) but also
 has similarities to the latter as it represents a cross-cutting computational field.
 
-Currently, we envision two tracks within said curriculum depending on the bachelors degree/domain of the students.
+Currently, we envision two tracks within said curriculum depending on the bachelor's degree/domain of the students.
 The first track, in line with this paper, will be RSE for Natural Science, which is suited for students from natural science domains.
 The second track will be for students with a background in computer science and a larger focus on software engineering, but is secondary to the paper at hand.
 According to the categorisation of the Gesellschaft für Informatik (German Informatics society) [@zukunft2016empfehlungen],
@@ -126,9 +126,9 @@ Similar efforts were carried out in allied communities and have yielded tailored
 such as the RSE-HPC curriculum [@Filinger2025] by the UNIVERSE-HPC project,
 the RSE curriculum track for computational scientists and engineers [@Chourdakis2025] at the Technical University of Munich,
 the Simulation Software Engineering course [@Uekermann2021] at the University of Stuttgart,
-or the bachelors and masters programme "Simulation Technology" from the Cluster
+or the bachelor's and master's programme "Simulation Technology" from the Cluster
 of Excellence "Data-Integrated Simulation Science (SimTech)" [@SimTech2019]
-for computer science students. In addition, there are experiences from teaching Research Software Engineering courses at four German universities in different masters programmes described by Bertrand et al. [@Bertrand2025].
+for computer science students. In addition, there are experiences from teaching Research Software Engineering courses at four German universities in different master's programmes described by Bertrand et al. [@Bertrand2025].
 
 
 
@@ -264,11 +264,11 @@ These include the need for transparent and auditable software contributions to j
 Furthermore, the growing complexity of research, the rise of transdisciplinary collaboration, and the integration have introduced intricate software pipelines across disciplines.
 Together, these trends highlight the convergence of scientific computing and software engineering practices.
 
-# A RSE Masters Curriculum
+# A RSE Master's Curriculum
 
 As Research Software Engineering starts to combine software engineering and science again, thereby reversing the historical trend. The question arises which disciplinary identity a research software engineer should have.
 
-We argue that neither additional training in a natural science for software engineers nor vice versa would be suited for the development of an adequate professional identity. For example an SE-curriculum augmented with physics courses within the typical time frame allotted for a master degree will not be sufficient for a student to accumulate the exposure, knowledge and experience necessary to develop a physicist's identity in addition to her SE identity. As @gomez2025 observe, a new discipline is required for a new professional identity acquired through formal academic education. For this reason a natural science track (type 3 [@zukunft2016empfehlungen]) is planned in addition to the generalist RSE master (type 1 [@zukunft2016empfehlungen]).
+We argue that neither additional training in a natural science for software engineers nor vice versa would be suited for the development of an adequate professional identity. For example an SE-curriculum augmented with physics courses within the typical time frame allotted for a master's degree will not be sufficient for a student to accumulate the exposure, knowledge and experience necessary to develop a physicist's identity in addition to her SE identity. As @gomez2025 observe, a new discipline is required for a new professional identity acquired through formal academic education. For this reason a natural science track (type 3 [@zukunft2016empfehlungen]) is planned in addition to the generalist RSE master (type 1 [@zukunft2016empfehlungen]).
 
 Based on the above discussion and workshops with the RSE-community [@derseev] the natural science track in the curriculum should contain these parts:
 
@@ -324,7 +324,7 @@ of organisation in order to drive progress in the natural sciences forward.
 Combined with external pressures to making Research Software FAIR, we expect in the natural sciences a transition to more structured development processes guided by Software Engineering principles.
 In order to be prepared for these changes we argue that a new job profile is necessary.
 While the generic Research Software Engineer is already meant to work at this intersection of research and Software Engineering, successful work in the natural sciences poses additional challenges. The inherent complexity of the domain requires deep knowledge in the domain, and collaboration in teams of scientists is only facilitated by a respective knowledge of the domains culture.
-We argue that in order to address this challenge, a unique identity is needed for these professionals, and by extension then requires a specialised master’s degree that builds upon a domain bachelors.
-This RSE-Masters for the natural sciences will then combine the domain science with software engineering training and modules that address key RSE issues, enabling them to work in or lead highly specialised teams of scientists.
+We argue that in order to address this challenge, a unique identity is needed for these professionals, and by extension then requires a specialised master’s degree that builds upon a domain bachelor's.
+This RSE-Master's for the natural sciences will then combine the domain science with software engineering training and modules that address key RSE issues, enabling them to work in or lead highly specialised teams of scientists.
 
 Thus qualified RSEs can operate at the intersection of natural sciences and software engineering, positioning them uniquely to advance scientific discovery while developing and sustaining complex research software.
