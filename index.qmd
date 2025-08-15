@@ -315,16 +315,13 @@ equations from a modern theory, implement them reliably and reusable, and lead a
 
 # Conclusion
 
-Natural Sciences have a long history of using computing devices in order to enhance the predictive power of their theories.
-But in order to push the frontiers of knowledge, researchers in the natural sciences often
-work and innovate outside of standard operating procedures.
-The availability of ever more computing resources will require a control
-of the complexity of deeper technology stacks, and it will require larger forms
+The availability of ever more computing resources requires a control
+of the increasing complexity of deeper technology stacks. It also requires larger forms
 of organisation in order to drive progress in the natural sciences forward.
-Combined with external pressures to making Research Software FAIR, we expect in the natural sciences a transition to more structured development processes guided by Software Engineering principles.
+Combined with external pressures to making Research Software FAIR, we expect a transition in the natural sciences to more structured development processes guided by Software Engineering principles.
 In order to be prepared for these changes we argue that a new job profile is necessary.
-While the generic Research Software Engineer is already meant to work at this intersection of research and Software Engineering, successful work in the natural sciences poses additional challenges. The inherent complexity of the domain requires deep knowledge in the domain, and collaboration in teams of scientists is only facilitated by a respective knowledge of the domains culture.
-We argue that in order to address this challenge, a unique identity is needed for these professionals, and by extension then requires a specialised master’s degree that builds upon a domain bachelors.
-This RSE-Masters for the natural sciences will then combine the domain science with software engineering training and modules that address key RSE issues, enabling them to work in or lead highly specialised teams of scientists.
+While the generic Research Software Engineer is already meant to work at this intersection of research and Software Engineering, successful work in the natural sciences poses additional challenges. The inherent complexity of the domain requires deep knowledge in the domain. Furthermore, collaboration in teams of scientists is only facilitated by a respective knowledge of the domains culture.
+We argue that in order to address this challenge, a unique identity is needed for these professionals. This identity can be established through a specialised masters degree that builds upon a domain bachelors.
+The RSE-Masters for the natural sciences combines a domain science with software engineering training and modules that address key RSE issues, enabling them to work in or lead highly specialised teams of scientists.
 
 Thus qualified RSEs can operate at the intersection of natural sciences and software engineering, positioning them uniquely to advance scientific discovery while developing and sustaining complex research software.
