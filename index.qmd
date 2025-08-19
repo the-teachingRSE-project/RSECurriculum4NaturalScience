@@ -40,7 +40,7 @@ format:
         classoption: [twocolumn, german, biblatex]
         cite-method: biblatex
         keep-tex: true
-        pdf-engine: pdflatex
+        pdf-engine: lualatex
         biblio-style: lni
         bibliography: my-paper.bib
         include-in-header:
@@ -114,6 +114,7 @@ Examples for GI lead concepts are the recommendations for Business & Information
 or data science [@abedjan_empfehlungen_2021]. A possible RSE master would be similar to the first in that it combines two fields (i.e. computer science and physics) but also
 has similarities to the latter as it represents a cross-cutting computational field.
 
+
 Currently, we envision two tracks within said curriculum depending on the bachelor's degree/domain of the students.
 The first track, in line with this paper, will be RSE for Natural Science, which is suited for students from natural science domains.
 The second track will be for students with a background in computer science and a larger focus on software engineering, but is secondary to the paper at hand.
@@ -121,6 +122,8 @@ According to the categorisation of the Gesellschaft für Informatik (German Info
 the first track will be of type 3 with an equal share of domain science and computer science
 and the second track will be of type 1.
 The current state of the development process and corresponding discussions can be found at [@RSECurriculums2021].
+The planned master is going to enable students to build quality research software according to the recommendations for research software [@leitlinien2025] and FAIR principles [@FAIR].
+
 
 Similar efforts were carried out in allied communities and have yielded tailored curricula,
 such as the RSE-HPC curriculum [@Filinger2025] by the UNIVERSE-HPC project,
@@ -223,7 +226,7 @@ There are efforts from the software engineering community to identify and descri
 
 # Research Software Engineering for Natural Sciences: Convergence
 
-There is much that the RSE community can learn from software engineering and adopt common practices. Conversely, the research software engineering opens up a new field of research for the SE community nowadays referred to as RSE research [@Felderer2025].
+There is much that the RSE community can learn from software engineering and adopt common practices. Conversely, the research software engineering opens up a new field of research for the SE community nowadays referred to as RSE research [@Felderer2025; @leitlinien2025].
 
 There are certain influencing factors that have developed differently over time, causing 
 classical software engineering and computing for the sciences to drift apart.
@@ -231,7 +234,7 @@ These differences can be illustrated with (at least three) structural dichotomie
 
 - fast prototyping (short term) vs. long-term software growth
 - internalised knowledge vs. externalised knowledge
-- mathematically-driven modelling vs. human-driven modelling
+- mathematically driven modelling vs. human driven modelling
 
 We will now discuss these formerly dividing points and how they are becoming less polarised due to the changing academic landscape.
 
