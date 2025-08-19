@@ -50,6 +50,7 @@ $endif$
 \usepackage{threeparttablex}
 \usepackage[normalem]{ulem}
 \usepackage{makecell}
+
 \usepackage{framed} % Needed for code blocks
 \usepackage{orcidlink}
 \usepackage{authblk}
@@ -68,9 +69,11 @@ $endif$
 % solve \pandocbounded error
 \providecommand{\pandocbounded}[1]{#1}
 
+$if(build-without-quarto)$
 \renewcommand\Authands{\normalfont\small \ and }
 \renewcommand\Authfont{\scshape\small}
 \renewcommand\Affilfont{\normalfont\footnotesize}
+$endif$
 
 
 % rewrite longtable command to fit 2-columns
@@ -78,7 +81,6 @@ $endif$
 \makeatletter
 \let\oldlt\longtable
 \let\endoldlt\endlongtable
-
 \def\longtable{\@ifnextchar[\longtable@i \longtable@ii}
 \def\longtable@i[#1]{\begin{figure}[t]
 \onecolumn
@@ -97,12 +99,14 @@ $endif$
 \makeatother
 
 
-%\title{$title$}
-%$for(author)$
-%  \author[$author.index$]{$author.name$\thinspace\orcidlink{$author.orcid$}\thinspace}
-%  \affil[$author.index$]{$author.affiliation$\thinspace}
-%$endfor$
-%\date{}
+$if(build-without-quarto)$
+\title{$title$}
+$for(author)$
+  \author[$author.index$]{$author.name$\thinspace\orcidlink{$author.orcid$}\thinspace}
+  \affil[$author.index$]{$author.affiliation$\thinspace}
+$endfor$
+\date{}
+$endif$
 
 
 %stylistic:
@@ -119,9 +123,11 @@ $endif$
 \displaywidowpenalty=10000  % for equations
 
 \begin{document}
-    %\maketitle
-
+$if(build-without-quarto)$
+    \maketitle
+$else$
 \input{titlepage}
+$endif$
 
 % Body
     $body$
