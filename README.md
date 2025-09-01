@@ -13,12 +13,16 @@ You can follow the RSE-Curriculum-News [here](https://www.listserv.dfn.de/sympa/
 
 ## HOW to run
 
-- install quarto with tinytex extension
-- run quarto render index.qmd --to pdf (should produce a pdf in LNI format)
+- install quarto with tinytex extension, for example using a Python virtual environment:
+  ```sh
+  python -m venv venv-quarto
+  source venv-quarto/bin/activate
+  pip install quarto-cli
+  ```
+- run `make index-quarto.pdf` (should produce a pdf in LNI format)
+- if there is an error message about invalid shortcode, run command
+  `sed -i '/filesafename/d' venv-quarto/lib/python3.12/site-packages/quarto_cli/share/create/extensions/shortcode/example.ejs.qmd`
+  (with the path of your virtual environment)
 - debug problems in generated index.tex file
 
-## Technical TODOs
-
-- add templating for authors
-- cross-linking might be impossible
-
+For pandoc users, run `make index-pandoc.pdf`. Please note this is a fallback method.
