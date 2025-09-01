@@ -4,6 +4,28 @@ applied to natural sciences. Main focus is on the competences to be taught, not 
 
 You can follow the RSE-Curriculum-News [here](https://www.listserv.dfn.de/sympa/info/rse-master) and participate in the [workshops](https://terminplaner6.dfn.de/de/b/b87d7614820fb9540532386d855885ce-1253209)
 
+This contribution was published as a technical article (Fachartikel) in volume 45 of *Softwaretechnik-Trends*
+([link to PDF](https://fb-swt.gi.de/fileadmin/FB/SWT/Softwaretechnik-Trends/Verzeichnis/Band_45_Heft_3/RSE4NatSci.pdf)).
+
+```bibtex
+@Article{Dehne2025,
+  author    = {Dehne, Julian and Christ, Simon and Goth, Florian and Grad, Jean-No{\"e}l and
+               Hagdorn, Magnus and Thiele, Jan Philipp and von Waldow, Harald and Linxweiler, Jan},
+  title     = {Research Software Engineering for Natural Sciences},
+  journal   = {Softwaretechnik-Trends},
+  year      = {2025},
+  volume    = {45},
+  number    = {3},
+  month     = aug,
+  day       = {28},
+  pages     = {2--8},
+  issn      = {0720-8928},
+  address   = {Bonn, Germany},
+  publisher = {Gesellschaft f{\"u}r Informatik e.V.},
+  url       = {https://fb-swt.gi.de/fileadmin/FB/SWT/Softwaretechnik-Trends/Verzeichnis/Band_45_Heft_3/RSE4NatSci.pdf},
+}
+```
+
 ## HOW TO CONTRIBUTE
 
 - edit `index.qmd` following [quarto markdown rules](https://quarto.org/docs/authoring/markdown-basics.html)
